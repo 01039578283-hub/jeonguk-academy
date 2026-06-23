@@ -1306,8 +1306,8 @@ h1 {
 }
 
 .local-media-section {
-  display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(280px, 0.88fr);
+  display: flex;
+  flex-direction: column;
   gap: 18px;
   margin-bottom: 28px;
 }
@@ -1908,12 +1908,6 @@ h1 {
   .local-topic-button-grid,
   .parent-review-grid {
     grid-template-columns: 1fr;
-  }
-
-  .local-media-section {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
   }
 
   .local-media-card {
