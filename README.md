@@ -20,3 +20,5 @@
 - WebSite / Organization / FAQPage JSON-LD
 - sitemap.xml
 - robots.txt의 Sitemap 주소
+
+GitHub 자동 배포 연결 테스트: 2026-06-23
