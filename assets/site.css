@@ -1928,6 +1928,16 @@ h1 {
     width: min(100% - 28px, 1040px);
   }
 
+  .local-media-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .local-media-card {
+    width: 100%;
+  }
+
   .article-section,
   .article-closing,
   .wawa-center-snippet,
