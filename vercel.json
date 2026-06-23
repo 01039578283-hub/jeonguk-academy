@@ -3,23 +3,43 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/coaching",
+      "destination": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+      "permanent": true
+    },
+    {
       "source": "/coaching/:path*",
-      "destination": "/학습코칭/:path*",
+      "destination": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/guide",
+      "destination": "/%ED%95%99%EC%8A%B5%EA%B0%80%EC%9D%B4%EB%93%9C/",
       "permanent": true
     },
     {
       "source": "/guide/:path*",
-      "destination": "/학습가이드/:path*",
+      "destination": "/%ED%95%99%EC%8A%B5%EA%B0%80%EC%9D%B4%EB%93%9C/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/center",
+      "destination": "/%EC%A0%84%EA%B5%AD%ED%95%99%EC%9B%90/",
       "permanent": true
     },
     {
       "source": "/center/:path*",
-      "destination": "/전국학원/:path*",
+      "destination": "/%EC%A0%84%EA%B5%AD%ED%95%99%EC%9B%90/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/%EC%83%81%EB%8B%B4%EB%AC%B8%EC%9D%98/",
       "permanent": true
     },
     {
       "source": "/contact/:path*",
-      "destination": "/상담문의/:path*",
+      "destination": "/%EC%83%81%EB%8B%B4%EB%AC%B8%EC%9D%98/:path*",
       "permanent": true
     }
   ],
