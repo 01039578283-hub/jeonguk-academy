@@ -1,6 +1,28 @@
 {
   "cleanUrls": false,
   "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/coaching/:path*",
+      "destination": "/학습코칭/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/guide/:path*",
+      "destination": "/학습가이드/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/center/:path*",
+      "destination": "/전국학원/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/contact/:path*",
+      "destination": "/상담문의/:path*",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
