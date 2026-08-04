@@ -702,6 +702,15 @@ def clean_text(value: str) -> str:
     )
     value = re.sub(r"\s*지역\s*내?\s*모든\s*(?:초등|중|고등)학교\s*가능", "", value)
     value = re.sub(r"편인\s+편(?=이지만|이나|이고)", "편", value)
+    value = value.replace(
+        "교재 이름보다 수업 후 남는 기록을 중요하게 봐야 하는 선택 때문에",
+        "교재 이름보다 수업 후 남는 기록을 확인해야 하므로",
+    )
+    value = value.replace("더 현실적인 유용합니다", "더 실용적입니다")
+    value = value.replace("해당 학습 과정에서는 영어는", "해당 학습 과정에서 영어는")
+    value = value.replace("이 초3 영어 수업에서는 영어는", "이 초3 영어 수업에서 영어는")
+    value = value.replace("초3 수학 상담 수업 흐름", "초3 수학 상담의 수업 흐름")
+    value = re.sub(r"\s+입니다(?=[.!?]|$)", "입니다", value)
     value = re.sub(
         r"((?:수업|학습|과정))을\s+학원을\s+알아보는",
         r"\1을 알아보는",
@@ -954,7 +963,10 @@ def repair_school_sentences(value: str, allowed: list[str], seed: str) -> str:
 def extract_manuscript_topic(value: str, category: str) -> str:
     """원고 제작 때 주입된 임의 홍보 키워드를 문맥 표식으로만 식별합니다."""
     if category == "초3수학학원":
-        match = re.search(r"정보와\s+([^,\r\n]{1,40}),\s*영어 수학 참고 키워드", value)
+        match = re.search(
+            r"정보와\s+([^,\r\n]{1,40}),\s*(?:영어 수학|수학 학습)\s*(?:참고 키워드|확인 항목)",
+            value,
+        )
     elif category == "초3영어학원":
         match = re.search(r"[,，]\s*([가-힣A-Za-z0-9·_-]{1,40})\s+점검이 필요한 유형인지", value)
     else:
@@ -983,9 +995,10 @@ def polish_grade3_manuscript(
         "센터 안내에 학교 목록이 따로 표시되지 않은 경우에는 재학 학교와 최근 진도 자료를 상담 때 직접 확인합니다."
     )
     school_patterns = (
-        r"[^.!?\n]{0,180}수업 학교 정보는\s+자료에 적힌\s*[‘\"]?[^.!?\n]*?[’\"]?\s*입니다\.?",
+        r"[^.!?\n]{0,180}수업 학교 정보는\s+자료에 적힌\s*[‘\"]?[^’\"\n]*?[’\"]?\s*입니다\.?",
         r"[^.!?\n]{0,180}자료에\s+센터 안내에 표시된 수업 가능 학교는[^.!?\n]*?입니다\.?",
         r"[^.!?\n]{0,180}(?:센터 안내에 표시된 )?수업 가능 학교는\s*입니다\.?",
+        r"[^.!?\n]{0,100}(?:센터 안내에 표시된 )?수업 가능 학교는\s*[^!?\n]*?\s+입니다\.?",
     )
     for pattern in school_patterns:
         value = re.sub(pattern, school_sentence, value)
@@ -999,6 +1012,11 @@ def polish_grade3_manuscript(
         "학교 이름을 반복하기보다 학생의 최근 학습 기록과 과제 흐름을 확인하는 편이 좋습니다.",
         value,
     )
+    value = re.sub(
+        r"[^.!?\n]{0,100}안내에서는 특정 학교를 근거 없이 넣지 않고[^.!?\n]*[.!?]",
+        "재학 학교와 최근 진도 자료를 상담에서 확인해 학습 순서를 정합니다.",
+        value,
+    )
 
     value = re.sub(r"(?<![가-힣])본문\s*정리\s*:\s*", "정리하면, ", value)
     value = re.sub(r"\s*—\s*[^.!?\n]{1,100}\s+페이지 기준입니다", "", value)
@@ -1010,18 +1028,28 @@ def polish_grade3_manuscript(
         topic = re.escape(source_topic)
         if category == "초3수학학원":
             value = re.sub(
-                rf"정보와\s*{topic}\s*,\s*영어 수학 (?:참고 키워드|확인 항목)을 바탕으로",
-                "정보를 바탕으로",
+                rf"\s+정보와\s*{topic}\s*,\s*(?:영어 수학|수학 학습)\s*(?:참고 키워드|확인 항목)을 바탕으로",
+                "에서 확인된 센터 정보와 학생의 최근 수학 기록을 바탕으로",
                 value,
             )
             value = re.sub(
-                rf"[^.!?\n]{{0,45}}{topic}(?:이라는|라는) (?:참고 키워드|표현)은[^.!?\n]*단서로 활용할 수 있습니다\.?",
-                "",
+                rf"{topic}(?:이라는|라는) (?:참고 키워드|표현)은[^.!?\n]*단서로 활용할 수 있습니다\.?",
+                "수업 이름보다 아이의 질문이 어떻게 기록되고 다음 과제로 이어지는지를 확인하는 편이 좋습니다.",
                 value,
             )
             value = re.sub(
                 rf"{topic}(?:을|를) (?:참고 키워드|확인 항목)으로 볼 때도",
                 "수업 안내를 볼 때도",
+                value,
+            )
+            value = re.sub(
+                rf"{topic}\s+자료를 볼 때도 이름이 특별한지보다",
+                "수업 안내를 볼 때도 프로그램 이름보다",
+                value,
+            )
+            value = re.sub(
+                rf"{topic}보다 먼저 볼 지점은",
+                "광고 문구보다 먼저 볼 지점은",
                 value,
             )
             value = re.sub(rf"{topic}\s+(?:키워드|확인 항목)은", "수업 안내는", value)
@@ -1057,6 +1085,11 @@ def polish_grade3_manuscript(
                 value,
             )
             value = re.sub(rf"(?:학원\s+)?{topic}\s+기준(?=(?:은|을|과|에서|으로))", "학습 관리 기준", value)
+            value = re.sub(
+                rf"(?:학원\s+)?{topic}\s+기준도 이 흐름과 연결되어야 합니다",
+                "수업 후 복습 기준도 이 흐름과 연결되어야 합니다",
+                value,
+            )
 
     if category == "초3수학학원":
         value = value.replace(
@@ -1064,6 +1097,31 @@ def polish_grade3_manuscript(
             "이 안내는 초3 수학의 계산·개념·풀이 기록에 초점을 맞춥니다",
         )
         value = value.replace("영어 수학", "수학 학습")
+        school_heading = (
+            f"{local} 학교 진도 자료를 상담에 반영하는 방법",
+            f"{local} 학교 과제와 최근 학습 기록을 확인하는 순서",
+            f"{local} 수학 상담에서 학교 자료를 활용하는 기준",
+        )[stable_index(title, "grade3-math-school-heading", 3)]
+        value = re.sub(
+            r"(?m)^##\s+.*?(?:학교명을 다루는 안전한 방식|수업 학교 정보는 확인된 범위만 사용합니다|확인된 범위만 사용합니다)\s*$",
+            f"## {school_heading}",
+            value,
+        )
+        order_heading = (
+            f"{local} 초3 수학의 현행·복습 순서를 정하는 기준",
+            f"{local} 초3 수학에서 복습과 진도를 연결하는 방법",
+            f"{local} 학생의 현재 진도와 복습량을 조절하는 기준",
+        )[stable_index(title, "grade3-math-order-heading", 3)]
+        value = re.sub(
+            r"(?m)^##\s+[^\n]*수업은 현행과 복습의 순서가[^\n]*$",
+            f"## {order_heading}",
+            value,
+        )
+        value = re.sub(
+            r"([^.!?\n]{0,90}수업 흐름)은\s+([^.!?\n]{1,170}?)\s+순서가\s+초3 학생에게 부담이 적습니다\.?",
+            r"\1에서는 \2 순서로 진행할 때 초3 학생이 부담을 덜 느낄 수 있습니다.",
+            value,
+        )
     else:
         value = value.replace(
             "영어 수학 모두 누적형 과목이라는 점을 고려해",
@@ -1089,6 +1147,22 @@ def polish_grade3_manuscript(
             ("문법", "기초 문장"),
         ):
             value = value.replace(before, after)
+        value = re.sub(
+            r"(?m)^##\s+.*?영어학원 선택에서 피해야 할 과장 표현\s*$",
+            f"## {local} 초3 영어학원 상담에서 확인할 수업 기준",
+            value,
+        )
+        value = value.replace(
+            f"상담 전 가장 중요한 답은, {title}을 고를 때 가장 먼저 볼 것은",
+            f"{title}을 고를 때 가장 먼저 확인할 것은",
+        )
+        address = row.get("센터 주소", "").strip()
+        if address:
+            value = re.sub(
+                rf"[^.!?\n]{{0,45}}주소 정보는\s*{re.escape(address)}(?:으로|로)\s*제공되어 있어",
+                f"초3 영어 상담 장소는 {address}이며,",
+                value,
+            )
 
     protected_facts: list[tuple[str, str]] = []
     facts = [

@@ -862,6 +862,20 @@ def audit_category(
                 "empty-school-quote": r"자료에 적힌\s*[‘\"]\s*,?\s*[’\"]\s*입니다",
                 "all-schools-claim": r"지역\s*내?\s*모든\s*(?:초등|중|고등)학교\s*가능",
                 "spaced-school-copula": r"(?:초등학교|중학교|고등학교|초|중|고)\s+입니다",
+                "source-topic-intro": r"정보와\s+[^,.!?\n]{1,50},\s*수학 학습 확인 항목",
+                "source-topic-expression": r"(?:이라는|라는) 표현은[^.!?]{1,180}단서로 활용",
+                "source-topic-check": r"확인 항목으로 볼 때도",
+                "source-topic-label": r"자료를 볼 때도 이름이 특별한지보다",
+                "awkward-math-flow": r"수업 흐름은[^.!?]{1,170}순서가[^.!?]{1,80}부담이 적습니다",
+                "awkward-choice": r"중요하게 봐야 하는 선택 때문에",
+                "awkward-order-heading": r"수업은 현행과 복습의 순서가",
+                "awkward-answer-intro": r"상담 전 가장 중요한 답은",
+                "awkward-useful": r"더 현실적인 유용합니다",
+                "awkward-address": r"주소 정보는[^.!?]{1,180}제공되어 있어",
+                "double-english-topic": r"(?:해당 학습 과정에서는|이 초3 영어 수업에서는) 영어는",
+                "raw-school-list": r"수업 학교 정보는 자료에 적힌",
+                "editorial-school-heading": r"학교명을 다루는 안전한 방식|확인된 범위만 사용합니다",
+                "editorial-warning-heading": r"영어학원 선택에서 피해야 할 과장 표현",
             }
             for label, pattern in grade3_patterns.items():
                 if re.search(pattern, screen_text):
