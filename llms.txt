@@ -1,0 +1,26 @@
+# 전국학원.com
+
+> 전국 지역별 영어·수학 학원과 학습 코칭 정보를 정리한 교육 안내 사이트입니다.
+
+기준 URL: https://xn--3e0bl59bm0ad17a.com/
+언어: 한국어
+
+## 핵심 안내
+
+- 홈: https://xn--3e0bl59bm0ad17a.com/
+- 전국학원 지역 안내: https://xn--3e0bl59bm0ad17a.com/전국학원/
+- 과목별학원 안내: https://xn--3e0bl59bm0ad17a.com/과목별학원/
+- 학습가이드: https://xn--3e0bl59bm0ad17a.com/학습가이드/
+- 상담문의: https://xn--3e0bl59bm0ad17a.com/상담문의/
+
+## 과목별학원 신규 허브
+
+- 중1 수학학원: https://xn--3e0bl59bm0ad17a.com/과목별학원/중1수학학원/
+- 중1 영어학원: https://xn--3e0bl59bm0ad17a.com/과목별학원/중1영어학원/
+- 초6 수학학원: https://xn--3e0bl59bm0ad17a.com/과목별학원/초6수학학원/
+- 초6 영어학원: https://xn--3e0bl59bm0ad17a.com/과목별학원/초6영어학원/
+
+각 과목별 허브에는 371개 동네 안내 페이지가 연결되어 있습니다. 상세 페이지는 지역·학년·과목·센터 자료를 기준으로 학습 확인 항목, 상담 준비 정보, FAQ와 관련 내부 링크를 제공합니다.
+
+페이지의 최신 URL과 갱신일은 다음 사이트맵에서 확인할 수 있습니다.
+https://xn--3e0bl59bm0ad17a.com/sitemap.xml
