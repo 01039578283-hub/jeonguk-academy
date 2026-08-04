@@ -8,7 +8,7 @@ from urllib.parse import quote, unquote, urlparse
 
 SITE = Path(__file__).resolve().parents[1]
 BASE_URL = "https://xn--3e0bl59bm0ad17a.com"
-CURRENT_DATE = "2026-08-04"
+CURRENT_DATE = "2026-08-05"
 SKIP = {".git", ".vercel", "tmp", "node_modules"}
 
 
@@ -47,7 +47,7 @@ def main() -> None:
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     ]
     for path in paths:
-        lastmod = CURRENT_DATE if path.startswith("/과목별학원/") else old_dates.get(path, CURRENT_DATE)
+        lastmod = CURRENT_DATE if path == "/과목별학원/" or path not in old_dates else old_dates[path]
         lines.extend([
             "  <url>",
             f"    <loc>{BASE_URL}{quote(path, safe='/')}</loc>",

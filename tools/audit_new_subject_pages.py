@@ -96,6 +96,24 @@ CATEGORIES: tuple[dict[str, str], ...] = (
         "school_field": "타깃학교\n(초)",
         "grade_field": "가능학년\n(영어)",
     },
+    {
+        "slug": "초3수학학원",
+        "label": "초3 수학학원",
+        "grade": "초등학교 3학년",
+        "grade_token": "초3",
+        "subject": "수학",
+        "school_field": "타깃학교\n(초)",
+        "grade_field": "가능학년\n(수학)",
+    },
+    {
+        "slug": "초3영어학원",
+        "label": "초3 영어학원",
+        "grade": "초등학교 3학년",
+        "grade_token": "초3",
+        "subject": "영어",
+        "school_field": "타깃학교\n(초)",
+        "grade_field": "가능학년\n(영어)",
+    },
 )
 
 REQUIRED_SCHEMA_TYPES = {
@@ -197,6 +215,16 @@ BAD_LANGUAGE = (
     "수지구청 맞으면",
     "건겅검진센터",
     "뒷 건물 로",
+    "본문 정리:",
+    "페이지 기준입니다",
+    "자료에 센터 안내에",
+    "본문에서는 이 목록 밖의 학교명을",
+    "편인 편",
+    "수업을 학원을 알아보는",
+    "학원을 학원을 알아보는",
+    "수업 가능 학교는 입니다",
+    "점검이 필요한 유형",
+    "영어 수학",
 )
 REQUIRED_RELATIONS = {
     "WebPage": ("about", "mentions", "hasPart"),
@@ -829,6 +857,15 @@ def audit_category(
                 break
         if re.search(r"검토할 때는[^.!?]{1,220}상담을 준비할 때는", screen_text):
             errors.append(f"repeated-clause-ending:{page_key}:때는")
+        if category in {"초3수학학원", "초3영어학원"}:
+            grade3_patterns = {
+                "empty-school-quote": r"자료에 적힌\s*[‘\"]\s*,?\s*[’\"]\s*입니다",
+                "all-schools-claim": r"지역\s*내?\s*모든\s*(?:초등|중|고등)학교\s*가능",
+                "spaced-school-copula": r"(?:초등학교|중학교|고등학교|초|중|고)\s+입니다",
+            }
+            for label, pattern in grade3_patterns.items():
+                if re.search(pattern, screen_text):
+                    errors.append(f"grade3-language:{page_key}:{label}")
 
         schema_text = json.dumps(blocks, ensure_ascii=False)
         for token in AUTHORING_TOKENS:
@@ -975,7 +1012,7 @@ ROWS_FOR_HUB_AUDIT: list[dict[str, str]] = []
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="전국학원.com 과목별학원 8×371 페이지 감사")
+    parser = argparse.ArgumentParser(description="전국학원.com 과목별학원 10×371 페이지 감사")
     parser.add_argument(
         "--category",
         action="append",
