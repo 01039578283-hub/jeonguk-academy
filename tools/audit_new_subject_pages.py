@@ -60,6 +60,42 @@ CATEGORIES: tuple[dict[str, str], ...] = (
         "school_field": "타깃학교\n(초)",
         "grade_field": "가능학년\n(영어)",
     },
+    {
+        "slug": "초5수학학원",
+        "label": "초5 수학학원",
+        "grade": "초등학교 5학년",
+        "grade_token": "초5",
+        "subject": "수학",
+        "school_field": "타깃학교\n(초)",
+        "grade_field": "가능학년\n(수학)",
+    },
+    {
+        "slug": "초5영어학원",
+        "label": "초5 영어학원",
+        "grade": "초등학교 5학년",
+        "grade_token": "초5",
+        "subject": "영어",
+        "school_field": "타깃학교\n(초)",
+        "grade_field": "가능학년\n(영어)",
+    },
+    {
+        "slug": "초4수학학원",
+        "label": "초4 수학학원",
+        "grade": "초등학교 4학년",
+        "grade_token": "초4",
+        "subject": "수학",
+        "school_field": "타깃학교\n(초)",
+        "grade_field": "가능학년\n(수학)",
+    },
+    {
+        "slug": "초4영어학원",
+        "label": "초4 영어학원",
+        "grade": "초등학교 4학년",
+        "grade_token": "초4",
+        "subject": "영어",
+        "school_field": "타깃학교\n(초)",
+        "grade_field": "가능학년\n(영어)",
+    },
 )
 
 REQUIRED_SCHEMA_TYPES = {
@@ -95,6 +131,17 @@ AUTHORING_TOKENS = (
     "학부모가 상담 후 남길 법한",
     "프롬프트",
     "AI 생성",
+    "D열",
+    "행에 적힌 수업학교",
+    "본문에서는 해당 이름을 과도하게 반복",
+    "정보형 페이지",
+    "참고 키워드",
+    "키워드 항목",
+    "키워드",
+    "정보성 안내는",
+    "많이 검색되는 페이지",
+    "단순 광고 표현",
+    "차별점을 설명하는 단어",
 )
 BAD_LANGUAGE = (
     "학원를",
@@ -111,6 +158,45 @@ BAD_LANGUAGE = (
     "수업 수업",
     "학습 학습",
     "학생 학생",
+    "합니다 이 기록",
+    "참고 항목 항목",
+    "이 이 안내",
+    "항목로",
+    "정확도을",
+    "순서을",
+    "입니다.을 위치",
+    "하지만이 안내",
+    ", 등 센터 안내",
+    "학교에는 등이",
+    "가늠하는 데 다음 계획",
+    "가늠하는 데 학습 순서",
+    "교육상담와 같은",
+    "확인 의도",
+    "확인어",
+    "항목는",
+    "조절를",
+    "정확도이나",
+    "않고이 안내",
+    "없는 행",
+    "임의 학교",
+    "정보인을",
+    "주소 항목에는",
+    "가 제공되어 있으니",
+    "페이지의 핵심",
+    "등 센터 안내",
+    "학교로 제시된 등을",
+    "수업 학교로 제시된 등을",
+    "이 행에는 수업 학교명",
+    "학원 이 안내",
+    "수학 이 안내",
+    "영어 이 안내",
+    "상담 주제",
+    "특정 학교를 근거 없이 만들지 않고",
+    "없는 학교를 만들지 않고",
+    "자기 말으로",
+    "수지구청 맞으면",
+    "건겅검진센터",
+    "뒷 건물 로",
 )
 REQUIRED_RELATIONS = {
     "WebPage": ("about", "mentions", "hasPart"),
@@ -182,6 +268,18 @@ def split_values(value: str) -> list[str]:
     )
 
 
+def split_school_values(value: str) -> list[str]:
+    return list(
+        dict.fromkeys(
+            part.strip()
+            for part in re.split(r"[,/\n·.\s]+", value or "")
+            if part.strip()
+            and part.strip() not in {"초등학교", "중학교", "고등학교"}
+            and re.search(r"(?:초등학교|중학교|고등학교|초|중|고)$", part.strip())
+        )
+    )
+
+
 def slug_local(value: str) -> str:
     return re.sub(r"\s+", "", value.strip())
 
@@ -226,7 +324,7 @@ def all_school_names(rows: list[dict[str, str]]) -> set[str]:
     for row in rows:
         for field, value in row.items():
             if "타깃학교" in field:
-                result.update(split_values(value))
+                result.update(split_school_values(value))
     return result
 
 
@@ -520,9 +618,14 @@ def audit_category(
     checked_links = 0
     unsupported_pages = 0
     supported_pages = 0
-    school_pattern = re.compile(
-        "|".join(re.escape(name) for name in sorted((name for name in known_schools if len(name) >= 3), key=len, reverse=True))
+    school_alternatives = "|".join(
+        re.escape(name)
+        for name in sorted((name for name in known_schools if len(name) >= 3), key=len, reverse=True)
     )
+    school_pattern = re.compile(
+        rf"(?<![가-힣A-Za-z0-9])(?:{school_alternatives})"
+        rf"(?=$|[^가-힣A-Za-z0-9]|(?:은|는|이|가|을|를|와|과|의|에|에서|으로|로|도|만|처럼|학생|재학생|이며|이고|입니다|이라|이었|였|까지|부터))"
+    ) if school_alternatives else re.compile(r"(?!x)x")
 
     for page in pages:
         slug = page.parent.name
@@ -659,7 +762,7 @@ def audit_category(
         checked_images += image_count
         checked_links += link_count
 
-        allowed_schools = split_values(row.get(config["school_field"], ""))
+        allowed_schools = split_school_values(row.get(config["school_field"], ""))
         visible_schools = explicit_school_list(source)
         expected_visible_schools = allowed_schools or ["상담 시 재학 학교와 진도를 확인합니다."]
         if visible_schools != expected_visible_schools:
@@ -706,16 +809,40 @@ def audit_category(
                 errors.append(f"unsupported-grade-service-claim:{page_key}:{service_type}")
             if service and "TutoringService" in json.dumps(service.get("offers", []), ensure_ascii=False):
                 errors.append(f"unsupported-grade-offer-claim:{page_key}")
+            for phrase in (
+                "학원을 선택한 뒤", "학원 수업에서", "학원 등록 후", "수업을 시작한 뒤",
+                "수업을 시작하면", "수업을 시작했다면", "등록한 뒤", "등록했다면",
+                "오답 노트가 실제 수업에서 어떻게 활용되는지",
+                "오답 관리가 실제 수업에서 어떻게 활용되는지",
+                "그 노트가 실제 수업에서 다시 활용되는지",
+                "오답 관리가 실제 수업에서 어떻게 이루어지는지",
+            ):
+                if phrase in screen_text:
+                    errors.append(f"unsupported-grade-assumption:{page_key}:{phrase}")
+
+        for school in allowed_schools:
+            if re.search(
+                rf"{re.escape(school)}\s*,\s*(?:을|를|은|는|이|가|와|과|의|에|에서|으로|로|이며|이고|입니다)\b",
+                screen_text,
+            ):
+                errors.append(f"school-particle-separator:{page_key}:{school}")
+                break
+        if re.search(r"검토할 때는[^.!?]{1,220}상담을 준비할 때는", screen_text):
+            errors.append(f"repeated-clause-ending:{page_key}:때는")
 
         schema_text = json.dumps(blocks, ensure_ascii=False)
         for token in AUTHORING_TOKENS:
-            if token in screen_text:
+            visible_hit = bool(re.search(r"(?<![가-힣A-Za-z0-9])원고", screen_text)) if token == "원고" else token in screen_text
+            schema_hit = bool(re.search(r"(?<![가-힣A-Za-z0-9])원고", schema_text)) if token == "원고" else token in schema_text
+            if visible_hit:
                 errors.append(f"authoring-token-visible:{page_key}:{token}")
-            elif token in schema_text:
+            elif schema_hit:
                 errors.append(f"authoring-token-jsonld:{page_key}:{token}")
         for token in BAD_LANGUAGE:
             if token in screen_text:
                 errors.append(f"malformed-language:{page_key}:{token}")
+        if category == "초4수학학원" and "약수와 배수" in screen_text:
+            errors.append(f"curriculum-mismatch:{page_key}:약수와 배수")
 
         manuscript_html = section_by_class(source, "subject-manuscript")
         article = normalized_text(manuscript_html)
@@ -848,7 +975,7 @@ ROWS_FOR_HUB_AUDIT: list[dict[str, str]] = []
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="전국학원.com 신규 과목별학원 4×371 페이지 감사")
+    parser = argparse.ArgumentParser(description="전국학원.com 과목별학원 8×371 페이지 감사")
     parser.add_argument(
         "--category",
         action="append",

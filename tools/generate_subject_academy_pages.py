@@ -63,6 +63,46 @@ CONFIGS = {
         "grade_field": "가능학년\n(영어)",
         "national_category": "초등학생학원",
     },
+    "초5수학학원": {
+        "zip": "초5 수학학원.zip",
+        "label": "초5 수학학원",
+        "grade": "초등학교 5학년",
+        "grade_token": "초5",
+        "subject": "수학",
+        "school_field": "타깃학교\n(초)",
+        "grade_field": "가능학년\n(수학)",
+        "national_category": "초등학생학원",
+    },
+    "초5영어학원": {
+        "zip": "초5 영어학원.zip",
+        "label": "초5 영어학원",
+        "grade": "초등학교 5학년",
+        "grade_token": "초5",
+        "subject": "영어",
+        "school_field": "타깃학교\n(초)",
+        "grade_field": "가능학년\n(영어)",
+        "national_category": "초등학생학원",
+    },
+    "초4수학학원": {
+        "zip": "초4 수학학원.zip",
+        "label": "초4 수학학원",
+        "grade": "초등학교 4학년",
+        "grade_token": "초4",
+        "subject": "수학",
+        "school_field": "타깃학교\n(초)",
+        "grade_field": "가능학년\n(수학)",
+        "national_category": "초등학생학원",
+    },
+    "초4영어학원": {
+        "zip": "초4 영어학원.zip",
+        "label": "초4 영어학원",
+        "grade": "초등학교 4학년",
+        "grade_token": "초4",
+        "subject": "영어",
+        "school_field": "타깃학교\n(초)",
+        "grade_field": "가능학년\n(영어)",
+        "national_category": "초등학생학원",
+    },
 }
 
 
@@ -73,6 +113,28 @@ FAQ_RE = re.compile(r"Q\d+[.)]?\s*(.*?)\s*\nA(?:\d+)?[.)]?\s*(.*?)(?=\n\s*Q\d+[.
 # 원고 생성 과정에서 쓰인 표현은 검색 방문자에게는 제작 메모처럼 읽힙니다.
 # 아래 치환은 사실관계를 건드리지 않고 교사·상담자가 설명하는 문장으로만 다듬습니다.
 EDITORIAL_REPLACEMENTS = (
+    ("이 이 안내", "이 안내"),
+    ("합니다 이 기록", "합니다. 이 기록"),
+    ("계산 정확도을", "계산 정확도를"),
+    ("혼합 계산 순서을", "혼합 계산 순서를"),
+    ("참고 확인 항목", "참고 항목"),
+    ("참고 키워드 항목", "상담 참고 항목"),
+    ("참고 키워드", "상담 주제"),
+    ("키워드 항목", "확인 항목"),
+    ("참고 항목 항목", "참고 항목"),
+    ("항목로", "항목으로"),
+    ("학원를", "학원을"),
+    (" 단원이 아직 불안한 ", " 부분이 아직 불안하고 "),
+    ("D열에 적힌 수업 학교", "센터 안내에서 확인되는 수업 가능 학교"),
+    ("D열에 적힌 수업학교", "센터 안내에서 확인되는 수업 가능 학교"),
+    ("D열 학교명이 공란인 경우라서", "센터 안내에 학교 목록이 따로 표시되지 않아"),
+    ("D열 학교명", "센터 안내의 학교명"),
+    ("D열", "센터 안내"),
+    ("행에 적힌 수업 학교", "센터 안내에서 확인되는 수업 가능 학교"),
+    ("정보형 페이지", "학습 안내"),
+    ("페이지의 설득력", "상담 안내의 구체성"),
+    ("설득력을 높입니다", "상담 내용을 구체화합니다"),
+    ("보호자 신뢰", "학부모가 확인할 근거"),
     ("구조화 데이터에 넣기 좋게", "상담 전에 이해하기 쉽게"),
     ("구조화 데이터에 활용하기 좋게", "상담 전에 이해하기 쉽게"),
     ("생성형 검색에서", "질문에 바로 답할 수 있도록"),
@@ -117,24 +179,11 @@ EDITORIAL_REPLACEMENTS = (
     ("구조화 데이터", "학습 안내"),
     ("JSON-LD", "학습 안내"),
     ("이 페이지", "이 안내"),
-    ("페이지에서는", "안내에서는"),
-    ("페이지에서", "안내에서"),
-    ("페이지는", "안내는"),
-    ("페이지를", "안내를"),
-    ("페이지에", "안내에"),
-    ("키워드", "확인 항목"),
+    ("검색 의도", "상담 목적"),
+    ("검색어", "상담 주제"),
     ("검색한 학부모", "학원을 알아보는 학부모"),
     ("검색하는 학부모", "학원을 알아보는 학부모"),
     ("검색자", "학습 정보를 찾는 보호자"),
-    ("검색", "확인"),
-    ("검색어", "상담 주제"),
-    ("원고에서 제공된", "센터 자료에서 확인한"),
-    ("원고에서는", "이 안내에서는"),
-    ("원고에서", "이 안내에서"),
-    ("원고에는", "이 안내에는"),
-    ("원고는", "이 안내는"),
-    ("원고를", "안내 내용을"),
-    ("원고에", "안내에"),
     ("제공된 수업 학교 정보", "센터 자료에서 확인되는 수업 가능 학교"),
     ("제공된 학교 정보", "센터 자료에서 확인되는 학교 정보"),
     ("제공된 학교명", "센터 자료에서 확인되는 학교명"),
@@ -145,7 +194,6 @@ EDITORIAL_REPLACEMENTS = (
     ("제공 자료", "센터 안내 자료"),
     ("제공된", "확인된"),
     ("임의로", "근거 없이"),
-    ("원고", "안내"),
 )
 
 
@@ -169,10 +217,10 @@ PHRASE_VARIANTS = {
         "상담에서 빠뜨리지 말아야 합니다",
     ),
     "도움이 됩니다": (
-        "학습 순서를 정하는 데 유용합니다",
-        "다음 계획을 구체화하는 데 보탬이 됩니다",
-        "현재 상태를 판단하는 근거가 됩니다",
-        "실행 가능한 계획을 세우는 데 쓰입니다",
+        "유용합니다",
+        "참고가 됩니다",
+        "의미가 있습니다",
+        "도움이 될 수 있습니다",
     ),
     "확인할 수 있습니다": (
         "구체적으로 점검할 수 있습니다",
@@ -224,6 +272,46 @@ LEARNING_PROFILES = {
         "문법 문제는 풀지만 왜 그 답인지 설명하기 어려운 경우",
         "중학교 영어를 앞두고 복습 순서를 정하지 못한 경우",
     ),
+    "초5수학학원": (
+        "분수의 덧셈과 뺄셈에서 통분 과정을 자주 생략하는 경우",
+        "소수 계산은 가능하지만 자릿값을 맞추는 실수가 이어지는 경우",
+        "약수와 배수 개념을 문장제에 적용하기 어려운 경우",
+        "도형의 넓이 공식을 외웠지만 조건에 맞게 선택하지 못하는 경우",
+        "풀이 과정은 맞아도 마지막 계산을 검산하지 않는 경우",
+        "문제 수는 채우지만 틀린 유형을 다시 분류하지 않는 경우",
+        "문장제에서 필요한 수와 묻는 내용을 구분하지 못하는 경우",
+        "새 단원 진도보다 이전 단원의 빈틈을 먼저 확인해야 하는 경우",
+    ),
+    "초5영어학원": (
+        "단어 뜻은 기억하지만 문장 속 쓰임을 연결하기 어려운 경우",
+        "be동사와 일반동사 문장의 차이가 아직 흔들리는 경우",
+        "짧은 지문을 읽고도 핵심 문장을 고르기 어려운 경우",
+        "듣기에서 아는 표현도 문장으로 이어지면 놓치는 경우",
+        "영작할 때 우리말 어순을 그대로 옮기는 경우",
+        "숙제는 끝내지만 틀린 문장을 소리 내어 다시 읽지 않는 경우",
+        "새 단어를 외운 뒤 이전 어휘를 함께 복습하지 않는 경우",
+        "문법 문제의 답은 맞혀도 선택 이유를 설명하기 어려운 경우",
+    ),
+    "초4수학학원": (
+        "큰 수의 자릿값을 읽고 쓰는 과정에서 혼동이 생기는 경우",
+        "곱셈과 나눗셈 계산 순서를 급하게 처리하는 경우",
+        "분수의 크기를 그림과 수로 연결하기 어려운 경우",
+        "각도와 도형 문제에서 주어진 조건을 표시하지 않는 경우",
+        "계산 답은 맞아도 풀이 과정을 문장으로 남기기 어려운 경우",
+        "틀린 문제를 지우고 정답만 다시 적는 경우",
+        "문장제에서 어떤 연산을 써야 할지 결정하는 시간이 긴 경우",
+        "학습량보다 매일 같은 시간에 복습하는 습관이 먼저 필요한 경우",
+    ),
+    "초4영어학원": (
+        "알파벳 소리와 단어 철자를 연결하는 과정이 아직 불안한 경우",
+        "기초 단어는 알지만 짧은 문장을 끝까지 읽기 어려운 경우",
+        "인칭대명사와 be동사 짝을 자주 바꾸어 쓰는 경우",
+        "듣고 따라 말할 수 있어도 뜻을 설명하기 어려운 경우",
+        "단어를 한 번에 몰아서 외우고 복습 간격이 길어지는 경우",
+        "문장을 쓸 때 대문자와 문장부호를 자주 빠뜨리는 경우",
+        "영어 문제를 만나면 소리 내어 읽기 전에 답부터 고르는 경우",
+        "교과 학습과 기초 읽기 연습의 순서를 정하기 어려운 경우",
+    ),
 }
 
 
@@ -270,6 +358,25 @@ DECISION_LENSES = (
     "한 번 맞힌 문제보다 일주일 뒤에도 해결할 수 있는 문제를 봅니다",
 )
 
+EVIDENCE_CHECKS = (
+    "도움 없이 시작한 문제와 힌트를 받은 문제를 구분해 남깁니다",
+    "정답을 고친 뒤 풀이 이유까지 다시 설명했는지 확인합니다",
+    "과제를 멈춘 시각과 다시 시작한 시각을 함께 적어 봅니다",
+    "질문 표시를 남긴 문제를 다음 수업에서 해결했는지 비교합니다",
+    "같은 유형을 사흘 뒤 다시 풀었을 때의 정확도를 확인합니다",
+    "문제 조건을 소리 내어 읽은 뒤 식으로 옮길 수 있는지 봅니다",
+    "계획한 분량보다 실제로 끝낸 범위와 걸린 시간을 기록합니다",
+    "틀린 이유를 계산·개념·조건 해석 가운데 하나로 분류합니다",
+    "정답을 보기 전 스스로 시도한 흔적이 남아 있는지 확인합니다",
+    "수업 직후 이해한 내용이 다음 복습 때도 유지되는지 살펴봅니다",
+    "쉬운 문제의 실수와 낯선 문제의 접근 실패를 따로 적습니다",
+    "숙제를 시작하기까지 걸린 시간과 집중이 끊긴 지점을 봅니다",
+    "설명을 들은 문제를 자기 말로 다시 정리할 수 있는지 확인합니다",
+    "오답을 고친 날짜와 같은 유형을 다시 확인할 날짜를 함께 정합니다",
+    "교재마다 진도·복습·오답 중 어떤 역할을 맡는지 구분합니다",
+    "완료한 계획뿐 아니라 미완료 이유와 다음 행동까지 남깁니다",
+)
+
 
 def esc(value: object) -> str:
     return html.escape(str(value or ""), quote=True)
@@ -289,7 +396,7 @@ def normalize_particles(value: str) -> str:
 
     # 문맥을 제한해 정상 문장까지 과도하게 바꾸지 않으면서 자주 발생한 조사 오류를 바로잡습니다.
     value = re.sub(
-        r"([가-힣]+)(?:와|과)(\s+(?:관련|함께|비교|연결|같이|달리|더불어))",
+        r"([가-힣]+)(?:와|과)(\s+(?:관련|함께|비교|연결|같이|같은|달리|더불어))",
         lambda match: particle(match, "과", "와"), value,
     )
     value = re.sub(
@@ -297,8 +404,12 @@ def normalize_particles(value: str) -> str:
         lambda match: particle(match, "이", "가"), value,
     )
     value = re.sub(
-        r"([가-힣]+)(?:을|를)(\s+(?:(?:먼저|함께|직접)\s+)?(?:확인|비교|선택|준비|점검|참고|활용|검토|결정|사용|반영|정리|살피|질문|요청|기록|설명|구분|조절|연결|나누|바꾸|줄이|늘리|풀|보))",
+        r"([가-힣]+)\s*(?:을|를)(\s+(?:(?:먼저|함께|직접)\s+)?(?:확인|비교|선택|준비|점검|참고|활용|검토|결정|사용|반영|정리|살피|질문|요청|기록|설명|구분|조절|연결|나누|바꾸|줄이|늘리|풀|보|기준|중심|정확히))",
         lambda match: particle(match, "을", "를"), value,
+    )
+    value = re.sub(
+        r"([가-힣]+)\s*(?:으로|로)(\s+(?:제시|표시|분류|구분|활용|사용|연결|이어|정리|확인))",
+        lambda match: particle(match, "으로", "로"), value,
     )
     return value
 
@@ -309,15 +420,218 @@ def clean_text(value: str) -> str:
     for _ in range(2):
         for before, after in EDITORIAL_REPLACEMENTS:
             value = value.replace(before, after)
+    boundary_terms = (
+        ("원고에서 제공된", "센터 자료에서 확인한"),
+        ("원고에서는", "이 안내에서는"),
+        ("원고에서", "이 안내에서"),
+        ("원고에는", "이 안내에는"),
+        ("원고이므로", "안내이므로"),
+        ("원고의", "안내의"),
+        ("원고는", "안내는"),
+        ("원고를", "안내 내용을"),
+        ("원고에", "안내에"),
+        ("페이지에서는", "안내에서는"),
+        ("페이지에서", "안내에서"),
+        ("페이지이므로", "안내이므로"),
+        ("페이지의", "안내의"),
+        ("페이지는", "안내는"),
+        ("페이지를", "안내를"),
+        ("페이지에", "안내에"),
+    )
+    for before, after in boundary_terms:
+        value = re.sub(rf"(?<![가-힣A-Za-z0-9]){re.escape(before)}", after, value)
+    value = value.replace(
+        "학교명 외 이름은 안내에 추가하지 않는 구성이 적절합니다",
+        "학교별 범위는 학생이 가져온 최신 진도 자료를 확인한 뒤 상담에서 정하는 편이 적절합니다",
+    )
+    value = re.sub(
+        r"센터 안내에 표시된 학교명 외(?:의)? 이름은 안내에 추가하지 않는 구성이 적절합니다",
+        "학교별 범위는 학생이 가져온 최신 진도 자료를 확인한 뒤 상담에서 정하는 편이 적절합니다",
+        value,
+    )
+    value = re.sub(
+        r"[^.]{0,60}(?:은|는) 초4 영어학원 안내이므로 고등 입시 결과를 보장하는 표현보다,",
+        "초4 영어 상담에서는 고등 입시 결과를 단정하기보다,",
+        value,
+    )
+    value = re.sub(
+        r"([^.]*) 안내의 핵심은 (.+?) 학생이면서 (.+?) 흐름을 보이는 경우인 학생이 무리하지 않고 다음 단계로 넘어가도록 점검 기준을 세우는 데 있습니다",
+        r"\1 상담에서는 \2 학생이 \3 흐름도 함께 보이는지 살펴보고, 무리하지 않는 다음 학습 단계를 정합니다",
+        value,
+    )
     value = re.sub(r"확인되지 않은 (?:학교|시설|차량) 정보를 임의로 (?:만들거나 )?추정하지 말고", "확인 가능한 자료를 기준으로 하고", value)
     value = re.sub(r"성적 (?:상승|향상|결과)을 보장하지 (?:않습니다|않는 안내입니다)", "학생마다 학습 속도와 결과가 다를 수 있습니다", value)
     value = value.replace("함께 요청하는 것을 함께 고려", "함께 요청하는 방안을 고려")
+    value = value.replace("항목는", "항목은")
+    value = value.replace("조절를", "조절을")
+    value = value.replace("정확도이나", "정확도나")
+    value = value.replace("않고이 안내", "않고 이 안내")
+    value = value.replace("학교명을 추정하지 않고 이 안내는", "학교명은 추정하지 않았으며, 이 안내는")
+    value = value.replace("수업 이 안내", "수업 안내")
+    value = value.replace("학원 이 안내", "학원 안내")
+    value = value.replace("수학 이 안내", "수학 안내")
+    value = value.replace("영어 이 안내", "영어 안내")
+    value = value.replace("자기 말으로", "자기 말로")
+    value = value.replace(
+        "특정 학교를 근거 없이 만들지 않고",
+        "재학 학교와 최근 진도 자료를 상담에서 확인하고",
+    )
+    value = value.replace(
+        "없는 학교를 만들지 않고",
+        "재학 학교와 최근 진도 자료를 상담에서 확인하고",
+    )
+    value = value.replace(
+        "동화중학교 맞은편/ 주민센터 뒷 건물 로 설명 드립니다",
+        "동화중학교 맞은편, 주민센터 뒤 건물로 안내드립니다",
+    )
+    value = value.replace("수지구청 맞으면", "수지구청 맞은편")
+    value = value.replace("건겅검진센터", "건강검진센터")
+    value = value.replace(
+        "자료의 보조 키워드로 ‘영어 수학’이 제시되어 있어도",
+        "영어와 수학을 함께 알아보는 경우에도",
+    )
+    value = re.sub(
+        r"([^.!?]{1,80})은 초등 5학년 영어를 중학교 전 단계로 이어 가려는 학부모에게 특히 많이 검색되는 페이지입니다",
+        r"\1을 알아보는 학부모라면 중학교 전 단계에서 어휘·문법·독해 중 어디가 흔들리는지 먼저 확인해야 합니다",
+        value,
+    )
+    value = re.sub(
+        r"([^.!?]{1,70})의? 정보성 안내는 확인된 센터 주소, 과목, 상담 주제만 사용해 과장 없이 작성되어야 합니다",
+        r"\1 상담에서는 확인된 센터 정보와 학생의 최근 학습 기록을 바탕으로 현재 상태를 설명합니다",
+        value,
+    )
+    value = re.sub(
+        r"([가-힣A-Za-z0-9·]+)([을를]) 학습 관리 언어로 바꾸는 기준",
+        r"\1\2 상담에서 확인하는 기준",
+        value,
+    )
+    value = re.sub(
+        r"([가-힣A-Za-z0-9·]+)(?:은|는) ([^.!?]{1,90})에서 단순 광고 표현으로만 쓰이면 설득력이 약합니다",
+        r"\1 관련 안내는 \2에서 이름만 확인하기보다 실제 관리 방식과 연결해 살펴봐야 합니다",
+        value,
+    )
+    value = re.sub(
+        r"([^.!?]{1,80}) 수업에서는 이 키워드가 아이의 진단, 과제 확인, 오답 재점검 중 어디에 연결되는지 설명되어야 합니다",
+        r"\1 수업에서는 해당 관리 방식이 진단, 과제 확인, 오답 재점검 중 어디에 연결되는지 확인해야 합니다",
+        value,
+    )
+    value = re.sub(
+        r"([가-힣A-Za-z0-9·]+)(?:은|는) ([^.!?]{1,90})의 차별점을 설명하는 단어가 될 수 있지만, 초5 수학 수업에서는 구체적인 행동으로 번역되어야 합니다",
+        r"‘\1’ 관련 내용을 확인할 때는 이름보다 초5 수학 수업에서 어떤 학습 행동으로 이어지는지 살펴봐야 합니다",
+        value,
+    )
+    value = value.replace(
+        "어떤 좋은 키워드도 학습 개선으로 이어지기 어렵습니다",
+        "관리 방식이 구체적이지 않으면 학습 개선으로 이어지기 어렵습니다",
+    )
+    value = re.sub(
+        r"[^.!?]{1,70} 키워드는 수업 품질을 설명하는 시작점일 뿐입니다",
+        "해당 표현만으로는 수업 품질을 판단하기 어렵습니다",
+        value,
+    )
+    value = value.replace(
+        "이 행에는 수업 학교명이 제공되지 않았습니다",
+        "센터 안내에는 수업 가능 학교가 별도로 표시되지 않았습니다",
+    )
+    value = re.sub(
+        r"센터 안내에 표시된 수업 가능 학교가 없는 [^.!?]{1,60} 행은",
+        "센터 안내에 수업 가능 학교가 별도로 표시되지 않은 경우에는",
+        value,
+    )
+    value = re.sub(
+        r"[가-힣0-9 ]{1,30}(?:초4|초5)\s+(?:영어|수학)학원\s+이 안내에서는",
+        "이 안내에서는",
+        value,
+    )
+    value = re.sub(
+        r"([^.!?]{1,80})([을를])\s+검토할 때는\s+([^.!?]{2,160}?)(?:을|를)\s+기준으로 상담을 준비할 때는",
+        r"\1\2 검토하려면 상담 장소가 \3인지 먼저 확인하고, 준비 단계에서는",
+        value,
+    )
+    value = re.sub(
+        r"확인된 상담 주제인\s+([가-힣A-Za-z0-9·]+)도\s+운영 확인 항목",
+        r"\1 운영 여부도 확인 항목",
+        value,
+    )
+    value = re.sub(
+        r"([가-힣A-Za-z0-9·]+)(?:이|가)\s+상담 주제로 제시되어 있더라도",
+        r"\1 관련 안내가 있더라도",
+        value,
+    )
+    value = re.sub(
+        r"([가-힣A-Za-z0-9·]+)와 같은 상담 주제가 있더라도",
+        r"\1 관련 안내가 있더라도",
+        value,
+    )
+    value = re.sub(
+        r"([가-힣A-Za-z0-9·]+)(?:와)? 같은 상담 주제는 광고 문구로 받아들이기보다 관리 체계를 묻는 질문으로 바꾸는 편이 좋습니다",
+        r"\1 관련 안내가 있다면 실제 관리 체계와 확인 방법을 구체적으로 물어보는 편이 좋습니다",
+        value,
+    )
+    value = re.sub(r"상담 주제\s+", "", value)
+    value = value.replace("안내의 핵심 답변은 명확합니다", "상담에서 먼저 확인할 답은 다음과 같습니다")
+    value = re.sub(r"(?<![가-힣A-Za-z0-9])본문(?=(?:은|는|을|를|에|에서|의)\b)", "안내", value)
+    value = value.replace("주소 항목에는", "확인된 센터 주소는")
+    value = re.sub(r"확인된 센터 주소는 (.+?)가 제공되어 있으니,", r"확인된 센터 주소는 \1이며,", value)
+    def school_sentence(match: re.Match[str]) -> str:
+        names = match.group(1).strip(" ,·/")
+        if names:
+            return (
+                f"센터 안내에서 확인되는 수업 가능 학교는 {names}입니다. "
+                "학교 진도는 학생이 가져온 최신 자료와 함께 확인합니다"
+            )
+        return "센터 안내에 학교 목록이 따로 표시되지 않아 재학 학교의 최신 진도 자료를 상담 때 직접 확인합니다"
+
+    value = re.sub(
+        r"(?:[가-힣]+(?:\s+[가-힣]+){0,3})\s+행에 적힌 수업학교는\s*(.*?)\s*이며,\s*본문에서는 해당 이름을 과도하게 반복하지 않고 필요한 곳에만 반영합니다",
+        school_sentence,
+        value,
+    )
+    value = re.sub(r"(?<=[초중고])\s*,\s*(?=(?:처럼|범위의)\b)", " ", value)
+    value = value.replace("처럼 확인된 학교 흐름", "처럼 확인 가능한 학교 자료")
+    value = value.replace("범위의 학교 정보를", "의 학교 자료를")
+    value = value.replace("예를 들어와 같이 자료에 있는 학교명을 상담에 활용하더라도", "재학 학교의 최신 진도 자료를 상담에 활용할 때는")
+    value = re.sub(
+        r"센터 안내에서 확인되는 수업 가능 학교는\s*[,·/ ]*\s*입니다",
+        "센터 안내에 학교 목록이 따로 표시되지 않습니다",
+        value,
+    )
+    value = re.sub(
+        r"센터 안내에서 확인되는 수업 가능 학교는\s*[,·/ ]*(?:이므로|이며),?",
+        "센터 안내에 학교 목록이 따로 표시되지 않아,",
+        value,
+    )
+    value = re.sub(
+        r"(센터 안내에서 확인되는 수업 가능 학교는\s+[^.!?]{1,160}?)[,\s]+이므로,",
+        r"\1이며,",
+        value,
+    )
+    value = re.sub(r"(?<=[가-힣])\s*,\s*(?=(?:이므로|이며|입니다|을|를|은|는|이|가|와|과|의|에서|으로|로)\b)", " ", value)
+    value = re.sub(
+        r"(?<=[초중고])\s*[,·/]\s*(?=(?:을|를|은|는|이|가|와|과|의|에|에서|으로|로|도|만|입니다|이며|이고)\b)",
+        "",
+        value,
+    )
+    value = re.sub(r"\s*[·,/]\s*(?=등\b)", " ", value)
+    value = re.sub(r"(?:[.!?]\s*)?[,·/ ]+등\s+센터 안내에 표시된 학교명을 볼 때는", " 센터 안내에 학교명이 표시되어 있다면", value)
+    value = value.replace("학교에는 등이 포함되어 있으므로", "학교 정보가 따로 표시되지 않은 경우에는")
+    value = value.replace("참고 항목 항목", "참고 항목")
+    value = re.sub(
+        r"[가-힣A-Za-z0-9· ]{1,30}(?:이|가) 참고 항목으로 제시되어 있더라도",
+        "참고 항목이 표시되어 있더라도",
+        value,
+    )
     value = re.sub(r"\s*;\s*", ". ", value)
     value = re.sub(r"합니다,\s*(?=[가-힣])", "합니다. ", value)
+    value = re.sub(r"([가-힣]+습니다)\s+(?=이\s+(?:기록|자료|과정|안내))", r"\1. ", value)
     value = normalize_particles(value)
+    # 종성 ㄹ 뒤의 방향 조사도 normalize_particles에서 일반 받침으로 처리될 수 있어
+    # 최종 공개 문장에서는 표준형을 한 번 더 보장합니다.
+    value = value.replace("자기 말으로", "자기 말로")
     value = re.sub(r"[ \t]+", " ", value)
     value = re.sub(r"\s+([,.!?])", r"\1", value)
     value = re.sub(r"([.!?]){2,}", r"\1", value)
+    value = re.sub(r"([.!?])(?=[가-힣])", r"\1 ", value)
     value = re.sub(r"\n{3,}", "\n\n", value)
     return value.strip()
 
@@ -333,7 +647,7 @@ def row_school_names(row: dict[str, str]) -> list[str]:
     names: list[str] = []
     for field, value in row.items():
         if field.startswith("타깃학교"):
-            names.extend(split_values(value))
+            names.extend(split_school_values(value))
     return list(dict.fromkeys(names))
 
 
@@ -377,10 +691,25 @@ def editorialize(
     original_area = " ".join(x for x in (region, district, local) if x)
     if original_area:
         value = value.replace(original_area, natural_area(row))
+    if local:
+        value = value.replace(f"{local} 이 안내에서는", "이 안내에서는")
+        value = value.replace(f"{local} 이 안내는", "이 안내는")
     if region == "세종" or "세종특별자치시" in row.get("센터 주소", ""):
         value = value.replace("충청 새롬중앙로", "세종특별자치시")
     if allowed_schools is not None and known_schools is not None:
+        # 주소와 위치안내의 일부가 학교명과 같아도 지워지지 않도록
+        # 학교 필터링 동안 센터의 검증된 사실 문자열을 임시 보호합니다.
+        protected: list[tuple[str, str]] = []
+        for field in ("센터명", "센터 주소", "위치안내", "교육지원청명칭", "교육지원청 등록번호"):
+            fact = row.get(field, "").strip()
+            if fact and fact in value:
+                token = f"__CENTER_FACT_{len(protected)}__"
+                value = value.replace(fact, token)
+                protected.append((token, fact))
         value = sanitize_school_references(value, allowed_schools, known_schools)
+        for token, fact in protected:
+            value = value.replace(token, fact)
+        value = repair_school_sentences(value, allowed_schools, seed or local)
     value = clean_text(normalize_school_delimiters(value, allowed_schools or row_school_names(row)))
     return diversify_common_phrases(value, seed) if seed else value
 
@@ -447,6 +776,18 @@ def split_values(value: str) -> list[str]:
     return list(dict.fromkeys(values))
 
 
+def split_school_values(value: str) -> list[str]:
+    """학교 목록의 쉼표·마침표·공백 혼용을 모두 안전하게 분리합니다."""
+    values = [
+        x.strip()
+        for x in re.split(r"[,/\n·.\s]+", value or "")
+        if x.strip()
+        and x.strip() not in {"초등학교", "중학교", "고등학교"}
+        and re.search(r"(?:초등학교|중학교|고등학교|초|중|고)$", x.strip())
+    ]
+    return list(dict.fromkeys(values))
+
+
 def target_grade_supported(row: dict[str, str], config: dict[str, str]) -> bool:
     """센터 자료의 학년 목록에 이번 페이지 학년이 실제로 포함되는지 확인합니다."""
     return config["grade_token"] in split_values(row.get(config["grade_field"], ""))
@@ -457,18 +798,29 @@ def school_universe(rows: list[dict[str, str]]) -> set[str]:
     for row in rows:
         for field, value in row.items():
             if "타깃학교" in field:
-                names.update(split_values(value))
+                names.update(split_school_values(value))
     return names
 
 
 @lru_cache(maxsize=4)
 def school_reference_pattern(names: tuple[str, ...]) -> re.Pattern[str]:
-    return re.compile("|".join(re.escape(name) for name in names))
+    alternatives = "|".join(re.escape(name) for name in names)
+    # 학교명이 일반 단어의 일부로 우연히 등장할 때 삭제되는 일을 막습니다.
+    # 뒤에는 실제 학교명 뒤에 붙을 수 있는 조사·서술어만 허용합니다.
+    return re.compile(
+        rf"(?<![가-힣A-Za-z0-9])(?:{alternatives})"
+        rf"(?=$|[^가-힣A-Za-z0-9]|(?:은|는|이|가|을|를|와|과|의|에|에서|으로|로|도|만|처럼|학생|재학생|이며|이고|입니다|이라|이었|였|까지|부터))"
+    )
 
 
 def sanitize_school_references(value: str, allowed: list[str], universe: set[str]) -> str:
     """다른 학년 학교명이 섞인 원고를 해당 행의 검증된 학교 범위로 제한합니다."""
     allowed_set = set(allowed)
+    # 입력 원고에서 학교명 끝의 '원고'가 제작 용어로 오인되어 '안내'로
+    # 바뀐 경우를 먼저 복원한 뒤, 해당 학년 허용 목록으로 다시 제한합니다.
+    for school in universe:
+        if school.endswith("원고"):
+            value = value.replace(school[:-2] + "안내", school)
     ordered = tuple(sorted(universe, key=lambda name: (-len(name), name)))
     if ordered:
         value = school_reference_pattern(ordered).sub(
@@ -478,15 +830,67 @@ def sanitize_school_references(value: str, allowed: list[str], universe: set[str
     value = re.sub(r"(?:\s*,\s*){2,}", ", ", value)
     value = re.sub(r"(?:\s*[·/]\s*){2,}", " · ", value)
     value = re.sub(r"(?<=\s)[,·/]+|[,·/]+(?=\s*[.!?])", "", value)
+    value = re.sub(r"(?<=[초중고])\s*[,·/]\s*(?=(?:을|를|은|는|이|가|와|과|의|에|에서|으로|로|도|만|이며|이고)\b)", "", value)
     return value
 
 
+def repair_school_sentences(value: str, allowed: list[str], seed: str) -> str:
+    """타 학제 학교명 제거 뒤 남는 조사·'등' 잔재를 검증된 학교 문장으로 교체합니다."""
+    issue = re.compile(
+        r"(?:^|[\s,·/])등(?:을|은|이|에서|으로|\s+센터|\s+수업)"
+        r"|학교(?:명|로| 정보인)?.{0,28}등(?:을|은|이|에서|으로|\s)"
+        r"|학교 이름을 많이 나열|학교명 외|학교 정보인|없는 행|임의 학교"
+        r"|수업학교|행에 적힌|D열|처럼 확인 가능한 학교 자료"
+    )
+    school_text = "·".join(allowed)
+    if school_text:
+        replacements = (
+            f"센터 안내에서 수업 가능 학교로 확인되는 곳은 {school_text}입니다. 실제 진도는 학생이 가져온 최신 과제와 평가 안내를 기준으로 상담합니다.",
+            f"수업 가능 학교 목록은 {school_text}입니다. 학교명만으로 범위를 추정하지 않고 최근 진도 자료를 함께 확인합니다.",
+            f"상담 전에 확인할 수업 가능 학교는 {school_text}입니다. 학교별 학습 순서는 최신 학교 자료와 학생의 현재 풀이를 함께 보고 정합니다.",
+        )
+    else:
+        replacements = (
+            "센터 안내에 학교 목록이 따로 표시되지 않은 경우에는 재학 학교의 최신 진도표와 과제를 상담 때 직접 확인합니다.",
+            "학교 정보가 비어 있다면 상담에서 재학 학교와 최근 진도를 먼저 확인한 뒤 학습 순서를 정합니다.",
+            "수업 가능 학교가 별도로 적혀 있지 않은 지역은 최근 학교 과제와 평가 안내를 상담 자료로 사용합니다.",
+        )
+    parts = re.split(r"(?<=[.!?])(\s+)", value)
+    occurrence = 0
+    for index in range(0, len(parts), 2):
+        sentence = parts[index]
+        if issue.search(sentence):
+            parts[index] = replacements[stable_index(seed, f"school-repair-{occurrence}", len(replacements))]
+            occurrence += 1
+    return "".join(parts)
+
+
 def display_geography(row: dict[str, str]) -> tuple[str, str]:
-    """주소로 명확히 확인되는 세종 행의 잘못된 광역·도로명 열만 교정합니다."""
+    """URL 분류용 광역명이 아닌 센터 주소에서 확인되는 실제 시·도를 표시합니다."""
     address = row.get("센터 주소", "").strip()
     if "세종특별자치시" in address:
         return "세종", "세종특별자치시"
-    return row.get("지역", "").strip(), row.get("시or구", "").strip()
+    region = row.get("지역", "").strip()
+    district = row.get("시or구", "").strip()
+    if address:
+        head = address.split()[0]
+        aliases = {
+            "서울특별시": "서울", "서울시": "서울", "서울": "서울",
+            "경기도": "경기", "경기": "경기",
+            "인천광역시": "인천", "인천시": "인천", "인천": "인천",
+            "충청남도": "충남", "충남": "충남", "충청북도": "충북", "충북": "충북",
+            "대전광역시": "대전", "대전시": "대전", "대전": "대전",
+            "대구광역시": "대구", "대구시": "대구", "대구": "대구",
+            "울산광역시": "울산", "울산시": "울산", "울산": "울산",
+            "부산광역시": "부산", "부산시": "부산", "부산": "부산",
+            "광주광역시": "광주", "광주시": "광주", "광주": "광주",
+            "경상남도": "경남", "경남": "경남", "경상북도": "경북", "경북": "경북",
+            "전라남도": "전남", "전남": "전남", "전북특별자치도": "전북", "전라북도": "전북", "전북": "전북",
+            "강원특별자치도": "강원", "강원도": "강원", "강원": "강원",
+            "제주특별자치도": "제주", "제주도": "제주", "제주": "제주",
+        }
+        region = aliases.get(head, region)
+    return region, district
 
 
 def natural_area(row: dict[str, str]) -> str:
@@ -534,6 +938,46 @@ def trim_description(value: str, fallback: str) -> str:
         if pos >= 72:
             return clipped[: pos + len(stop.strip())].strip()
     return clipped.rstrip(" ,·") + "…"
+
+
+def apply_curriculum_corrections(value: str, category: str) -> str:
+    """명확히 다른 학년의 교과 용어만 해당 학년 범위로 바로잡습니다."""
+    if category == "초4수학학원":
+        value = value.replace("약수와 배수", "곱셈과 나눗셈")
+    return value
+
+
+def conditionalize_unconfirmed_service(value: str) -> str:
+    """CSV에서 해당 학년 운영이 확인되지 않은 페이지의 수업 전제 표현을 조건형으로 바꿉니다."""
+    replacements = (
+        ("학원을 선택한 뒤", "수업 가능 여부를 먼저 확인한 뒤"),
+        ("학원 수업에서", "수업 가능 여부를 확인하는 상담에서"),
+        ("학원 등록 후", "수업 가능 여부를 확인한 후"),
+        ("수업을 시작한 뒤", "수업이 가능하다고 확인된 뒤"),
+        ("수업을 시작하면", "수업이 가능하다고 확인되면"),
+        ("수업을 시작했다면", "수업이 가능하다고 확인되었다면"),
+        ("등록한 뒤", "수업 가능 여부를 확인한 뒤"),
+        ("등록했다면", "수업 가능 여부를 확인했다면"),
+        (
+            "오답 노트가 실제 수업에서 어떻게 활용되는지",
+            "수업 가능 여부를 확인한 뒤 오답 노트를 어떻게 활용하는지도",
+        ),
+        (
+            "오답 관리가 실제 수업에서 어떻게 활용되는지",
+            "수업 가능 여부를 확인한 뒤 오답 관리를 어떻게 진행하는지도",
+        ),
+        (
+            "그 노트가 실제 수업에서 다시 활용되는지",
+            "수업 가능 여부를 확인한 뒤 그 노트를 어떻게 다시 활용하는지도",
+        ),
+        (
+            "오답 관리가 실제 수업에서 어떻게 이루어지는지",
+            "수업 가능 여부를 확인한 뒤 오답 관리를 어떻게 진행하는지도",
+        ),
+    )
+    for before, after in replacements:
+        value = value.replace(before, after)
+    return value
 
 
 def local_meta_description(
@@ -713,7 +1157,7 @@ def build_page_faqs(
     center = row.get("센터명", "").strip() or f"{local} 학습코칭센터"
     address = row.get("센터 주소", "").strip()
     location = row.get("위치안내", "").strip()
-    schools = split_values(row.get(config["school_field"], ""))
+    schools = split_school_values(row.get(config["school_field"], ""))
     grade_range = row.get(config["grade_field"], "").strip()
     subject = config["subject"]
     grade = config["grade"]
@@ -721,6 +1165,7 @@ def build_page_faqs(
     profile = LEARNING_PROFILES[category][stable_index(seed, "profile", len(LEARNING_PROFILES[category]))]
     action = LEARNING_ACTIONS[subject][stable_index(seed, "action", len(LEARNING_ACTIONS[subject]))]
     school_text = "·".join(schools)
+    error_stages = "계산·개념·조건 해석" if subject == "수학" else "어휘·문법·문장 해석"
 
     candidates: list[tuple[str, str]] = [
         (
@@ -740,7 +1185,7 @@ def build_page_faqs(
         ),
         (
             f"{subject} 오답 관리는 무엇을 확인해야 하나요?",
-            f"틀린 문제를 다시 푸는 데서 끝내지 않고 계산·개념·조건 해석 중 어느 단계에서 막혔는지 기록하는 것이 중요합니다. "
+            f"틀린 문제를 다시 푸는 데서 끝내지 않고 {error_stages} 중 어느 단계에서 막혔는지 기록하는 것이 중요합니다. "
             f"비슷한 문제를 일정 간격 뒤 다시 풀어 같은 이유의 실수가 줄었는지 확인할 수 있어야 합니다.",
         ),
         (
@@ -767,7 +1212,7 @@ def build_page_faqs(
     if schools:
         candidates.append((
             f"{school_text} 학생도 학교 진도를 반영해 상담할 수 있나요?",
-            f"{school_text}은 센터 자료에서 확인되는 수업 가능 학교입니다. 학교 이름만으로 범위를 단정하지 않고, "
+            f"센터 안내에서 수업 가능 학교로 표시된 곳은 {school_text}입니다. 학교 이름만으로 범위를 단정하지 않고, "
             f"학생이 가져온 최근 진도표·과제·평가 안내를 기준으로 {subject} 보완 순서를 상담합니다.",
         ))
     if grade_range:
@@ -806,7 +1251,7 @@ def build_consultation_scenarios(
 ) -> list[str]:
     """실제 후기처럼 오해되지 않도록 상담에서 다루는 상황을 사실 기반 서술로 만듭니다."""
     local = row["근처 수업가능 동네"].strip()
-    schools = split_values(row.get(config["school_field"], ""))
+    schools = split_school_values(row.get(config["school_field"], ""))
     subject = config["subject"]
     grade = config["grade"]
     seed = f"{category}|{local}|scenario"
@@ -841,7 +1286,7 @@ def build_context_section(
     center = row.get("센터명", "").strip() or f"{local} 학습코칭센터"
     address = row.get("센터 주소", "").strip()
     location = row.get("위치안내", "").strip()
-    schools = split_values(row.get(config["school_field"], ""))
+    schools = split_school_values(row.get(config["school_field"], ""))
     grade_range = row.get(config["grade_field"], "").strip()
     subject = config["subject"]
     grade = config["grade"]
@@ -860,7 +1305,7 @@ def build_context_section(
         f"특히 {profile}에는 {action}",
         f"{'상담 장소는' if direct_area else local + ' 학생의 상담 가능 여부는 인근 센터 기준으로 안내하며, 실제 센터 위치는'} "
         f"{center}{'(' + address + ')' if address else ''}입니다. "
-        f"{location + '을 위치 확인에 참고하고, ' if location else ''}실제 등원 요일과 수업 뒤 복습 시간을 함께 정하면 계획을 무리 없이 이어가기 좋습니다.",
+        f"{('위치 안내는 ‘' + location.rstrip(' .') + '’입니다. ') if location else ''}실제 등원 요일과 수업 뒤 복습 시간을 함께 정하면 계획을 무리 없이 이어가기 좋습니다.",
     ]
     if schools:
         paragraphs.append(
@@ -886,7 +1331,7 @@ def build_route_sections(
     center = row.get("센터명", "").strip() or f"{local} 학습코칭센터"
     subject = config["subject"]
     grade = config["grade"]
-    schools = split_values(row.get(config["school_field"], ""))
+    schools = split_school_values(row.get(config["school_field"], ""))
     seed = f"{category}|{local}|route"
     profiles = LEARNING_PROFILES[category]
     actions = LEARNING_ACTIONS[subject]
@@ -897,6 +1342,7 @@ def build_route_sections(
     action_a = actions[stable_index(seed, "action-a", len(actions))]
     action_b = actions[stable_index(seed, "action-b", len(actions))]
     decision_lens = DECISION_LENSES[stable_index(seed, "decision-lens", len(DECISION_LENSES))]
+    evidence_check = EVIDENCE_CHECKS[stable_index(seed, "evidence-check", len(EVIDENCE_CHECKS))]
     school_sentence = (
         f"{'·'.join(schools)}처럼 센터 안내에 표시된 학교의 학생은 최근 진도표와 과제 자료를 가져오면 학교별 범위를 추측하지 않고 현재 학습 순서를 정할 수 있습니다."
         if schools else
@@ -916,12 +1362,13 @@ def build_route_sections(
     first_heading, second_heading = heading_sets[stable_index(seed, "headings", len(heading_sets))]
     first = [
         f"{title}을 알아볼 때는 학생이 어느 단원까지 나갔는지만 묻기보다 최근에 막힌 장면을 구분해야 합니다. {profile_a}라면 {action_a}",
-        f"{local} 상담에서는 {decision_lens} 이 기록을 최근 오답과 연결하면 복습과 다음 진도 중 어느 쪽을 먼저 둘지 더 구체적으로 정할 수 있습니다.",
+        f"{local} 상담에서는 {finish_sentence(decision_lens)} 이 기록을 최근 오답과 연결하면 복습과 다음 진도 중 어느 쪽을 먼저 둘지 더 구체적으로 정할 수 있습니다.",
         f"{school_sentence} {availability}",
     ]
     second = [
         f"첫 상담 뒤에는 과제 시작 시간, 질문 표시, 오답 재풀이 중 한두 가지를 정해 기록하는 편이 좋습니다. {profile_b}에는 {action_b}",
         "다음 상담에서는 계획한 분량 자체보다 어떤 항목이 실행되었고 어디에서 멈췄는지를 비교합니다. 그 기록이 있어야 복습량과 다음 진도를 학생 상황에 맞게 조정할 수 있습니다.",
+        f"학습 기록을 비교할 때는 {evidence_check}",
     ]
     return [
         (first_heading, [finish_sentence(p) for p in first]),
@@ -1079,6 +1526,10 @@ def local_page(
     row: dict[str, str], manuscript: dict[str, str], config: dict[str, str], category: str,
     rep_images: list[str], ordered_rows: list[dict[str, str]], known_schools: set[str],
 ) -> str:
+    # 검증된 사실값은 바꾸지 않되, 원천 표의 명백한 맞춤법·띄어쓰기만
+    # 페이지 전 영역(본문·FAQ·센터카드·JSON-LD)에 동일하게 정규화합니다.
+    row = dict(row)
+    row["위치안내"] = clean_text(row.get("위치안내", "").strip())
     local = row["근처 수업가능 동네"].strip()
     slug = slug_local(local)
     title = manuscript["페이지타이틀"].strip()
@@ -1088,7 +1539,7 @@ def local_page(
     center = row.get("센터명", "").strip() or f"{local} 학습코칭센터"
     address = row.get("센터 주소", "").strip()
     location = row.get("위치안내", "").strip()
-    schools = split_values(row.get(config["school_field"], ""))
+    schools = split_school_values(row.get(config["school_field"], ""))
     grade_range = row.get(config["grade_field"], "").strip()
     supported = target_grade_supported(row, config)
     reg_office = row.get("교육지원청명칭", "").strip()
@@ -1099,11 +1550,15 @@ def local_page(
         manuscript["JSON-LD 요약"], row,
         allowed_schools=schools, known_schools=known_schools, seed=page_seed + "|summary-edit",
     ), description)
+    summary = apply_curriculum_corrections(summary, category)
     summary = clean_text(soften_keyword_repetition(summary, title, page_seed + "|summary", 1))
     body_source = editorialize(
         manuscript["본문"], row,
         allowed_schools=schools, known_schools=known_schools, seed=page_seed + "|body-edit",
     )
+    body_source = apply_curriculum_corrections(body_source, category)
+    if not supported:
+        body_source = conditionalize_unconfirmed_service(body_source)
     keyword_budget = 4 if category == "초6영어학원" else 5
     body_source = soften_keyword_repetition(body_source, title, page_seed + "|body", keyword_budget)
     body_source = re.sub(rf"{re.escape(local)}에서\s+{re.escape(local)}\s+", f"{local}에서 ", body_source)
@@ -1128,6 +1583,13 @@ def local_page(
     for offset, route_section in enumerate(route_sections):
         route_position = 1 + stable_index(page_seed, f"route-position-{offset}", max(1, len(body_sections)))
         body_sections.insert(min(route_position, len(body_sections)), route_section)
+    # 원문과 동적 보강 문단을 합친 뒤 한 번 더 교정해야 학교명 뒤 조사와
+    # 센터 위치 문장처럼 조합 과정에서 생기는 오류가 최종 HTML에 남지 않습니다.
+    intro = [clean_text(paragraph) for paragraph in intro]
+    body_sections = [
+        (clean_text(heading), [clean_text(paragraph) for paragraph in paragraphs])
+        for heading, paragraphs in body_sections
+    ]
     source_faqs = parse_faq(editorialize(
         manuscript["FAQ"], row,
         allowed_schools=schools, known_schools=known_schools, seed=page_seed + "|faq-edit",
