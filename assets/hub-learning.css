@@ -1,0 +1,63 @@
+/* Additive, hub-only guide styles; original detail pages keep their own styles. */
+.jk-hub-page { padding-bottom:28px; }
+.jk-hub-page [hidden] { display:none !important; }
+.jk-jump { width:min(1180px,calc(100% - 28px)); margin:20px auto 32px; display:flex; flex-wrap:wrap; gap:10px; }
+.jk-jump a { display:flex; align-items:center; justify-content:center; padding:12px 18px; min-height:48px; border:1px solid #bfd5c9; border-radius:12px; background:#fffdf7; color:#176b59; font-size:15px; font-weight:800; }
+.jk-jump a:hover { background:#dceee5; }
+.jk-content { width:min(1180px,calc(100% - 28px)); margin:54px auto; color:#15211d; }
+.jk-content *, .jk-jump * { box-sizing:border-box; min-width:0; }
+.jk-content [id] { scroll-margin-top:125px; }
+.jk-content h2 { margin:0 0 16px; font-size:clamp(25px,3vw,33px); line-height:1.45; letter-spacing:-.035em; }
+.jk-content h3 { margin:0 0 16px; font-size:22px; line-height:1.5; letter-spacing:-.025em; }
+.jk-content p { margin:0 0 16px; color:#384c42; font-size:16px; line-height:1.9; overflow-wrap:anywhere; }
+.jk-content p:last-child { margin-bottom:0; }
+.jk-content .jk-kicker { margin:0 0 12px; color:#176b59; font-size:14px; font-weight:850; }
+.jk-intro { max-width:820px; margin-bottom:26px; }
+.jk-lessons { display:grid; gap:20px; }
+.jk-lesson { display:grid; grid-template-columns:48px minmax(0,1fr); gap:26px; padding:32px; border:1px solid #d6ded3; border-left:4px solid #238975; border-radius:18px; background:#fffdf7; }
+.jk-number { color:#176b59; font-size:20px; font-weight:850; }
+.jk-lesson-copy { max-width:850px; }
+.jk-centers, .jk-faq, .jk-reading { margin-top:50px; }
+.jk-center-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+.jk-center { padding:25px; display:flex; flex-direction:column; align-items:flex-start; border:1px solid #d6ded3; border-radius:18px; background:#fffdf7; }
+.jk-center h3 { font-size:20px; }
+.jk-content .jk-region { color:#176b59; font-size:14px; font-weight:800; }
+.jk-content .jk-registration { font-size:14px; color:#56665c; }
+.jk-center a, .jk-reading a { display:flex; align-items:center; min-height:48px; padding:10px 0; color:#176b59; font-size:15px; font-weight:800; text-decoration:underline; text-underline-offset:4px; }
+.jk-center a { margin-top:auto; }
+.jk-photos { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin-top:24px; }
+.jk-photos figure { margin:0; overflow:hidden; background:#fffdf7; border:1px solid #d6ded3; border-radius:18px; }
+.jk-photos img { display:block; width:100%; height:auto; aspect-ratio:4/3; object-fit:contain; background:#e9eee5; }
+.jk-photos figcaption { padding:14px 18px; font-size:14px; line-height:1.7; color:#56665c; }
+.jk-content .jk-photo-note { margin-top:12px; font-size:14px; color:#56665c; }
+.jk-faq-list { display:grid; gap:12px; }
+.jk-faq details { border:1px solid #d6ded3; border-radius:14px; background:#fffdf7; }
+.jk-faq summary { min-height:56px; cursor:pointer; padding:18px 22px; font-size:16px; font-weight:800; line-height:1.7; overflow-wrap:anywhere; }
+.jk-faq details[open] summary { color:#176b59; }
+.jk-faq details p { padding:0 22px 22px; }
+.jk-reading { padding:30px; border:1px solid #bfd5c9; border-radius:20px; background:#e7f1e8; }
+.jk-reading-links { display:flex; flex-wrap:wrap; gap:8px 30px; }
+.jk-hub-page :is(a,summary,button,input):focus-visible { outline:3px solid #14715e; outline-offset:4px; }
+@media(max-width:700px) {
+ .jk-hub-page { padding-bottom:88px; }
+ .jk-jump { gap:8px; }
+ .jk-jump a { flex:1 1 88px; padding:10px 6px; font-size:14px; }
+ .jk-content { margin-block:36px; }
+ .jk-content [id] { scroll-margin-top:190px; }
+ .jk-content h2 { font-size:25px; }
+ .jk-content h3 { font-size:20px; }
+ .jk-lesson { grid-template-columns:1fr; gap:8px; padding:22px 18px; }
+ .jk-number { font-size:16px; }
+ .jk-center-grid,.jk-photos { grid-template-columns:1fr; }
+ .jk-center { padding:22px 18px; }
+ .jk-centers,.jk-faq,.jk-reading { margin-top:36px; }
+ .jk-faq summary { padding:18px; }
+ .jk-faq details p { padding:0 18px 20px; }
+ .jk-reading { padding:22px 18px; }
+ .jk-reading-links { display:grid; gap:6px; }
+ /* The legacy floating buttons use !important; override only these 12 hubs. */
+ .jk-hub-page .wawa-fixed-fab-container { display:grid !important; grid-template-columns:repeat(3,minmax(0,1fr)); width:auto; left:10px; right:10px !important; bottom:max(10px,env(safe-area-inset-bottom)) !important; gap:7px !important; }
+ .jk-hub-page .wawa-fab-item { min-width:0 !important; max-width:none !important; width:100% !important; min-height:48px !important; padding:10px 4px !important; border-radius:12px !important; gap:4px !important; font-size:14px !important; }
+ .jk-hub-page .wawa-fab-item .fab-icon,.jk-hub-page .wawa-fab-item .fab-text { font-size:14px !important; }
+ .jk-hub-page .pulse-effect { animation:none !important; }
+}
