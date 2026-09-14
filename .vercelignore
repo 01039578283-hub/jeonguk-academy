@@ -1,0 +1,8 @@
+.git
+.vercel
+.env*
+tools
+tmp
+node_modules
+__pycache__
+*.md
