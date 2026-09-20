@@ -140,7 +140,12 @@ def main():
                 check(text(doc.find('body/main'))==text(local.find('body/main')),'live content '+path)
             for path,status,ctype,body in pool.map(request,sorted(assets)):
                 check(status==200,'asset HTTP '+path)
-                check(body==(ROOT/unquote(path).lstrip('/')).read_bytes(),'asset bytes '+path)
+                expected=(ROOT/unquote(path).lstrip('/')).read_bytes()
+                if Path(path).suffix in ('.css','.js'):
+                    # Windows checkout CRLF and Linux Git builds differ only in
+                    # line endings. Images must still match byte for byte.
+                    body=body.replace(b'\r\n',b'\n');expected=expected.replace(b'\r\n',b'\n')
+                check(body==expected,'asset content '+path)
         report['http_pages']=len(destinations);report['http_assets']=len(assets);report['passed_checks']=checks
     print(json.dumps(report,ensure_ascii=False,indent=2))
 
