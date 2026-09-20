@@ -13,7 +13,7 @@
 - 학습가이드: https://xn--3e0bl59bm0ad17a.com/학습가이드/
 - 상담문의: https://xn--3e0bl59bm0ad17a.com/상담문의/
 
-## 과목별학원 신규 허브
+## 과목별학원 허브
 
 - 중1 수학학원: https://xn--3e0bl59bm0ad17a.com/과목별학원/중1수학학원/
 - 중1 영어학원: https://xn--3e0bl59bm0ad17a.com/과목별학원/중1영어학원/
@@ -30,3 +30,12 @@
 
 페이지의 최신 URL과 갱신일은 다음 사이트맵에서 확인할 수 있습니다.
 https://xn--3e0bl59bm0ad17a.com/sitemap.xml
+
+## 학습코칭 읽기
+
+- 4C 진단과 코칭: https://xn--3e0bl59bm0ad17a.com/학습코칭/#four-c
+- 수업과 복습 연결: https://xn--3e0bl59bm0ad17a.com/학습코칭/#practice-loop
+- AI 영어·수학·국어·독서: https://xn--3e0bl59bm0ad17a.com/학습코칭/#ai-programs
+- 본사 소개 영상: https://xn--3e0bl59bm0ad17a.com/학습코칭/#coaching-videos
+
+프로그램 대상 학년은 본사 소개 기준입니다. 실제 센터의 개설 과목·일정·이용 조건과 구분하여 확인하세요. 지역 안내 수는 지점 수와 다릅니다.
