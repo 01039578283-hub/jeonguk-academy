@@ -29,5 +29,5 @@ for(const name of ['index.html','favicon.ico','robots.txt','sitemap.xml','llms.t
   if(!fs.existsSync(path.join(root,name)))continue;
   fs.copyFileSync(path.join(root,name),path.join(output,name));files++;if(name==='index.html')pages++;
 }
-if(pages!==7396)throw new Error(`Expected 7396 pages, found ${pages}`);
+if(pages!==10364)throw new Error(`Expected 10364 pages, found ${pages}`);
 console.log(JSON.stringify({output:'.public-release',files,pages,privateSourceFiles:0}));

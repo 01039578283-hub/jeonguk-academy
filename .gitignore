@@ -5,3 +5,5 @@ tmp/
 .public-release/
 tools/data/branch-directory/
 tools/reports/branch-directory-20260925/
+tools/data/grade-guides/
+tools/reports/grade-guides-20260925/
