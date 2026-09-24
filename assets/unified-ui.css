@@ -38,7 +38,7 @@ body.unified-ui main :is(section, article, nav, div)[id] { scroll-margin-top: 11
 body.unified-ui .skip-link { position: absolute; top: 0; left: 16px; z-index: 1000001; transform: translateY(-180%); min-height: 44px; padding: 9px 15px; background: var(--ink); color: #fff; font-size: 16px; }
 body.unified-ui .skip-link:focus { top: 12px; transform: translateY(0); }
 
-/* The same six links are visible at every width, including without JavaScript. */
+/* The same seven links are visible at every width, including without JavaScript. */
 body.unified-ui .site-header { position: sticky; top: 0; z-index: 100; width: 100%; margin: 0; padding: 0; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: rgba(250, 250, 245, .97); box-shadow: none; backdrop-filter: blur(14px); }
 body.unified-ui .nav { display: flex; flex-wrap: nowrap; align-items: center; justify-content: space-between; gap: 18px; width: min(var(--ui-width), calc(100% - 48px)); min-height: 88px; margin-inline: auto; padding-block: 12px; }
 body.unified-ui .brand { display: inline-flex; flex: 0 0 auto; align-items: center; gap: 10px; max-width: 100%; min-height: 44px; font-family: var(--ui-font); }
@@ -182,7 +182,7 @@ body.unified-ui .pulse-effect { animation: none !important; }
 @media (max-width: 1100px) {
   body.unified-ui .nav { flex-wrap: wrap; gap: 12px; }
   body.unified-ui .nav-cta { margin-left: auto; }
-  body.unified-ui .nav-links { order: 3; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); width: 100%; }
+  body.unified-ui .nav-links { order: 3; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); width: 100%; }
   body.unified-ui .nav-links a { padding-inline: 6px; }
   body.unified-ui main :is(section, article, nav, div)[id] { scroll-margin-top: 168px; }
   body.unified-ui :is(.ui-aside, .guide-side) { top: 168px; }

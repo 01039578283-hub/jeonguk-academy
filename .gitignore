@@ -2,3 +2,6 @@
 .env*
 __pycache__/
 tmp/
+.public-release/
+tools/data/branch-directory/
+tools/reports/branch-directory-20260925/

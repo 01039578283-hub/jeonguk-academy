@@ -6,3 +6,7 @@ tmp
 node_modules
 __pycache__
 *.md
+.public-release
+reports
+outputs
+scripts

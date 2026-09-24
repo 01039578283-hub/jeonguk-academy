@@ -1,0 +1,76 @@
+/* Branch-directory-only layout. Shared site colors, fonts and navigation remain authoritative. */
+.jd-wrap { width:min(1060px,calc(100% - 48px)); margin-inline:auto; }
+.jd-hero { padding:38px 0 26px; }
+.jd-hero h1 { max-width:900px; margin:18px 0; }
+.jd-kicker { margin:0 0 10px; color:#176b50; font-weight:800; font-size:14px; letter-spacing:.04em; }
+.jd-lead { max-width:850px; font-size:19px!important; color:#344e43; }
+.jd-answer { margin-top:24px; padding:22px 26px; background:#edf3e9; border-left:4px solid #176b50; border-radius:0 14px 14px 0; }
+.jd-toc,.jd-links { display:flex; gap:10px; flex-wrap:wrap; margin:18px 0; }
+.jd-link { display:inline-flex; align-items:center; min-height:46px; padding:10px 16px; border:1px solid #bdcfc2; border-radius:10px; background:#fffefa; color:#173b32; font-size:16px; font-weight:700; line-height:1.65; }
+.jd-link:hover { background:#e7efdf; border-color:#176b50; }
+.jd-section { padding:32px; margin:26px 0; border:1px solid #d9e1d9; border-radius:20px; background:#fffefa; }
+.jd-section h2 { margin:0 0 24px; }
+.jd-section p { margin:14px 0; color:#344e43; }
+.jd-cards,.jd-branch-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; margin:24px 0; }
+.jd-card,.jd-branch-card { padding:22px; border:1px solid #d9e1d9; border-radius:14px; background:#fafaf5; }
+.jd-card h3,.jd-branch-card h3 { margin:0 0 12px; }
+.jd-branch-card h3 a { display:flex; align-items:center; justify-content:space-between; min-height:44px; text-underline-offset:5px; color:#176b50; }
+.jd-branch-card h3 a:hover { text-decoration:underline; }
+.jd-branch-card p { margin:10px 0; }
+.jd-branch-card .jd-brand { font-weight:700; }
+.jd-card-courses { padding-top:12px; border-top:1px solid #d9e1d9; }
+.jd-regions { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+.jd-regions a { display:flex; flex-direction:column; gap:7px; padding:18px 20px; border:1px solid #cbd8ce; border-radius:12px; background:#edf3e9; }
+.jd-regions a:hover { background:#e1ecd7; }
+.jd-regions strong { font-size:21px; }
+.jd-regions span { color:#344e43; font-size:16px; }
+.jd-filter { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:14px; margin:26px 0 18px; padding:22px; background:#edf3e9; border-radius:14px; }
+.jd-filter label { display:flex; flex-direction:column; gap:8px; font-size:16px; font-weight:750; }
+.jd-filter input,.jd-filter select { width:100%; min-width:0; min-height:48px; border:1px solid #a8bfb0; border-radius:9px; background:#fff; padding:9px 11px; color:#173b32; }
+.jd-reset { grid-column:1/-1; justify-self:start; min-height:46px; padding:9px 23px; border:1px solid #176b50; border-radius:9px; background:#173b32; color:#fff; cursor:pointer; }
+.jd-region-group { margin:20px 0; border-bottom:1px solid #d9e1d9; }
+.jd-region-group > summary { display:flex; align-items:center; gap:12px; min-height:52px; padding:10px 0; cursor:pointer; font-size:23px; font-weight:800; }
+.jd-region-group > summary::before { content:'＋'; font-size:21px; }
+.jd-region-group[open] > summary::before { content:'−'; }
+.jd-region-group > summary span { font-size:16px; font-weight:600; color:#52645d; }
+.jd-result { font-weight:750; }
+.jd-empty,.jd-note { padding:16px 18px; background:#f1f5e6; border-radius:10px; }
+.jd-media { display:grid; gap:24px; max-width:760px; margin-inline:auto; }
+.jd-media figure,.jd-gallery figure { margin:0; border:1px solid #d9e1d9; border-radius:14px; overflow:hidden; }
+.jd-media img,.jd-gallery img { display:block; width:100%; max-width:100%; height:auto; object-fit:contain; }
+.jd-media figcaption,.jd-gallery figcaption { position:static; padding:14px 18px; background:#edf3e9; color:#344e43; font-size:16px; }
+.jd-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; align-items:start; }
+.jd-facts { margin:0; }
+.jd-facts > div { display:grid; grid-template-columns:150px minmax(0,1fr); gap:20px; padding:17px 0; border-bottom:1px solid #d9e1d9; }
+.jd-facts dt { font-weight:750; }.jd-facts dd { margin:0; }
+.jd-course-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.jd-course-list article { padding:18px 22px; border:1px solid #d9e1d9; border-radius:12px; }
+.jd-course-list h3 { margin:0 0 8px; }
+.jd-badge { display:inline-block; padding:7px 13px; border-radius:8px; background:#e6edcb; font-weight:750; }
+.jd-table-wrap { max-width:100%; overflow-x:auto; margin:22px 0; border:1px solid #d9e1d9; border-radius:12px; }
+.jd-table-wrap table { width:100%; border-collapse:collapse; font-size:16px; }
+.jd-table-wrap caption { padding:14px 16px; text-align:left; color:#344e43; }
+.jd-table-wrap th,.jd-table-wrap td { padding:14px 12px; text-align:left; border-top:1px solid #d9e1d9; overflow-wrap:anywhere; }
+.jd-table-wrap thead { background:#edf3e9; }
+.jd-fee-cards { display:none; }
+.jd-faq { margin:12px 0; border:1px solid #d9e1d9; border-radius:12px; }
+.jd-faq summary { padding:18px 20px; min-height:52px; font-size:17px; font-weight:750; cursor:pointer; }
+.jd-faq > p { padding:0 20px 20px; margin:0; }
+.jd-updated { padding:22px 0; color:#52645d; }
+@media(max-width:1000px) { .jd-cards,.jd-branch-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }.jd-filter { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:760px) {
+ .jd-wrap { width:calc(100% - 32px); }.jd-hero { padding:24px 0 12px; }.jd-hero h1 { font-size:30px!important; }
+ .jd-answer { padding:18px 20px; }.jd-lead { font-size:17px!important; }
+ .jd-section { padding:24px 18px; margin:20px 0; border-radius:16px; }.jd-section h2 { font-size:25px!important; }
+ .jd-cards,.jd-branch-grid,.jd-gallery,.jd-course-list { grid-template-columns:1fr; gap:14px; }
+ .jd-card,.jd-branch-card { padding:18px; }.jd-regions { grid-template-columns:repeat(2,minmax(0,1fr)); }
+ .jd-regions a { padding:16px; }.jd-filter { padding:16px; gap:14px 10px; }.jd-filter label:first-child { grid-column:1/-1; }
+ .jd-facts > div { grid-template-columns:1fr; gap:6px; }.jd-facts dt { color:#176b50; }
+ .jd-table-wrap { display:none; }
+ .jd-fee-cards { display:grid; gap:12px; margin:20px 0; }
+ .jd-fee-cards dl { margin:0; padding:14px 16px; border:1px solid #d9e1d9; border-radius:12px; background:#fafaf5; }
+ .jd-fee-cards dl > div { display:flex; justify-content:space-between; gap:16px; padding:7px 0; }
+ .jd-fee-cards dt { font-weight:700; }.jd-fee-cards dd { margin:0; text-align:right; }
+ .jd-media figcaption { padding:12px 14px; }.jd-link { padding:10px 12px; }
+}
+@media(prefers-reduced-motion:reduce) { .jd-page * { scroll-behavior:auto; } }
