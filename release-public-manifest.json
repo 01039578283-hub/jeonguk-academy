@@ -11527,5 +11527,10 @@
     "학습코칭/전자기기학습활용/index.html": "1c084cb9b9f155d8ce61a80a9df8e10195ce9c3f1e7a73268590bd21d164b194",
     "학습코칭/지루한과목시작/index.html": "d0024de77f51b38c36cd57ba0aa7545f5f2470df2b231eb003ca62df4b98813d",
     "학습코칭/초등독서습관/index.html": "3d088db8b138871274c4d631da31351bca4f68b9c14b0000d687f7592e18962c"
+  },
+  "textSha256": {
+    "assets/hub-search.js": "0b0a6d97fd9c0225884c4957fef3f1531a05eea006091a827b1ae3a7917a7f27",
+    "assets/learning-paths.css": "d3c4a6937ae654c431cffecfb4a561bc9117c8893f77804e2ce1ef7c99a72c84",
+    "assets/site.css": "d4f73e69e34eaf1f0d2c896deaa8bdbf39cee69eceb933745b4e8e04107e101a"
   }
 }
