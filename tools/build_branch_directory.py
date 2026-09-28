@@ -9,6 +9,8 @@ import hashlib, json, re, zipfile
 from lxml import html, etree
 
 ROOT=Path(__file__).resolve().parents[1]
+if __name__=='__main__' and 'data-center-content=' in (ROOT/'지점안내/서울/명일점/index.html').read_text('utf-8'):
+    raise SystemExit('This legacy generator predates reviewed branch content. Use the source-bound phase 2 workflow; do not overwrite current pages.')
 DATA=ROOT/'tools/data/branch-directory'
 REPORT=ROOT/'tools/reports/branch-directory-20260925'
 ORIGIN='https://xn--3e0bl59bm0ad17a.com'

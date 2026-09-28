@@ -1,0 +1,11 @@
+/* Source-backed visiting information and photo provenance. */
+[data-center-visit] #directions{scroll-margin-top:100px}
+.cv-directions-body{font-size:18px;line-height:1.85;max-width:850px}
+.cv-address{padding:14px 18px;border-left:3px solid #48715e;background:#f4f7f1;line-height:1.8;overflow-wrap:anywhere}
+.cv-address strong{display:block;color:#234334}
+.cv-source-note,.cv-photo-note{font-size:14px;line-height:1.75;color:#4b6258;background:#f0f5ef;border:1px solid #d4e1d3;border-radius:10px;padding:14px 18px}
+@media(max-width:760px){
+ body.unified-ui:has([data-center-visit]) .site-header .nav-links{display:flex;flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;gap:8px;padding-bottom:6px;scrollbar-width:thin}
+ body.unified-ui:has([data-center-visit]) .site-header .nav-links>a{flex:0 0 auto;min-width:86px}
+ .cv-directions-body{font-size:16px}.cv-source-note,.cv-photo-note{padding:12px 14px}
+}

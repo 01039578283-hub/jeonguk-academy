@@ -1,0 +1,10 @@
+/* Branch facts and source-specific teaching information before photo galleries. */
+.cc-management h3{margin:8px 0 14px;font-size:clamp(20px,2.6vw,25px);line-height:1.5;color:#173b32}
+.cc-profile-body{font-size:17px;line-height:1.85;max-width:850px}
+.cc-source-note,.cc-photo-note{font-size:14px;line-height:1.75;color:#4b6258;background:#f0f5ef;border:1px solid #d4e1d3;border-radius:10px;padding:14px 18px}
+[data-center-content] #learning-management{scroll-margin-top:100px}
+@media(max-width:760px){
+ body.unified-ui:has([data-center-content]) .site-header .nav-links{display:flex;flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;gap:8px;padding-bottom:6px;scrollbar-width:thin}
+ body.unified-ui:has([data-center-content]) .site-header .nav-links>a{flex:0 0 auto;min-width:86px}
+ .cc-profile-body{font-size:16px}.cc-source-note,.cc-photo-note{padding:12px 14px}
+}

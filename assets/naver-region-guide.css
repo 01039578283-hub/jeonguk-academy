@@ -1,0 +1,33 @@
+/* Local facts precede long shared images; retain the site's existing palette. */
+.ng-hero,.ng-section,.ng-facts,.ng-media,.ng-jump,.ng-updated{box-sizing:border-box;max-width:1120px;margin:24px auto;font-size:16px;line-height:1.75;overflow-wrap:anywhere}
+.ng-hero{padding:32px 28px 8px}
+.ng-hero h1{font-size:clamp(25px,4.4vw,38px);line-height:1.4;letter-spacing:-.035em;margin:8px 0 16px;color:#173b32}
+.ng-kicker{font-weight:700;color:#42685d;font-size:14px;margin:0 0 8px}
+.ng-facts{padding:24px 28px;border:1px solid #c7d9ce;border-radius:16px;background:#f3f8f3;color:#19372e}
+.ng-facts h2,.ng-section h2{font-size:23px;line-height:1.5;margin:0 0 18px;color:#173b32}
+.ng-facts dl{margin:0;display:grid;gap:12px}
+.ng-facts dl>div{display:grid;grid-template-columns:145px 1fr;gap:14px}
+.ng-facts dt{font-weight:700;color:#466458}.ng-facts dd{margin:0;min-width:0}
+.ng-facts a{color:#175640;text-underline-offset:3px}
+.ng-status{border-top:1px solid #cbdcd0;padding-top:16px;margin:18px 0 0}
+.ng-status-check{background:#fff7e6;border:1px solid #e8d7ad;border-radius:10px;padding:14px;color:#60451d}
+.ng-actions,.ng-related,.ng-jump{display:flex;flex-wrap:wrap;gap:10px}
+.ng-actions{margin-top:18px}.ng-actions a,.ng-jump a,.ng-related a{padding:10px 15px;background:#fff;border:1px solid #bed0c4;border-radius:9px;color:#174f3a;text-decoration:none;font-weight:650;min-height:44px;display:inline-flex;align-items:center}
+.ng-actions a:hover,.ng-jump a:hover,.ng-related a:hover{background:#e7f1e7}
+.ng-actions a:focus-visible,.ng-jump a:focus-visible,.ng-related a:focus-visible,.ng-section summary:focus-visible,.ng-media summary:focus-visible{outline:3px solid #376d55;outline-offset:3px}
+.ng-section{padding:28px;border:1px solid #dde6df;border-radius:14px;background:#fff;color:#263d34}
+.ng-section p{margin:12px 0}.ng-section h3{font-size:18px;line-height:1.6;margin:20px 0 10px;color:#244d3d}
+.ng-study-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:20px 0}
+.ng-study-grid article{background:#f6f8f5;padding:18px;border-radius:10px}.ng-study-grid h3{margin-top:0}
+.ng-note,.ng-updated{color:#53665a;font-size:14px}
+.ng-fee-notice{padding:16px 20px;margin:0;color:#544621;background:#fff8e7}
+.ng-section details{border-top:1px solid #dce5df;padding:14px 0}.ng-section summary,.ng-media summary{cursor:pointer;font-weight:700;min-height:44px;align-content:center}
+.ng-media{border:1px solid #d5e1d7;border-radius:12px;padding:14px 24px;background:#fff}
+.ng-media .local-media-section,.ng-media .subject-media-section{margin:16px 0 0;padding:0}
+.ng-media img{height:auto;max-width:100%}.ng-updated{padding:0 8px}
+.ng-branch-math{margin:24px 0}.ng-branch-math h2{margin-bottom:12px}
+[data-naver-improved] #center-summary,[data-naver-improved] #enrollment-details,[data-naver-improved] #math-preparation,[data-naver-improved] #enrollment-faq{scroll-margin-top:96px}
+@media(max-width:760px){.ng-hero,.ng-section,.ng-facts,.ng-media,.ng-jump,.ng-updated{width:calc(100% - 32px)}.ng-hero,.ng-section,.ng-facts{padding:20px}.ng-study-grid{grid-template-columns:1fr}.ng-facts dl>div{grid-template-columns:1fr;gap:2px}.ng-facts dl{gap:14px}.ng-jump{gap:8px}.ng-section h2,.ng-facts h2{font-size:21px}.ng-media{padding:12px 16px}.ng-hero{margin-top:12px;padding:12px 4px}.ng-actions a{flex:1 1 160px;text-align:center;justify-content:center}.ng-branch-math{width:100%}
+body.unified-ui:has([data-naver-improved]) .site-header .nav-links{display:flex;flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;gap:8px;padding-bottom:6px;scrollbar-width:thin}
+body.unified-ui:has([data-naver-improved]) .site-header .nav-links>a{flex:0 0 auto;min-width:86px}
+}

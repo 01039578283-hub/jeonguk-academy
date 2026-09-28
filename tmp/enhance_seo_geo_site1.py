@@ -203,18 +203,8 @@ def faq_pairs(ctx: dict) -> list[tuple[str, str]]:
 
 
 def review_items(ctx: dict) -> list[tuple[int, str]]:
-    title = ctx["title"]
-    area = ctx["neighborhood"]
-    subject = subject_label(title)
-    return [
-        (5, f"{title} 상담에서 아이가 어디에서 막히는지 차분하게 정리해줘서 관리 방향을 잡기 쉬웠습니다."),
-        (5, f"{area} 기준으로 상담 내용을 확인해보니 플래너와 오답 관리가 함께 설명되어 안심이 됐습니다."),
-        (5, f"{subject} 공부를 단순히 많이 시키는 방식이 아니라 부족한 부분부터 확인하는 점이 좋았습니다."),
-        (5, "시험 전에는 복습 순서와 자주 틀리는 문제를 따로 확인해줘서 아이가 무엇을 해야 할지 알게 됐습니다."),
-        (5, "학부모 입장에서도 수업 후 어떤 부분을 봐야 하는지 설명이 분명해서 관리 흐름을 이해하기 좋았습니다."),
-        (4, "처음 상담 때부터 아이의 공부 습관을 먼저 살펴보고 필요한 부분을 차근차근 잡아줘서 도움이 됐습니다."),
-    ]
-
+    """No verified review corpus is supplied."""
+    return []
 
 def render_faq_section(ctx: dict) -> str:
     details = []
@@ -239,27 +229,7 @@ def render_faq_section(ctx: dict) -> str:
 
 
 def render_review_section(ctx: dict) -> str:
-    cards = []
-    for rating, body in review_items(ctx):
-        stars = "★" * rating + "☆" * (5 - rating)
-        cards.append(
-            f"""    <article class="parent-review-card">
-      <div class="parent-review-stars" aria-label="{rating}점 후기">{stars}</div>
-      <p>{html.escape(body)}</p>
-      <strong>학부모 후기</strong>
-    </article>"""
-        )
-    return f"""<section class="parent-review-section" aria-labelledby="parent-review-title">
-  <div class="parent-review-head">
-    <p class="parent-review-eyebrow">PARENT REVIEWS</p>
-    <h2 id="parent-review-title">{html.escape(ctx['title'])} 학부모 후기</h2>
-    <p>{html.escape(ctx['title'])} 상담과 학습관리에서 자주 언급되는 만족 포인트를 정리했습니다.</p>
-  </div>
-  <div class="parent-review-grid">
-{chr(10).join(cards)}
-  </div>
-</section>"""
-
+    return ""
 
 def render_geo_section(ctx: dict) -> str:
     title = ctx["title"]
@@ -449,7 +419,6 @@ def upsert_json_ld(source: str, ctx: dict, image_url: str) -> str:
             "name": title,
             "url": ctx["url"],
             "telephone": PHONE,
-            "openingHours": "Mo-Sa 12:00-24:00",
             "areaServed": {"@type": "Place", "name": ctx["neighborhood"]},
             "address": address,
             "contactPoint": {"@type": "ContactPoint", "telephone": PHONE_INTL, "contactType": "학습 상담", "availableLanguage": "Korean"},
@@ -459,11 +428,6 @@ def upsert_json_ld(source: str, ctx: dict, image_url: str) -> str:
                 {"@type": "Offer", "itemOffered": {"@type": "Service", "name": f"{title} 플래너 관리", "serviceType": "TutoringService"}},
                 {"@type": "Offer", "itemOffered": {"@type": "Service", "name": f"{title} 오답 재학습", "serviceType": "TutoringService"}},
             ],
-            "review": [
-                {"@type": "Review", "author": {"@type": "Person", "name": "학부모"}, "reviewBody": body, "reviewRating": {"@type": "Rating", "ratingValue": str(rating), "bestRating": "5"}}
-                for rating, body in review_items(ctx)
-            ],
-            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.8", "bestRating": "5", "ratingCount": "6", "reviewCount": "6"},
         }
     )
 
@@ -815,6 +779,7 @@ def generate_sitemap() -> int:
 
 
 def main() -> None:
+    raise SystemExit("Retired SEO generator: use the reviewed release and tools/improve_naver_pages.py previews.")
     ensure_css()
     targets = target_page_dirs()
     changed = 0

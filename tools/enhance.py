@@ -8,23 +8,12 @@ from content_banks import (
     FAQ_SLOT2_BANK,
     FAQ_SLOT3_BANK,
     FAQ_SLOT4_BANK,
-    REVIEW_BANK_4,
-    REVIEW_BANK_5,
     pick,
-    pick_unique,
 )
 
 ROOT = Path(__file__).resolve().parents[1]
 CENTER_ROOT = ROOT / "전국학원"
 
-REVIEW_CARD_RE = re.compile(
-    r'<article class="parent-review-card">\s*'
-    r'<div class="parent-review-stars" aria-label="(\d)점 후기">[^<]*</div>\s*'
-    r'<p>(.*?)</p>\s*'
-    r'<strong>학부모 후기</strong>\s*'
-    r'</article>',
-    re.S,
-)
 FAQ_ITEM_RE = re.compile(
     r'<details class="parent-faq-item"( open)?>\s*'
     r'<summary><span class="parent-faq-q">Q</span>(.*?)</summary>\s*'
@@ -85,41 +74,8 @@ def process_page(page_dir: Path, seen_reviews: set, seen_faqs: set) -> bool:
     # 2) remove orphaned FAQPage block with no visible backing
     updated = remove_orphan_faq_block(updated)
 
-    # 3) reviews: keep slots 0-1 (dong-specific openers), regenerate slots 2-5
-    review_matches = REVIEW_CARD_RE.findall(updated)
-    if len(review_matches) != 6:
-        raise RuntimeError(f"expected 6 reviews, found {len(review_matches)} in {path}")
-    opener_reviews = [(r, b) for r, b in review_matches[:2]]
-    # Uniqueness key is the combined (3 five-star + 1 four-star) tuple, not just
-    # the five-star draw alone: C(28,3)=3,276 unique 3-item combos is fewer than
-    # our 3,339 pages, so drawing uniqueness from the 3-item pool alone runs out
-    # and pick_unique retries forever. Folding the four-star pick (6 options) in
-    # gives up to 3,276 * 6 = 19,656 distinct combos, comfortably more than needed.
-    seen = seen_reviews.setdefault("combo", set())
-    attempt = 0
-    while True:
-        salt = f"retry{attempt}" if attempt else ""
-        five_star = pick(REVIEW_BANK_5, 3, page_url, "review5", salt)
-        four_star = pick(REVIEW_BANK_4, 1, page_url, "review4", salt)[0]
-        combo = frozenset(five_star + [four_star])
-        if combo not in seen:
-            seen.add(combo)
-            break
-        attempt += 1
-    new_reviews = opener_reviews + [("5", b) for b in five_star] + [("4", four_star)]
-
-    def review_repl(_match, _iter=iter(new_reviews)):
-        rating, body = next(_iter)
-        stars = "★" * int(rating) + "☆" * (5 - int(rating))
-        return (
-            f'<article class="parent-review-card">\n'
-            f'      <div class="parent-review-stars" aria-label="{rating}점 후기">{stars}</div>\n'
-            f'      <p>{body}</p>\n'
-            f'      <strong>학부모 후기</strong>\n'
-            f'    </article>'
-        )
-
-    updated = REVIEW_CARD_RE.sub(review_repl, updated)
+    # Reviews must come from verified originals; never synthesize testimonials.
+    updated = re.sub(r'<section class="parent-review-section".*?</section>', "", updated, flags=re.S)
 
     # 4) FAQ: keep slots 0-1, regenerate slots 2-4
     faq_matches = FAQ_ITEM_RE.findall(updated)
@@ -149,15 +105,8 @@ def process_page(page_dir: Path, seen_reviews: set, seen_faqs: set) -> bool:
     graph = data["@graph"]
 
     org = find_node(graph, "EducationalOrganization")
-    org["review"] = [
-        {
-            "@type": "Review",
-            "author": {"@type": "Person", "name": "학부모"},
-            "reviewBody": body,
-            "reviewRating": {"@type": "Rating", "ratingValue": rating, "bestRating": "5"},
-        }
-        for rating, body in new_reviews
-    ]
+    org.pop("review", None)
+    org.pop("aggregateRating", None)
 
     faq_node = find_node(graph, "FAQPage")
     faq_node["mainEntity"] = [
@@ -176,6 +125,8 @@ def process_page(page_dir: Path, seen_reviews: set, seen_faqs: set) -> bool:
 
 def main() -> None:
     targets = target_dirs()
+    if any('data-naver-improved="2026-09-28"' in (p / "index.html").read_text(encoding="utf-8") for p in targets[:1]):
+        raise SystemExit("This legacy FAQ generator cannot overwrite the reviewed 2026-09-28 pages.")
     seen_reviews: dict[str, set] = {}
     seen_faqs: set = set()
     changed = 0

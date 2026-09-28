@@ -74,20 +74,34 @@ if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.ur
   const check=process.argv.includes('--check');
   const skip=new Set(['node_modules','assets','tools','scripts','tmp','work','reports','outputs','records','dist','public','generated_article_txt','__pycache__']);
   let pages=0,changed=0,skipped=0,nodes=0;const errors=[];
-  function processFile(file){try{
-    const before=fs.readFileSync(file,'utf8'),r=transform(before);
+  async function processFile(file){try{
+    const before=await fs.promises.readFile(file,'utf8'),r=transform(before);
     if(r.skip){skipped++;return;}pages++;nodes+=r.changedNodes||0;
-    if(r.changed){changed++;if(!check)fs.writeFileSync(file,r.html,'utf8');}
+    if(r.changed){changed++;if(!check)await fs.promises.writeFile(file,r.html,'utf8');}
   }catch(e){errors.push({file,message:e.message});}}
+  const selected=[];
   function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){
     if(e.name.startsWith('.'))continue;const p=path.join(dir,e.name);
-    if(e.isDirectory()){if(!skip.has(e.name))walk(p);}else if(e.name.endsWith('.html'))processFile(p);
+    if(e.isDirectory()){if(!skip.has(e.name))walk(p);}else if(e.name.endsWith('.html'))selected.push(p);
   }}
   const list=process.argv.find(a=>a.startsWith('--files-file='));
-  if(list){for(const rel of JSON.parse(fs.readFileSync(list.slice(13),'utf8'))){
+  const manifestPath=path.join(root,'release-public-manifest.json');
+  let reviewed;
+  if(list)reviewed=JSON.parse(fs.readFileSync(list.slice(13),'utf8'));
+  else if(output===path.join(root,'.public-release')&&fs.existsSync(manifestPath)){
+    const manifest=JSON.parse(fs.readFileSync(manifestPath,'utf8'));
+    reviewed=Object.keys(manifest.files).filter(p=>p.endsWith('.html'));
+    if(reviewed.length!==manifest.sitemapPages)throw Error('Public manifest HTML count differs');
+  }
+  if(reviewed){for(const rel of reviewed){
     const p=path.resolve(output,rel),inside=path.relative(output,p);
-    if(inside.startsWith('..')||path.isAbsolute(inside)||!p.endsWith('.html'))throw Error('Unsafe scoped HTML path');processFile(p);
+    if(inside.startsWith('..')||path.isAbsolute(inside)||!p.endsWith('.html'))throw Error('Unsafe scoped HTML path');selected.push(p);
   }}else walk(output);
+  let cursor=0;
+  await Promise.all(Array.from({length:12},async()=>{
+    while(cursor<selected.length)await processFile(selected[cursor++]);
+  }));
+  errors.sort((a,b)=>a.file.localeCompare(b.file));
   console.log(JSON.stringify({pages,changed,skipped,changedNodes:nodes,check,errors}));
   if(errors.length||(check&&changed))process.exitCode=1;
 }
