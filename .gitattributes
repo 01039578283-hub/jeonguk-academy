@@ -1,0 +1,2 @@
+# Downloadable Korean worksheets keep UTF-8 BOM and Windows line endings.
+assets/guide-worksheets/*.txt -text

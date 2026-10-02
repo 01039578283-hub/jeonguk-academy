@@ -1,0 +1,23 @@
+"""Primary sources read on 2026-10-02; notes identify the relevant scope only."""
+SOURCES = {
+ 'study': ('IES / WWC · Organizing Instruction and Study to Improve Student Learning', 'https://ies.ed.gov/ncee/wwc/PracticeGuide/1', '2007 · 학습 간격, 회상 연습과 이해 점검'),
+ 'meta': ('EEF · Metacognition and Self-Regulated Learning', 'https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/metacognition', '2025 개정판 · 과제 안의 계획·점검·평가와 단계적 도움'),
+ 'algebra': ('IES / WWC · Teaching Strategies for Improving Algebra Knowledge', 'https://ies.ed.gov/ncee/wwc/PracticeGuide/20', '2015, 2019 개정 · 식의 구조와 풀이 전략 설명'),
+ 'problems': ('IES / WWC · Improving Mathematical Problem Solving in Grades 4 Through 8', 'https://ies.ed.gov/ncee/wwc/PracticeGuide/16', '2012, 2018 개정 · 수학적 표현과 문제 해결 과정'),
+ 'earlymath': ('IES / WWC · Assisting Students Struggling with Mathematics', 'https://ies.ed.gov/ncee/wwc/PracticeGuide/26', '2021 · 초등 수학의 언어·표현·체계적인 지도'),
+ 'reading': ('IES / WWC · Providing Reading Interventions for Students in Grades 4–9', 'https://ies.ed.gov/ncee/wwc/PracticeGuide/29', '2022 · 읽기 이해 질문, 핵심 파악과 이해 점검'),
+ 'writing': ('IES / WWC · Teaching Secondary Students to Write Effectively', 'https://ies.ed.gov/ncee/wwc/PracticeGuide/22', '2016, 2019 개정 · 쓰기 과정과 수정·피드백'),
+ 'science': ('EEF · Improving Secondary Science', 'https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/science-ks3-ks4', '2018 · 과학 개념, 오개념 점검과 자료 활용'),
+ 'literacy': ('EEF · Improving Literacy in Secondary Schools', 'https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/literacy-ks3-ks4', '과목별 읽기·쓰기·어휘의 학습 지원'),
+ 'parents': ('EEF · Working with Parents to Support Children’s Learning', 'https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/supporting-parents', '2018 · 학교와 가정의 학습 지원'),
+ 'feedback': ('EEF · Teacher Feedback to Improve Pupil Learning', 'https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/feedback', '2021 · 과제와 연결되는 피드백'),
+ 'digital': ('EEF · Using Digital Technology to Improve Learning', 'https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/digital', '2019 · 디지털 도구와 학습 과제의 연결'),
+ 'homework': ('EEF · Teaching and Learning Toolkit: Homework', 'https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/homework', '숙제의 목적, 수업과의 연결, 수행의 어려움'),
+ 'words': ('British Council · Learning new words', 'https://learnenglishteens.britishcouncil.org/exams/grammar-vocabulary-exams/learning-new-words', '영어 어휘를 실제 읽기·쓰기에서 활용하기'),
+ 'listening': ('British Council · Which words do I need to understand?', 'https://learnenglishteens.britishcouncil.org/exams/listening-exams/which-words-do-i-need-understand', '영어 듣기의 전체 의미와 필요한 정보'),
+ 'curriculum': ('교육부 · 2022 개정 교육과정 확정·발표', 'https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=93459&lev=0&searchType=null', '2022-12-22 · 학교급 전환과 과목 선택 관련 기본 방향'),
+ 'curriculum2026': ('교육부 학교생활기록부 종합지원포털 · 2026학년도 교육과정 적용 학년 관련 답변', 'https://star.moe.go.kr/web/contents/m30103.do?id=117786&schM=view', '2026학년도 고1·고2의 2022 개정 교육과정 적용 확인'),
+ 'career': ('진로정보망 커리어넷', 'https://www.career.go.kr/cloud/w/main/home', '진로 탐색·상담을 위한 공식 서비스'),
+ 'smart': ('한국지능정보사회진흥원 · 스마트쉼센터', 'https://www.iapc.or.kr/', '스마트폰 사용 관련 예방교육·상담 안내'),
+ 'cor': ('Digital Inquiry Group · Teaching Lateral Reading', 'https://cor.inquirygroup.org/curriculum/collections/teaching-lateral-reading/', '작성자와 정보 출처를 다른 자료에서 대조하는 활동'),
+}
