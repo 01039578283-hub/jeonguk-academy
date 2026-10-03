@@ -35,6 +35,14 @@ async function inspect(file){
       const list=homeGraph.find(n=>n['@type']==='ItemList'&&n['@id']==='https://xn--3e0bl59bm0ad17a.com/#'+id);
       if(!list||list.numberOfItems!==count||list.itemListElement?.length!==count)errors.push({file,reason:'Homepage visible collection structured data differs'});
     }
+    if(!source.includes('home-teaching-upgrade')||!source.includes('/assets/home-teaching.css')||['class-formats','school-exam','study-planner','learning-dialogue'].some(id=>!source.includes(`id="${id}"`)))errors.push({file,reason:'Reviewed teaching information sections missing'});
+    if((source.match(/<tr\b[^>]*data-format-row\b/g)||[]).length!==8||!source.includes('data-planner-example'))errors.push({file,reason:'Teaching comparison or planner example missing'});
+    const teachingPhotos=[...source.matchAll(/<figure\b[^>]*data-teaching-image[^>]*>([\s\S]*?)<\/figure>/g)];
+    if(teachingPhotos.length!==4||teachingPhotos.some(m=>!m[1].includes('<figcaption>')))errors.push({file,reason:'Teaching photo coverage or source labels differ'});
+    for(const photo of teachingPhotos){
+      const src=photo[1].match(/src="\/(assets\/home-teaching\/[^"?]+)"/);
+      if(!src||!manifest.files[src[1]])errors.push({file,reason:'Teaching photo missing from public manifest'});
+    }
   }
   const curriculumLinks=(source.match(/data-curriculum-bridge=/g)||[]).length;
   curriculumBridges+=curriculumLinks;
