@@ -126,7 +126,7 @@ def render_article(a,library,branches,header,footer):
     sources='<section id="sources" class="ei-sources"><h2>참고 자료</h2><ul>'+''.join(f'<li><a href="{E(SOURCES[k][1])}" target="_blank" rel="noopener noreferrer">{E(SOURCES[k][0])}<span class="ei-sr"> (새 창)</span></a><p>{E(SOURCES[k][2])}</p></li>' for k in a['sources'])+'</ul><p>확인일: 2026년 10월 2일 · 예시의 시간·분량은 학생의 과제와 학교 안내에 맞춰 조정하세요.</p></section>'
     by_path={x['path']:x for x in library}
     related=[by_path[p] for p in a['related']]
-    next_new=next(x for x in library if x['kind']=='new' and x['category']==a['category'] and x['number']!=a['number'])
+    next_new=by_path[a['nextPath']] if a.get('nextPath') else next(x for x in library if x['kind']=='new' and x['category']==a['category'] and x['number']!=a['number'])
     related.append(next_new)
     body=f'''<div class="wrap ei-article-top">{crumbs}<header class="ei-article-heading"><p class="ei-kicker">{category} · {E(a['audience'])}</p><h1>{E(a['title'])}</h1><p class="ei-deck">{E(a['description'])}</p><p class="ei-byline">전국학원 · 2026년 10월 3일</p></header></div>
 <div class="wrap ei-reading-layout"><aside class="ei-toc"><p class="ei-kicker">이 글에서 확인할 내용</p><nav aria-label="글 목차">{contents}</nav><a class="ei-toc-back" href="/교육정보/#library">← 교육정보 전체 보기</a></aside><article class="ei-prose" data-education-article><p class="ei-intro">{E(a['intro'])}</p>{sections}{example}<section class="ei-try" id="check"><h2>나에게 적용하기</h2>{checks}<p>이 중 아직 확인하지 못한 한 가지를 골라, 오늘의 실제 과제에 적용해 보세요.</p></section>{faq}{sources}</article></div>

@@ -67,7 +67,7 @@ async function inspect(file){
   educationBridges+=(source.match(/data-education-bridge=/g)||[]).length;
   if(file.startsWith('교육정보/')){
     educationPages++;
-    if(!source.includes('data-education-info="2026-10-03"')||!source.includes('/assets/education-info.css')||!source.includes('/assets/education-info.js'))errors.push({file,reason:'Education information template missing'});
+    if(!/data-education-info="2026-10-(03|05)"/.test(source)||!source.includes('/assets/education-info.css')||!source.includes('/assets/education-info.js'))errors.push({file,reason:'Education information template missing'});
     if(/편집\s*원칙/.test(source))errors.push({file,reason:'Excluded editorial statement returned'});
     if(file!=='교육정보/index.html'){
       educationArticles++;
@@ -79,7 +79,7 @@ async function inspect(file){
         if(!src||!manifest.files[src[1]])errors.push({file,reason:'Education image missing from public manifest'});
       }
       if(!source.includes('id="example"')||!source.includes('id="sources"')||!source.includes('id="local-help"')||!source.includes('data-education-article'))errors.push({file,reason:'Education article sections missing'});
-    }else if((source.match(/data-library-card/g)||[]).length!==98)errors.push({file,reason:'Expected 98 indexed educational articles'});
+    }else if((source.match(/data-library-card/g)||[]).length!==128)errors.push({file,reason:'Expected 128 indexed educational articles'});
   }else if((source.match(/data-education-bridge=/g)||[]).length!==1)errors.push({file,reason:'Contextual education module missing'});
   if((source.match(/data-teacher-menu/g)||[]).length!==2)errors.push({file,reason:'Teacher directory shared menu missing'});
   const teacherLinks=[...source.matchAll(/data-teacher-bridge="([^"]+)"/g)];
@@ -168,7 +168,7 @@ await Promise.all(Array.from({length:12},async()=>{
 if(pages.length!==manifest.sitemapPages)errors.push({reason:'Manifest HTML/sitemap count differs'});
 if(learningGuides!==49||learningArticles!==48)errors.push({reason:'Reviewed learning-guide coverage changed',learningGuides,learningArticles});
 if(teacherPages!==205||teacherCards!==1002)errors.push({reason:'Reviewed teacher coverage changed',teacherPages,teacherCards});
-if(educationPages!==31||educationArticles!==30||educationImages!==90||educationBridges-curriculumPages!==10605)errors.push({reason:'Reviewed education coverage changed',educationPages,educationArticles,educationImages,educationBridges});
+if(educationPages!==61||educationArticles!==60||educationImages!==180||educationBridges-curriculumPages!==10605)errors.push({reason:'Reviewed education coverage changed',educationPages,educationArticles,educationImages,educationBridges});
 if(curriculumPages!==84||curriculumSubjects!==66||curriculumBridges!==10331||curriculumElectives!==29)errors.push({reason:'Reviewed curriculum coverage changed',curriculumPages,curriculumSubjects,curriculumBridges,curriculumElectives});
 // This migration is intentionally explicit; new pages need reviewed coverage.
 if(improved!==7791)errors.push({reason:'Expected all 7,791 reviewed pages to retain their migration marker',improved});
