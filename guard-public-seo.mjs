@@ -27,6 +27,7 @@ function check(node,file,migrated){
 }
 async function inspect(file){
   const source=await fs.promises.readFile(path.join(root,file),'utf8');
+  if(source.includes('</source>')||/<picture\b[^>]*>(?:(?!<\/picture>)[\s\S])*?<a\b/.test(source))errors.push({file,reason:'Picture must contain source and img directly; zoom link belongs outside picture'});
   if(file==='index.html'){
     if(!source.includes('home-content-upgrade')||!source.includes('/assets/home-content.css')||['home-library','home-curriculum','learning-paths','home-menu-list','home-reading-list'].some(id=>!source.includes(`id="${id}"`)))errors.push({file,reason:'Homepage content navigation missing'});
     if((source.match(/<a\b[^>]*data-home-hub\b/g)||[]).length!==8||(source.match(/<a\b[^>]*data-home-article\b/g)||[]).length!==18||(source.match(/<article\b[^>]*data-home-topic=/g)||[]).length!==6||(source.match(/<details\b[^>]*data-home-faq\b/g)||[]).length!==6)errors.push({file,reason:'Homepage menu, reading, or visible answer coverage differs'});
@@ -119,6 +120,8 @@ async function inspect(file){
       if(images.length!==expected||facts<0||facts>mediaSections[0].index)errors.push({file,reason:'Page media must follow basic information'});
       if(!/(?:\bhidden\b|display:\s*none)/.test(images[0]||'')||!/(?:src="[^"]*assets\/centers\/common\/)/.test(images[1]||'')||!/alt="[^"]*본문/.test(images[1]||'')||!/alt="[^"]*지도/.test(images[2]||''))errors.push({file,reason:'Expected hidden representative, body image, then location map'});
       if(images.slice(1).some(tag=>/\bhidden\b|display:\s*none/.test(tag)))errors.push({file,reason:'Required body/map/space image is hidden'});
+      if(images.slice(1).some(tag=>!(/\bwidth="[1-9]\d*"/.test(tag)&&/\bheight="[1-9]\d*"/.test(tag)&&/\bloading="lazy"/.test(tag))))errors.push({file,reason:'Visible media needs reserved dimensions and lazy loading'});
+      if((mediaSections[0][1].match(/<a\b[^>]*data-image-zoom/g)||[]).length!==expected-1||!source.includes('/assets/crawl-media/reader-'))errors.push({file,reason:'Inline media original-resolution links or reader assets missing'});
     }
   }
   const migrated=source.includes('data-naver-improved="2026-09-28"');
