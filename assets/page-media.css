@@ -1,0 +1,7 @@
+/* Page-specific media stay visible immediately below basic information. */
+[data-page-media="2026-10-06"] .page-media-content, .page-media-content[data-page-media="2026-10-06"] { display:grid; grid-template-columns:minmax(0,1fr); gap:24px; width:100%; max-width:918px; margin-inline:auto; }
+[data-page-media="2026-10-06"] figure { margin:0; min-width:0; }
+[data-page-media="2026-10-06"] img:not([hidden]):not([data-role="representative-image"]):not(.subject-hidden-representative) { display:block; width:100%; max-width:100%; height:auto!important; max-height:none!important; aspect-ratio:auto; object-fit:contain; }
+[data-page-media="2026-10-06"] figcaption { position:static; padding:14px 16px; line-height:1.7; overflow-wrap:anywhere; background:#f0f5ef; color:#344e43; }
+[data-page-media="2026-10-06"] [hidden], [data-page-media="2026-10-06"] [data-role="representative-image"], [data-page-media="2026-10-06"] .subject-hidden-representative { display:none!important; }
+@media(max-width:640px) { [data-page-media="2026-10-06"] .page-media-content { gap:16px; } [data-page-media="2026-10-06"] figcaption { padding:12px; font-size:14px; } }

@@ -8,7 +8,7 @@ const root=path.resolve(project,process.argv[2]||'.public-release');
 const manifest=JSON.parse(fs.readFileSync(path.join(project,'release-public-manifest.json'),'utf8'));
 const pages=Object.keys(manifest.files).filter(p=>p.endsWith('.html'));
 const errors=[];
-let improved=0;
+let improved=0,pageMedia=0;
 let centerContent=0,centerPages=0,managementProfiles=0,managementLinks=0,commonPhotoBranches=0;
 let visitPages=0,directions=0,visitChildren=0,directionLinks=0,commonPhotoPages=0,centerPhotoPages=0;
 let learningGuides=0,learningArticles=0;
@@ -107,6 +107,20 @@ async function inspect(file){
       if(!worksheet||!manifest.files[decodeURIComponent(worksheet[1]).slice(1)])errors.push({file,reason:'Worksheet missing from release manifest'});
     }
   }
+  const needsMedia=(file.startsWith('지점안내/')&&file.split('/').length>=4)||((file.startsWith('전국학원/')||file.startsWith('과목별학원/'))&&source.includes('id="center-summary"'));
+  if(needsMedia){
+    pageMedia++;
+    const mediaSections=[...source.matchAll(/<section\b[^>]*data-page-media="2026-10-06"[^>]*>([\s\S]*?)<\/section>/g)];
+    if(mediaSections.length!==1||source.includes('class="ng-media"')||!source.includes('/assets/page-media.css?v=20261006'))errors.push({file,reason:'Visible page media template missing or collapsed'});
+    else{
+      const images=[...mediaSections[0][1].matchAll(/<img\b[^>]*>/g)].map(m=>m[0]);
+      const expected=file.startsWith('지점안내/')?4:3;
+      const facts=source.indexOf(file.startsWith('지점안내/')?'id="center-facts"':'id="center-summary"');
+      if(images.length!==expected||facts<0||facts>mediaSections[0].index)errors.push({file,reason:'Page media must follow basic information'});
+      if(!/(?:\bhidden\b|display:\s*none)/.test(images[0]||'')||!/(?:src="[^"]*assets\/centers\/common\/)/.test(images[1]||'')||!/alt="[^"]*본문/.test(images[1]||'')||!/alt="[^"]*지도/.test(images[2]||''))errors.push({file,reason:'Expected hidden representative, body image, then location map'});
+      if(images.slice(1).some(tag=>/\bhidden\b|display:\s*none/.test(tag)))errors.push({file,reason:'Required body/map/space image is hidden'});
+    }
+  }
   const migrated=source.includes('data-naver-improved="2026-09-28"');
   if(migrated)improved++;
   if(source.includes('data-center-content="2026-09-28"')){
@@ -116,7 +130,7 @@ async function inspect(file){
       centerPages++;
       if(source.includes('id="learning-management"'))managementProfiles++;
       if(!source.includes('/assets/center-content.css'))errors.push({file,reason:'Branch content stylesheet missing'});
-      if(source.indexOf('id="courses"')>source.indexOf('id="learning-materials"'))errors.push({file,reason:'Branch facts moved below large images'});
+      if(source.indexOf('id="center-facts"')>source.indexOf('id="learning-materials"')||!source.includes('data-page-media="2026-10-06"'))errors.push({file,reason:'Branch media must follow basic information'});
       const shared=[...source.matchAll(/<figure\b[^>]*data-photo-source="common"[^>]*>([\s\S]*?)<\/figure>/g)];
       if(shared.length){
         commonPhotoBranches++;
@@ -135,7 +149,7 @@ async function inspect(file){
     }else{
       visitChildren++;
       const media=source.indexOf('id="learning-materials"');
-      if(['center-facts','courses','fees'].some(id=>source.indexOf(`id="${id}"`)<0||source.indexOf(`id="${id}"`)>media))errors.push({file,reason:'Child page facts moved below images'});
+      if(source.indexOf('id="center-facts"')<0||source.indexOf('id="center-facts"')>media||!source.includes('data-page-media="2026-10-06"'))errors.push({file,reason:'Child media must follow basic information'});
       const figures=[...source.matchAll(/<figure\b[^>]*data-photo-source="(common|center)"[^>]*>([\s\S]*?)<\/figure>/g)];
       if(figures.length!==1)errors.push({file,reason:'Child photo source count changed'});
       else{
@@ -165,6 +179,7 @@ let cursor=0;
 await Promise.all(Array.from({length:12},async()=>{
   while(cursor<pages.length)await inspect(pages[cursor++]);
 }));
+if(pageMedia!==10210)errors.push({reason:'Reviewed visible media coverage changed',pageMedia});
 if(pages.length!==manifest.sitemapPages)errors.push({reason:'Manifest HTML/sitemap count differs'});
 if(learningGuides!==49||learningArticles!==48)errors.push({reason:'Reviewed learning-guide coverage changed',learningGuides,learningArticles});
 if(teacherPages!==205||teacherCards!==1002)errors.push({reason:'Reviewed teacher coverage changed',teacherPages,teacherCards});
@@ -177,5 +192,5 @@ if(centerContent!==709||centerPages!==193||managementProfiles!==74||managementLi
 if(visitPages!==3082||directions!==114||visitChildren!==2968||directionLinks!==1752||commonPhotoPages!==1472||centerPhotoPages!==1496)
   errors.push({reason:'Reviewed visiting information coverage changed',visitPages,directions,visitChildren,directionLinks,commonPhotoPages,centerPhotoPages});
 errors.sort((a,b)=>(a.file||'').localeCompare(b.file||'')||a.reason.localeCompare(b.reason));
-console.log(JSON.stringify({pages:pages.length,improved,centerContent,centerPages,managementProfiles,managementLinks,commonPhotoBranches,visitPages,directions,visitChildren,directionLinks,commonPhotoPages,centerPhotoPages,learningGuides,learningArticles,teacherPages,teacherCards,teacherBridges,educationPages,educationArticles,educationImages,educationBridges,curriculumPages,curriculumSubjects,curriculumBridges,curriculumElectives,errors:errors.slice(0,30),errorCount:errors.length}));
+console.log(JSON.stringify({pages:pages.length,pageMedia,improved,centerContent,centerPages,managementProfiles,managementLinks,commonPhotoBranches,visitPages,directions,visitChildren,directionLinks,commonPhotoPages,centerPhotoPages,learningGuides,learningArticles,teacherPages,teacherCards,teacherBridges,educationPages,educationArticles,educationImages,educationBridges,curriculumPages,curriculumSubjects,curriculumBridges,curriculumElectives,errors:errors.slice(0,30),errorCount:errors.length}));
 if(errors.length)process.exitCode=1;
