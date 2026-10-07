@@ -1,0 +1,9 @@
+{
+  "domain": "전국학원.com",
+  "outputDirectory": ".public-release",
+  "previousBuildCommand": "node release-public-build.mjs && node wawa-analytics-build.mjs wawa-02 .public-release && node seo-descriptions.mjs --root=.public-release && node guard-public-seo.mjs .public-release",
+  "assets": {
+    "assets/site-favicon.png": "4993d9dd9b726808f2e8fa12484339678fdef4eb728eca4fc12357bc662df41b",
+    "assets/site-apple-touch-icon.png": "095eab121bbaf5b4fa2b81f0ea9197d2fba06a60cf5de00d824365bd73a417d4"
+  }
+}

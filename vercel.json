@@ -102,6 +102,6 @@
       ]
     }
   ],
-  "buildCommand": "node release-public-build.mjs && node wawa-analytics-build.mjs wawa-02 .public-release && node seo-descriptions.mjs --root=.public-release && node guard-public-seo.mjs .public-release",
+  "buildCommand": "node favicon-build.mjs",
   "outputDirectory": ".public-release"
 }
