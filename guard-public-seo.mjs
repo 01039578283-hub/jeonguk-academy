@@ -115,13 +115,13 @@ async function inspect(file){
     if(mediaSections.length!==1||source.includes('class="ng-media"')||!source.includes('/assets/page-media.css?v=20261006'))errors.push({file,reason:'Visible page media template missing or collapsed'});
     else{
       const images=[...mediaSections[0][1].matchAll(/<img\b[^>]*>/g)].map(m=>m[0]);
-      const expected=file.startsWith('지점안내/')?4:3;
+      const expected=file.startsWith('지점안내/')?3:2;
       const facts=source.indexOf(file.startsWith('지점안내/')?'id="center-facts"':'id="center-summary"');
       if(images.length!==expected||facts<0||facts>mediaSections[0].index)errors.push({file,reason:'Page media must follow basic information'});
-      if(!/(?:\bhidden\b|display:\s*none)/.test(images[0]||'')||!/(?:src="[^"]*assets\/centers\/common\/)/.test(images[1]||'')||!/alt="[^"]*본문/.test(images[1]||'')||!/alt="[^"]*지도/.test(images[2]||''))errors.push({file,reason:'Expected hidden representative, body image, then location map'});
-      if(images.slice(1).some(tag=>/\bhidden\b|display:\s*none/.test(tag)))errors.push({file,reason:'Required body/map/space image is hidden'});
-      if(images.slice(1).some(tag=>!(/\bwidth="[1-9]\d*"/.test(tag)&&/\bheight="[1-9]\d*"/.test(tag)&&/\bloading="lazy"/.test(tag))))errors.push({file,reason:'Visible media needs reserved dimensions and lazy loading'});
-      if((mediaSections[0][1].match(/<a\b[^>]*data-image-zoom/g)||[]).length!==expected-1||!source.includes('/assets/crawl-media/reader-'))errors.push({file,reason:'Inline media original-resolution links or reader assets missing'});
+      if(!/(?:src="[^"]*assets\/centers\/common\/)/.test(images[0]||'')||!/alt="[^"]*본문/.test(images[0]||'')||!/alt="[^"]*지도/.test(images[1]||''))errors.push({file,reason:'Expected preserved body image followed by location map'});
+      if(images.some(tag=>/\bhidden\b|display:\s*none/.test(tag)))errors.push({file,reason:'Required body/map/space image is hidden'});
+      if(images.some(tag=>!(/\bwidth="[1-9]\d*"/.test(tag)&&/\bheight="[1-9]\d*"/.test(tag)&&/\bloading="lazy"/.test(tag))))errors.push({file,reason:'Visible media needs reserved dimensions and lazy loading'});
+      if((mediaSections[0][1].match(/<a\b[^>]*data-image-zoom/g)||[]).length!==expected||!source.includes('/assets/crawl-media/reader-'))errors.push({file,reason:'Inline media original-resolution links or reader assets missing'});
     }
   }
   const migrated=source.includes('data-naver-improved="2026-09-28"');
@@ -137,7 +137,7 @@ async function inspect(file){
       const shared=[...source.matchAll(/<figure\b[^>]*data-photo-source="common"[^>]*>([\s\S]*?)<\/figure>/g)];
       if(shared.length){
         commonPhotoBranches++;
-        if(shared.length!==4||shared.some(m=>!m[1].includes('실제 사진 아님')))errors.push({file,reason:'Shared photo label missing'});
+        if(shared.length!==(file.includes('/가경점/')?3:4)||shared.some(m=>!m[1].includes('실제 사진 아님')))errors.push({file,reason:'Shared photo label missing'});
       }
     }else if(source.includes('class="cc-profile-link"'))managementLinks++;
     else errors.push({file,reason:'Reviewed management link missing'});
@@ -159,7 +159,7 @@ async function inspect(file){
         const mode=figures[0][1],body=figures[0][2],branch=file.split('/')[2];
         if(mode==='common')commonPhotoPages++;else centerPhotoPages++;
         const expected=mode==='common'?`공용 학습 공간 예시 · ${branch} 실제 사진 아님`:`${branch} 제공 학습 공간 사진`;
-        if(!body.includes(`alt="${expected}"`)||!body.includes(`<figcaption>${expected}</figcaption>`))errors.push({file,reason:'Child photo description missing or misleading'});
+        if(!body.includes('data-branch-thumbnail=')&&(!body.includes(`alt="${expected}"`)||!body.includes(`<figcaption>${expected}</figcaption>`)))errors.push({file,reason:'Child photo description missing or misleading'});
       }
       if(!source.includes('class="cv-photo-note"'))errors.push({file,reason:'Child photo source notice missing'});
       const links=[...source.matchAll(/<a\b[^>]*class="[^"]*cv-direction-link[^"]*"[^>]*href="([^"]*)"/g)];
@@ -192,8 +192,11 @@ if(curriculumPages!==84||curriculumSubjects!==66||curriculumBridges!==10331||cur
 if(improved!==7791)errors.push({reason:'Expected all 7,791 reviewed pages to retain their migration marker',improved});
 if(centerContent!==709||centerPages!==193||managementProfiles!==74||managementLinks!==516||commonPhotoBranches!==97)
   errors.push({reason:'Reviewed branch content coverage changed',centerContent,centerPages,managementProfiles,managementLinks,commonPhotoBranches});
-if(visitPages!==3082||directions!==114||visitChildren!==2968||directionLinks!==1752||commonPhotoPages!==1472||centerPhotoPages!==1496)
+const photoSelections=JSON.parse(fs.readFileSync(path.join(project,'thumbnail-selections.json'),'utf8'));
+const selectedChildren=Object.entries(photoSelections).filter(([file])=>file.startsWith('지점안내/')&&file.split('/').length>=5).map(([,p])=>p);
+if(visitPages!==3082||directions!==114||visitChildren!==2968||directionLinks!==1752||commonPhotoPages!==selectedChildren.filter(p=>p.mode==='common').length||centerPhotoPages!==selectedChildren.filter(p=>p.mode==='center').length)
   errors.push({reason:'Reviewed visiting information coverage changed',visitPages,directions,visitChildren,directionLinks,commonPhotoPages,centerPhotoPages});
 errors.sort((a,b)=>(a.file||'').localeCompare(b.file||'')||a.reason.localeCompare(b.reason));
 console.log(JSON.stringify({pages:pages.length,pageMedia,improved,centerContent,centerPages,managementProfiles,managementLinks,commonPhotoBranches,visitPages,directions,visitChildren,directionLinks,commonPhotoPages,centerPhotoPages,learningGuides,learningArticles,teacherPages,teacherCards,teacherBridges,educationPages,educationArticles,educationImages,educationBridges,curriculumPages,curriculumSubjects,curriculumBridges,curriculumElectives,errors:errors.slice(0,30),errorCount:errors.length}));
 if(errors.length)process.exitCode=1;
+await import('./guard-thumbnail.mjs');

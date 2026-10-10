@@ -1,0 +1,8 @@
+/* Visible branch photos remain in document flow, with no disclosure control. */
+.branch-photo-bottom{max-width:1120px;margin:40px auto;padding:28px 24px;background:#f5f8f4;border:1px solid #dce6da;border-radius:20px;box-sizing:border-box;color:#173b32}
+.branch-photo-bottom h2{font-size:clamp(22px,4vw,30px);margin:0 0 16px;line-height:1.45}
+.branch-photo-bottom figure{max-width:918px;margin:0 auto}
+.branch-photo-bottom img{display:block;width:100%;height:auto;object-fit:contain;border-radius:12px}
+.branch-photo-bottom figcaption{margin-top:14px;font-size:15px;line-height:1.7;overflow-wrap:anywhere}
+.branch-photo-bottom a{display:block}
+@media(max-width:640px){.branch-photo-bottom{margin:28px 16px;padding:20px 16px;border-radius:16px}}
