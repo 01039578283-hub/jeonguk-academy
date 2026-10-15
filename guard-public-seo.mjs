@@ -16,6 +16,24 @@ let teacherPages=0,teacherCards=0,teacherBridges=0;
 let educationPages=0,educationArticles=0,educationImages=0,educationBridges=0;
 let curriculumPages=0,curriculumSubjects=0,curriculumBridges=0,curriculumElectives=0;
 const decode=s=>s.replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&amp;','&').replaceAll('&lt;','<').replaceAll('&gt;','>');
+// Media may contain a nested directions section; stop at the matching outer close.
+function sectionBlocks(source, openingPattern){
+  return [...source.matchAll(openingPattern)].map(opening=>{
+    const contentStart=opening.index+opening[0].length;
+    const tags=/<\/?section\b[^>]*>/g;
+    tags.lastIndex=contentStart;
+    let depth=1,tag;
+    while((tag=tags.exec(source))){
+      depth+=tag[0].startsWith('</')?-1:1;
+      if(depth===0){
+        const result=[source.slice(opening.index,tags.lastIndex),source.slice(contentStart,tag.index)];
+        result.index=opening.index;
+        return result;
+      }
+    }
+    return Object.assign(['',''],{index:opening.index});
+  });
+}
 function check(node,file,migrated){
   if(!node||typeof node!=='object')return;
   if(Array.isArray(node)){node.forEach(n=>check(n,file,migrated));return;}
@@ -111,7 +129,7 @@ async function inspect(file){
   const needsMedia=(file.startsWith('지점안내/')&&file.split('/').length>=4)||((file.startsWith('전국학원/')||file.startsWith('과목별학원/'))&&source.includes('id="center-summary"'));
   if(needsMedia){
     pageMedia++;
-    const mediaSections=[...source.matchAll(/<section\b[^>]*data-page-media="2026-10-06"[^>]*>([\s\S]*?)<\/section>/g)];
+    const mediaSections=sectionBlocks(source,/<section\b[^>]*data-page-media="2026-10-06"[^>]*>/g);
     if(mediaSections.length!==1||source.includes('class="ng-media"')||!source.includes('/assets/page-media.css?v=20261006'))errors.push({file,reason:'Visible page media template missing or collapsed'});
     else{
       const images=[...mediaSections[0][1].matchAll(/<img\b[^>]*>/g)].map(m=>m[0]);

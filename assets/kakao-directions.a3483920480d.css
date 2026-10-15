@@ -1,0 +1,14 @@
+/* Kakao route sections are scoped so existing media and navigation stay intact. */
+.kakao-map-stack{min-width:0;width:100%;align-self:start}
+.kakao-directions{box-sizing:border-box;min-width:0;width:100%;margin:24px 0;padding:24px;border:1px solid #d5e2da;border-radius:18px;background:#f7faf6;color:#183e33;scroll-margin-top:100px;overflow-wrap:anywhere}
+.kakao-directions h2{margin:0 0 12px!important;font-size:clamp(22px,3vw,28px)!important;line-height:1.45}
+.kakao-directions h3{margin:20px 0 8px;font-size:20px;line-height:1.5}
+.kakao-directions p{margin:8px 0 18px!important;font-size:16px!important;line-height:1.75!important;color:#365449}
+.kakao-directions iframe{display:block;box-sizing:border-box;width:100%;max-width:100%;border:0;border-radius:12px;background:white}
+.kakao-directions-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.kakao-directions-links a{display:inline-flex;align-items:center;min-height:44px;padding:10px 16px;border:1px solid #bad0c2;border-radius:10px;background:#fff;color:#194c3a!important;text-decoration:none;font-size:16px!important;line-height:1.5}
+.kakao-directions-links a:hover{background:#eaf4eb}.kakao-directions a:focus-visible,.kakao-directions select:focus-visible{outline:3px solid #197856;outline-offset:3px}
+.kakao-directions--hub{max-width:1120px;margin:40px auto;padding:28px}
+.kakao-directions label{display:block;margin:16px 0 8px;font-weight:700}
+.kakao-directions select{box-sizing:border-box;width:100%;max-width:100%;min-height:48px;padding:10px 12px;border:1px solid #9db8a7;border-radius:10px;background:#fff;color:#183e33;font:inherit}
+@media(max-width:640px){.kakao-directions{padding:16px;border-radius:14px}.kakao-directions--hub{width:calc(100% - 24px);margin:28px 12px}.kakao-directions-links a{flex:1;justify-content:center}}
