@@ -25,7 +25,9 @@ for(const branch of Object.values(review.branches)){
   if(encoded){
     if(hash(normalized(source))!==branch.renderDocumentTextSha256)fail(branch.frame,'Original executable map document changed');
     if(!shell.includes("event.source===parent")||!shell.includes('wawa:kakao-map-activate')||!shell.includes('wawa:kakao-map-ready'))fail(branch.frame,'Automatic map activation handshake missing');
-    if(!branch.originalFrame||normalized(await read(branch.originalFrame))!==normalized(source))fail(branch.frame,'Original map document not preserved');
+    const originalDocument=review.mapViewPolicy?source.replace(/<!-- kakaomap-map-only-style:start -->[\s\S]*?<!-- kakaomap-map-only-style:end -->/g,'').replace(/<!-- kakaomap-map-only-script:start -->[\s\S]*?<!-- kakaomap-map-only-script:end -->/g,''):source;
+    if(!branch.originalFrame||normalized(await read(branch.originalFrame))!==normalized(originalDocument))fail(branch.frame,'Original map document not preserved');
+    if(review.mapViewPolicy&&(!source.includes('.root_daum_roughmap > .wrap_controllers,.root_daum_roughmap > .cont{display:none!important}')||!source.includes("anchor.removeAttribute('href')")||!source.includes('stayOnMap')||!source.includes("root.addEventListener('click',stayOnMap,true)")))fail(branch.frame,'Map-only presentation and external navigation removal missing');
   }
   const original=source.match(/<!-- kakaomap-original:start -->([\s\S]*?)<!-- kakaomap-original:end -->/)?.[1];
   if(!original||hash(normalized(original))!==branch.sourceTextSha256)fail(branch.frame,'Copied original code changed');
@@ -48,7 +50,8 @@ await Promise.all(Array.from({length:12},async()=>{while(cursor<review.files.len
   if(frames.length!==1){fail(item.file,'Exactly one initially visible map is required');continue}
   const selected=item.type==='detail'?item.branch:item.branches[0];
   const branch=review.branches[selected],frame=frames[0];
-  if(attr(frame,'src')!=='/'+branch.frame||attr(frame,'data-map-timestamp')!==branch.timestamp||attr(frame,'loading')!=='lazy'||attr(frame,'title')!==selected+' 카카오맵 위치와 교통 안내')fail(item.file,'Wrong branch map, accessible title, or loading policy');
+  if(attr(frame,'src')!=='/'+branch.frame||attr(frame,'data-map-timestamp')!==branch.timestamp||attr(frame,'loading')!=='lazy'||attr(frame,'title')!==selected+(review.mapViewPolicy?' 카카오맵 위치 안내':' 카카오맵 위치와 교통 안내'))fail(item.file,'Wrong branch map, accessible title, or loading policy');
+  if(review.mapViewPolicy&&(/data-map-place-link/.test(section)||/<a\b[^>]*href="(?:https?:)?\/\/(?:place\.)?map\.kakao\.com/i.test(section)||attr(frame,'height')!=='364'))fail(item.file,'External map link or outdated map-only height remains');
   if(/\bhidden\b|display\s*:\s*none/.test(frame))fail(item.file,'Map must not be hidden behind a button');
   if((source.match(/<!-- kakaomap-assets:start -->/g)||[]).length!==1||!source.includes('href="/'+review.css+'"')||!source.includes('src="/'+review.js+'" defer'))fail(item.file,'Map support assets missing or duplicated');
   if(item.type==='detail'){
