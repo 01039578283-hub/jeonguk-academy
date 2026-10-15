@@ -18,7 +18,15 @@ const errors=[];
 const fail=(file,reason)=>errors.push({file,reason});
 const counts={branchCodes:0,detailPages:0,hubPages:0,preservedPages:0};
 for(const branch of Object.values(review.branches)){
-  const source=await read(branch.frame);
+  const shell=await read(branch.frame);
+  const encoded=shell.match(/<script type="application\/json" id="kakao-map-document">([\s\S]*?)<\/script>/)?.[1];
+  if(review.executionPolicy&&!encoded)fail(branch.frame,'Map must defer provider execution until near the viewport');
+  const source=encoded?JSON.parse(encoded):shell;
+  if(encoded){
+    if(hash(normalized(source))!==branch.renderDocumentTextSha256)fail(branch.frame,'Original executable map document changed');
+    if(!shell.includes("event.source===parent")||!shell.includes('wawa:kakao-map-activate')||!shell.includes('wawa:kakao-map-ready'))fail(branch.frame,'Automatic map activation handshake missing');
+    if(!branch.originalFrame||normalized(await read(branch.originalFrame))!==normalized(source))fail(branch.frame,'Original map document not preserved');
+  }
   const original=source.match(/<!-- kakaomap-original:start -->([\s\S]*?)<!-- kakaomap-original:end -->/)?.[1];
   if(!original||hash(normalized(original))!==branch.sourceTextSha256)fail(branch.frame,'Copied original code changed');
   if(!original?.includes('"timestamp" : "'+branch.timestamp+'"')||!original?.includes('"key" : "'+branch.key+'"')||!original?.includes('id="daumRoughmapContainer'+branch.timestamp+'"'))fail(branch.frame,'Branch key, timestamp or node mismatch');

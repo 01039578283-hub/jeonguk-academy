@@ -11,11 +11,13 @@
       "sourceTextSha256": "9e7efe3507f461e50bc9b41d7c0c1199d5fe2de15def799e20ea5d5e759c644f",
       "timestamp": "1791972168763",
       "key": "39s7niksy76",
-      "frame": "assets/kakao-maps/107f93cf32041ec2e428.htm",
+      "frame": "assets/kakao-maps/30790ade1e17197fc640.htm",
       "placeUrl": "https://place.map.kakao.com/979612092",
       "userAdjusted": false,
-      "frameSha256": "107f93cf32041ec2e42862c317daaec1df31147b4eb4fca5805fccb4f7cd1c37",
-      "initialHeight": 660
+      "frameSha256": "30790ade1e17197fc6405d27d74f950545ae11dcf4d9b48b29c5529ddc842bc7",
+      "initialHeight": 660,
+      "originalFrame": "assets/kakao-maps/107f93cf32041ec2e428.htm",
+      "renderDocumentTextSha256": "107f93cf32041ec2e42862c317daaec1df31147b4eb4fca5805fccb4f7cd1c37"
     },
     "단구점": {
       "branch": "단구점",
@@ -27,11 +29,13 @@
       "sourceTextSha256": "b60d4e54999a7db5a9f8a9bab1f505a37455205fc08628e439c52255b75f2410",
       "timestamp": "1791972354516",
       "key": "39sdax85wdu",
-      "frame": "assets/kakao-maps/01d572fa2f26f4fbc130.htm",
+      "frame": "assets/kakao-maps/1aeed32bbefaafaeb5fa.htm",
       "placeUrl": "https://place.map.kakao.com/314715842",
       "userAdjusted": false,
-      "frameSha256": "01d572fa2f26f4fbc13088d84871c89ab0e8b5c4ea1d8a9b672d48d8d12451ff",
-      "initialHeight": 692
+      "frameSha256": "1aeed32bbefaafaeb5fa54e0a63cc56676b1849d8b936d565088098683ef79d1",
+      "initialHeight": 692,
+      "originalFrame": "assets/kakao-maps/01d572fa2f26f4fbc130.htm",
+      "renderDocumentTextSha256": "01d572fa2f26f4fbc13088d84871c89ab0e8b5c4ea1d8a9b672d48d8d12451ff"
     },
     "석사점": {
       "branch": "석사점",
@@ -43,11 +47,13 @@
       "sourceTextSha256": "ae3f3aa7a7b5ff09466a840013199b4d85a45f759b8f89d8ec85069543b66737",
       "timestamp": "1791972861542",
       "key": "39sqsptatn4",
-      "frame": "assets/kakao-maps/9d8afc1b25259c39990a.htm",
+      "frame": "assets/kakao-maps/998e6624c6d1a3f92203.htm",
       "placeUrl": "https://place.map.kakao.com/174930232",
       "userAdjusted": false,
-      "frameSha256": "9d8afc1b25259c39990adbc146e85fe01ee42af9aa8b40de911a081df937eea7",
-      "initialHeight": 690
+      "frameSha256": "998e6624c6d1a3f9220305da0537f14c319803c48ff4d9ea5bc414f3462a7b4a",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/9d8afc1b25259c39990a.htm",
+      "renderDocumentTextSha256": "9d8afc1b25259c39990adbc146e85fe01ee42af9aa8b40de911a081df937eea7"
     },
     "원주시청점": {
       "branch": "원주시청점",
@@ -59,11 +65,13 @@
       "sourceTextSha256": "e9f618af1f58571a27b41de727f36640e998eb1cc9d410509f501bac97b66912",
       "timestamp": "1791973162449",
       "key": "39sxupghc9h",
-      "frame": "assets/kakao-maps/e7db47b6ee707856e869.htm",
+      "frame": "assets/kakao-maps/2e1e3360af8b480f7d74.htm",
       "placeUrl": "https://place.map.kakao.com/1457025572",
       "userAdjusted": false,
-      "frameSha256": "e7db47b6ee707856e86980dd6bb32175ba68215f1c72ba3d1285e72edd550e56",
-      "initialHeight": 660
+      "frameSha256": "2e1e3360af8b480f7d7424e9b1ca7c722d69f403403726864251af5f01468f31",
+      "initialHeight": 660,
+      "originalFrame": "assets/kakao-maps/e7db47b6ee707856e869.htm",
+      "renderDocumentTextSha256": "e7db47b6ee707856e86980dd6bb32175ba68215f1c72ba3d1285e72edd550e56"
     },
     "혁신점": {
       "branch": "혁신점",
@@ -75,11 +83,13 @@
       "sourceTextSha256": "38c9ecd9cb1165498fd61b31863ce05c106393ce1d9dfdc161243253fd6fa35c",
       "timestamp": "1791973538497",
       "key": "39t782rr5am",
-      "frame": "assets/kakao-maps/1fe2b5e83bd0e337479f.htm",
+      "frame": "assets/kakao-maps/0cc839f7f7985822fd5a.htm",
       "placeUrl": "https://place.map.kakao.com/1711024234",
       "userAdjusted": false,
-      "frameSha256": "1fe2b5e83bd0e337479f99d3569011a0ae354e3c78073a4c856812f8db3caa8e",
-      "initialHeight": 660
+      "frameSha256": "0cc839f7f7985822fd5a0872a688c197bff39051d36b5634cb88a8a01aa396da",
+      "initialHeight": 660,
+      "originalFrame": "assets/kakao-maps/1fe2b5e83bd0e337479f.htm",
+      "renderDocumentTextSha256": "1fe2b5e83bd0e337479f99d3569011a0ae354e3c78073a4c856812f8db3caa8e"
     },
     "후평점": {
       "branch": "후평점",
@@ -91,11 +101,13 @@
       "sourceTextSha256": "19d77fa81959675215fc3f76fe1f7c565d1d6541b509f52a5e4fe477b8f8405f",
       "timestamp": "1791973883825",
       "key": "39tg74rh33p",
-      "frame": "assets/kakao-maps/08a4f7080a4aabe53290.htm",
+      "frame": "assets/kakao-maps/ff360354c7d70c284fbb.htm",
       "placeUrl": "https://place.map.kakao.com/1400239156",
       "userAdjusted": false,
-      "frameSha256": "08a4f7080a4aabe53290c731699d68d492bbf5095942ab2f3556fe3f927a1546",
-      "initialHeight": 706
+      "frameSha256": "ff360354c7d70c284fbb2fbe3ac9773ef4de227e7447dacabf0ca272b72bc02d",
+      "initialHeight": 706,
+      "originalFrame": "assets/kakao-maps/08a4f7080a4aabe53290.htm",
+      "renderDocumentTextSha256": "08a4f7080a4aabe53290c731699d68d492bbf5095942ab2f3556fe3f927a1546"
     },
     "갈매점": {
       "branch": "갈매점",
@@ -107,11 +119,13 @@
       "sourceTextSha256": "8e22160c7e41f99bb666f1285198ac215f6a84ecae8cb6ea7c949423f22bbdaf",
       "timestamp": "1791973580160",
       "key": "39t92yqo6vi",
-      "frame": "assets/kakao-maps/89b817364fadc99493d1.htm",
+      "frame": "assets/kakao-maps/c4b3068ba2f398ea3ff4.htm",
       "placeUrl": "https://place.map.kakao.com/843853927",
       "userAdjusted": false,
-      "frameSha256": "89b817364fadc99493d15601dce6949a140ef5e5ab3e40ee3e2b855b5b2dfc6d",
-      "initialHeight": 819
+      "frameSha256": "c4b3068ba2f398ea3ff4ec4a16085213c7a466ab81745aeb2a66f8f8be14e26c",
+      "initialHeight": 819,
+      "originalFrame": "assets/kakao-maps/89b817364fadc99493d1.htm",
+      "renderDocumentTextSha256": "89b817364fadc99493d15601dce6949a140ef5e5ab3e40ee3e2b855b5b2dfc6d"
     },
     "갈산점": {
       "branch": "갈산점",
@@ -123,11 +137,13 @@
       "sourceTextSha256": "53357517feeeb2b50ab04be215fbda2d863126e9e7557ae1aae4b5d70e334675",
       "timestamp": "1791972164729",
       "key": "39s92y5vpap",
-      "frame": "assets/kakao-maps/4f1326779892cdd70cfa.htm",
+      "frame": "assets/kakao-maps/1de9abfecb954274d0c1.htm",
       "placeUrl": "https://place.map.kakao.com/847161004",
       "userAdjusted": false,
-      "frameSha256": "4f1326779892cdd70cfa4a9b16392f691619d3b883163e0d3afc298ff8ce95da",
-      "initialHeight": 644
+      "frameSha256": "1de9abfecb954274d0c1e1f73ad01c38973ee6762a53009428062874098eeb69",
+      "initialHeight": 644,
+      "originalFrame": "assets/kakao-maps/4f1326779892cdd70cfa.htm",
+      "renderDocumentTextSha256": "4f1326779892cdd70cfa4a9b16392f691619d3b883163e0d3afc298ff8ce95da"
     },
     "고잔점": {
       "branch": "고잔점",
@@ -139,11 +155,13 @@
       "sourceTextSha256": "97d7fc0c5ce87c265c75308057d6e273f8d75ba3c0d7a97e7becc57e18264d64",
       "timestamp": "1791972180513",
       "key": "39s9f7iuoe6",
-      "frame": "assets/kakao-maps/922e036993b0f38edb22.htm",
+      "frame": "assets/kakao-maps/a14614aaa97d2560583c.htm",
       "placeUrl": "https://place.map.kakao.com/27442766",
       "userAdjusted": false,
-      "frameSha256": "922e036993b0f38edb22c7fcf036a8d959b2562a2fe6362cfd8111608aef7af2",
-      "initialHeight": 667
+      "frameSha256": "a14614aaa97d2560583cd2dfc23586273f03b5d855901195f86c9de8b2ea6b29",
+      "initialHeight": 667,
+      "originalFrame": "assets/kakao-maps/922e036993b0f38edb22.htm",
+      "renderDocumentTextSha256": "922e036993b0f38edb22c7fcf036a8d959b2562a2fe6362cfd8111608aef7af2"
     },
     "광명점": {
       "branch": "광명점",
@@ -155,11 +173,13 @@
       "sourceTextSha256": "0fcb6027e15899afc713bf160cf2a1dea0f09861cdb2c15254ba892b4ee9d8a3",
       "timestamp": "1791972192296",
       "key": "39s87qvjarb",
-      "frame": "assets/kakao-maps/60dab7bfa0280419402e.htm",
+      "frame": "assets/kakao-maps/92619e50ae990b851899.htm",
       "placeUrl": "https://place.map.kakao.com/920824095",
       "userAdjusted": false,
-      "frameSha256": "60dab7bfa0280419402ea83c1c55a3ab8bce628667430af2aaabfdef89b36364",
-      "initialHeight": 819
+      "frameSha256": "92619e50ae990b85189941c3f4b366eca9a87c161c5878204cfe4a62858458a8",
+      "initialHeight": 819,
+      "originalFrame": "assets/kakao-maps/60dab7bfa0280419402e.htm",
+      "renderDocumentTextSha256": "60dab7bfa0280419402ea83c1c55a3ab8bce628667430af2aaabfdef89b36364"
     },
     "교하점": {
       "branch": "교하점",
@@ -171,11 +191,13 @@
       "sourceTextSha256": "476fb3ab925a548723df4fd6b672de51fdfcb339fae9442cf3cc3d6f75b23c8a",
       "timestamp": "1791973690141",
       "key": "39tacjb9uqo",
-      "frame": "assets/kakao-maps/65acd2897ab29a27b998.htm",
+      "frame": "assets/kakao-maps/cce7cd8af392e756586d.htm",
       "placeUrl": "https://place.map.kakao.com/855333639",
       "userAdjusted": false,
-      "frameSha256": "65acd2897ab29a27b998d0fa73909a6cf63c94afefe23de188a5fe42f1c3abd5",
-      "initialHeight": 736
+      "frameSha256": "cce7cd8af392e756586d15ea80866956c1d55181b5e48a7ce0aaf2a43cf62860",
+      "initialHeight": 736,
+      "originalFrame": "assets/kakao-maps/65acd2897ab29a27b998.htm",
+      "renderDocumentTextSha256": "65acd2897ab29a27b998d0fa73909a6cf63c94afefe23de188a5fe42f1c3abd5"
     },
     "금릉점": {
       "branch": "금릉점",
@@ -187,11 +209,13 @@
       "sourceTextSha256": "e3946232477a7e5653bfb8a081e02ca6a4f85ab5c1b7401dbc5c7032e41bdcf0",
       "timestamp": "1791972374127",
       "key": "39scvgg4owh",
-      "frame": "assets/kakao-maps/61272895d3f98fc3e4d7.htm",
+      "frame": "assets/kakao-maps/9edd2fffaf158da71cea.htm",
       "placeUrl": "https://place.map.kakao.com/922354085",
       "userAdjusted": false,
-      "frameSha256": "61272895d3f98fc3e4d76b6201e4c95beb3bb02ac906e110a29cb3942bb61fe1",
-      "initialHeight": 795
+      "frameSha256": "9edd2fffaf158da71cea5ff73ede5c28d83283e75f095ead40ac7a375b74959d",
+      "initialHeight": 795,
+      "originalFrame": "assets/kakao-maps/61272895d3f98fc3e4d7.htm",
+      "renderDocumentTextSha256": "61272895d3f98fc3e4d76b6201e4c95beb3bb02ac906e110a29cb3942bb61fe1"
     },
     "기흥구청점": {
       "branch": "기흥구청점",
@@ -203,11 +227,13 @@
       "sourceTextSha256": "fdd79670e3b51c924af842770761a4d628f900a038d7836bd78f117a9df0609d",
       "timestamp": "1791972264994",
       "key": "39sbem8xeee",
-      "frame": "assets/kakao-maps/c52a05c38f043c8664c4.htm",
+      "frame": "assets/kakao-maps/8a1d16b85e9195846af3.htm",
       "placeUrl": "https://place.map.kakao.com/473610388",
       "userAdjusted": false,
-      "frameSha256": "c52a05c38f043c8664c48f43d8f7da5d9cb6425d5abaa7e247e2470b003b5846",
-      "initialHeight": 773
+      "frameSha256": "8a1d16b85e9195846af30a526e28ab55945dc0a3db57ac37bd39728d290310b7",
+      "initialHeight": 773,
+      "originalFrame": "assets/kakao-maps/c52a05c38f043c8664c4.htm",
+      "renderDocumentTextSha256": "c52a05c38f043c8664c48f43d8f7da5d9cb6425d5abaa7e247e2470b003b5846"
     },
     "다산도농점": {
       "branch": "다산도농점",
@@ -219,11 +245,13 @@
       "sourceTextSha256": "0d25971fd0080b3833ac35b72b23ff1a1cea9b064a8db18bf28989a255df8abd",
       "timestamp": "1791973702157",
       "key": "39tb2rna996",
-      "frame": "assets/kakao-maps/e6c3530c8e2bfa9c6d46.htm",
+      "frame": "assets/kakao-maps/4204e9340c8fb030ee80.htm",
       "placeUrl": "https://place.map.kakao.com/247083743",
       "userAdjusted": false,
-      "frameSha256": "e6c3530c8e2bfa9c6d4673398e9d8332ef449781bd42f8e63fba64988dcfac9c",
-      "initialHeight": 726
+      "frameSha256": "4204e9340c8fb030ee806666c060de3724bd8fd08687e7f250578a567c979863",
+      "initialHeight": 726,
+      "originalFrame": "assets/kakao-maps/e6c3530c8e2bfa9c6d46.htm",
+      "renderDocumentTextSha256": "e6c3530c8e2bfa9c6d4673398e9d8332ef449781bd42f8e63fba64988dcfac9c"
     },
     "다산점": {
       "branch": "다산점",
@@ -235,11 +263,13 @@
       "sourceTextSha256": "d66f91224bf3db61a7942659f49346d2ff0ef456c3aec1adbb6d36ee9c8af745",
       "timestamp": "1792024507617",
       "key": "3awg8penoqc",
-      "frame": "assets/kakao-maps/998f132ceeb078a4802c.htm",
+      "frame": "assets/kakao-maps/c9939e84b45b356b977c.htm",
       "placeUrl": "https://map.kakao.com/?urlX=534134.0000000026&urlY=1146025.9999999986&name=%EA%B2%BD%EA%B8%B0%20%EB%82%A8%EC%96%91%EC%A3%BC%EC%8B%9C%20%EB%8B%A4%EC%82%B0%EC%A4%91%EC%95%99%EB%A1%9C146%EB%B2%88%EA%B8%B8%2012-14&map_type=TYPE_MAP&from=roughmap",
       "userAdjusted": true,
-      "frameSha256": "998f132ceeb078a4802c89c0b491acebe77682c65e6dcdd65b93d70a47c03f5c",
-      "initialHeight": 478
+      "frameSha256": "c9939e84b45b356b977c2ca1a4b9e9889595e5237162884aa18e84ddf5e8970e",
+      "initialHeight": 478,
+      "originalFrame": "assets/kakao-maps/998f132ceeb078a4802c.htm",
+      "renderDocumentTextSha256": "998f132ceeb078a4802c89c0b491acebe77682c65e6dcdd65b93d70a47c03f5c"
     },
     "다산지금점": {
       "branch": "다산지금점",
@@ -251,11 +281,13 @@
       "sourceTextSha256": "26f517aaaa62cc5625a2793a61f817fc2128f4fd2ef2f3c37853832b352a6c8f",
       "timestamp": "1791972350611",
       "key": "39sd7wcifje",
-      "frame": "assets/kakao-maps/eea5e34c27469923482f.htm",
+      "frame": "assets/kakao-maps/cf14524c8bc6b9674b44.htm",
       "placeUrl": "https://place.map.kakao.com/1867817488",
       "userAdjusted": false,
-      "frameSha256": "eea5e34c27469923482f52302180577085f87df43af0983630e86b765e6d4e45",
-      "initialHeight": 690
+      "frameSha256": "cf14524c8bc6b9674b445f83e8638d371ca5f2739034606f1afed6f3de75e74c",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/eea5e34c27469923482f.htm",
+      "renderDocumentTextSha256": "eea5e34c27469923482f52302180577085f87df43af0983630e86b765e6d4e45"
     },
     "단대점": {
       "branch": "단대점",
@@ -267,11 +299,13 @@
       "sourceTextSha256": "2267a67ecaa2236091338741750bcee25bc6cccf2791c58d96233b795e60a8e5",
       "timestamp": "1791972358446",
       "key": "39scibrffvz",
-      "frame": "assets/kakao-maps/f2f0a99d2f965771c4fa.htm",
+      "frame": "assets/kakao-maps/6f31437701d2579db572.htm",
       "placeUrl": "https://place.map.kakao.com/1074189118",
       "userAdjusted": false,
-      "frameSha256": "f2f0a99d2f965771c4fa351284cd55e640ac4d4bd79616a8f430ef09a5b64b8e",
-      "initialHeight": 819
+      "frameSha256": "6f31437701d2579db572471fa8b424c57b54a588b1c9e1f9a591a39b8857d789",
+      "initialHeight": 819,
+      "originalFrame": "assets/kakao-maps/f2f0a99d2f965771c4fa.htm",
+      "renderDocumentTextSha256": "f2f0a99d2f965771c4fa351284cd55e640ac4d4bd79616a8f430ef09a5b64b8e"
     },
     "덕이점": {
       "branch": "덕이점",
@@ -283,11 +317,13 @@
       "sourceTextSha256": "319447d498cc5aa8ea246a7482f5b2fadaeeb0bd994bb4b34dc26cf65618a8d5",
       "timestamp": "1791972438212",
       "key": "39sf9qqbsix",
-      "frame": "assets/kakao-maps/5082740e93f472cf4b46.htm",
+      "frame": "assets/kakao-maps/c84b6e7d10b572fefd8c.htm",
       "placeUrl": "https://place.map.kakao.com/1708762761",
       "userAdjusted": false,
-      "frameSha256": "5082740e93f472cf4b46af28f1046ee09bdac6306847247cc46de07fabbcbdf3",
-      "initialHeight": 736
+      "frameSha256": "c84b6e7d10b572fefd8ca8fea0b6643c8ec00b9737462f04e48f2cb4a1feddd1",
+      "initialHeight": 736,
+      "originalFrame": "assets/kakao-maps/5082740e93f472cf4b46.htm",
+      "renderDocumentTextSha256": "5082740e93f472cf4b46af28f1046ee09bdac6306847247cc46de07fabbcbdf3"
     },
     "동백점": {
       "branch": "동백점",
@@ -299,11 +335,13 @@
       "sourceTextSha256": "b0ee5cd3c827814edcbfd9579b25ab56c92c7ba52283a2349f52c8a94db1980e",
       "timestamp": "1791972453830",
       "key": "39sec9p9kgv",
-      "frame": "assets/kakao-maps/93987f18c34a82004e92.htm",
+      "frame": "assets/kakao-maps/90ceb3c63471b7a3c38c.htm",
       "placeUrl": "https://place.map.kakao.com/1421233244",
       "userAdjusted": false,
-      "frameSha256": "93987f18c34a82004e929c99ab1ac58991d11798371861f73ab8671279333184",
-      "initialHeight": 795
+      "frameSha256": "90ceb3c63471b7a3c38c640c58042f976810adead6a0c36c9d59e68b773b30cc",
+      "initialHeight": 795,
+      "originalFrame": "assets/kakao-maps/93987f18c34a82004e92.htm",
+      "renderDocumentTextSha256": "93987f18c34a82004e929c99ab1ac58991d11798371861f73ab8671279333184"
     },
     "동탄목동점": {
       "branch": "동탄목동점",
@@ -315,11 +353,13 @@
       "sourceTextSha256": "c02240ee1588c478314da35eaf4ea3fe9982be27f700a9d4dd10f65b8da8b4f3",
       "timestamp": "1791973706090",
       "key": "39tb5t676ou",
-      "frame": "assets/kakao-maps/fb61b003355f96113da2.htm",
+      "frame": "assets/kakao-maps/420f6f6316c3d7944b9e.htm",
       "placeUrl": "https://place.map.kakao.com/1435186369",
       "userAdjusted": false,
-      "frameSha256": "fb61b003355f96113da221592ecd31c7fe5764517e6c123c83763203db401443",
-      "initialHeight": 713
+      "frameSha256": "420f6f6316c3d7944b9e95b3e4453223e4abed79ebff3fb5b6fd95ca1f6a3abb",
+      "initialHeight": 713,
+      "originalFrame": "assets/kakao-maps/fb61b003355f96113da2.htm",
+      "renderDocumentTextSha256": "fb61b003355f96113da221592ecd31c7fe5764517e6c123c83763203db401443"
     },
     "동탄호수점": {
       "branch": "동탄호수점",
@@ -331,11 +371,13 @@
       "sourceTextSha256": "a078a4253a70859d548aeebc3967e578a2cc9394ee245ec784d2f88314558c5c",
       "timestamp": "1791973709990",
       "key": "39tcpof3h24",
-      "frame": "assets/kakao-maps/a652abe6cde4b7a7d486.htm",
+      "frame": "assets/kakao-maps/9e058ec7f884e8a78109.htm",
       "placeUrl": "https://place.map.kakao.com/1484371090",
       "userAdjusted": false,
-      "frameSha256": "a652abe6cde4b7a7d486a6dfe3620f2a6cd196a236f1130d078f4676e6ef5a86",
-      "initialHeight": 713
+      "frameSha256": "9e058ec7f884e8a781098ba1f146a2e24eaeb06e55ee41fc10c72d4277ae8831",
+      "initialHeight": 713,
+      "originalFrame": "assets/kakao-maps/a652abe6cde4b7a7d486.htm",
+      "renderDocumentTextSha256": "a652abe6cde4b7a7d486a6dfe3620f2a6cd196a236f1130d078f4676e6ef5a86"
     },
     "마두점": {
       "branch": "마두점",
@@ -347,11 +389,13 @@
       "sourceTextSha256": "e180a5039dae03c94bc9afbee80dbb6da96fe2f3a8e7602f3e5dca4f6fbbf921",
       "timestamp": "1791972495368",
       "key": "39sgsyt5yd2",
-      "frame": "assets/kakao-maps/3ebf4e47f1962f1c4811.htm",
+      "frame": "assets/kakao-maps/6fb93bd260a8be10b5f0.htm",
       "placeUrl": "https://place.map.kakao.com/1709923746",
       "userAdjusted": false,
-      "frameSha256": "3ebf4e47f1962f1c4811c48bde49c6e3c7f2a079b48e02649e319be599f592cf",
-      "initialHeight": 887
+      "frameSha256": "6fb93bd260a8be10b5f0411106e8be59f9c9a5ccfe0ee4ac6497f59bc9223942",
+      "initialHeight": 887,
+      "originalFrame": "assets/kakao-maps/3ebf4e47f1962f1c4811.htm",
+      "renderDocumentTextSha256": "3ebf4e47f1962f1c4811c48bde49c6e3c7f2a079b48e02649e319be599f592cf"
     },
     "망포점": {
       "branch": "망포점",
@@ -363,11 +407,13 @@
       "sourceTextSha256": "ec2b76df5b8901d087ea0daab1a44ed8a7dfcd375a918f4f632abacb18b1445a",
       "timestamp": "1791972580794",
       "key": "39sj8btrucf",
-      "frame": "assets/kakao-maps/1686e9caf3ea015866c4.htm",
+      "frame": "assets/kakao-maps/e58d602b8bea467125c7.htm",
       "placeUrl": "https://place.map.kakao.com/1013707399",
       "userAdjusted": false,
-      "frameSha256": "1686e9caf3ea015866c487042f24a6dd62bb4cc7c7c8c2a940982eeea48fb2cb",
-      "initialHeight": 772
+      "frameSha256": "e58d602b8bea467125c7ee1852814cee1ec07dcdc46d5fb4fbf3209b5a76586e",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/1686e9caf3ea015866c4.htm",
+      "renderDocumentTextSha256": "1686e9caf3ea015866c487042f24a6dd62bb4cc7c7c8c2a940982eeea48fb2cb"
     },
     "명지대역점": {
       "branch": "명지대역점",
@@ -379,11 +425,13 @@
       "sourceTextSha256": "3cd071ea12061fcbe3a338f70e06c0ffc955a3bfd53a9c2068cb8ac20dca658e",
       "timestamp": "1791973713892",
       "key": "39tavx6twbe",
-      "frame": "assets/kakao-maps/7f10024031095586e0d6.htm",
+      "frame": "assets/kakao-maps/7656f2da04224a508f8d.htm",
       "placeUrl": "https://place.map.kakao.com/1781238164",
       "userAdjusted": false,
-      "frameSha256": "7f10024031095586e0d6b73197f6131f8a3b8a8f8ab26bd71c6d43636f1db8c7",
-      "initialHeight": 749
+      "frameSha256": "7656f2da04224a508f8d424b4c413dd88923407ad25cdef7dff265ac71fce6b6",
+      "initialHeight": 749,
+      "originalFrame": "assets/kakao-maps/7f10024031095586e0d6.htm",
+      "renderDocumentTextSha256": "7f10024031095586e0d6b73197f6131f8a3b8a8f8ab26bd71c6d43636f1db8c7"
     },
     "목감점": {
       "branch": "목감점",
@@ -395,11 +443,13 @@
       "sourceTextSha256": "537f4351193ebf8133adc4d90f4736223ee31b2c335c9e6f08428467adbf3180",
       "timestamp": "1791972588681",
       "key": "39sis9k9nrq",
-      "frame": "assets/kakao-maps/2054d0b9254c71663c0a.htm",
+      "frame": "assets/kakao-maps/700724bec90b1fa2c2c3.htm",
       "placeUrl": "https://place.map.kakao.com/1741832282",
       "userAdjusted": false,
-      "frameSha256": "2054d0b9254c71663c0ad409f1ccf9b4f7bb3eaa91c44df4bd4269ad1f2a24e6",
-      "initialHeight": 690
+      "frameSha256": "700724bec90b1fa2c2c35336bf13253ea8dbd6cdcbf6b60eda5e1372f753851e",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/2054d0b9254c71663c0a.htm",
+      "renderDocumentTextSha256": "2054d0b9254c71663c0ad409f1ccf9b4f7bb3eaa91c44df4bd4269ad1f2a24e6"
     },
     "미금점": {
       "branch": "미금점",
@@ -411,11 +461,13 @@
       "sourceTextSha256": "33544c2e24605b552e896774bf7f0b6cdabbca6b8872f970c61b897b25d16c14",
       "timestamp": "1791972596660",
       "key": "39si4rprsd8",
-      "frame": "assets/kakao-maps/11981dedf684b4b28128.htm",
+      "frame": "assets/kakao-maps/5991435d6717f975400a.htm",
       "placeUrl": "https://place.map.kakao.com/671765673",
       "userAdjusted": false,
-      "frameSha256": "11981dedf684b4b281289e5d938b062fd04aebe4522bb2fbefca021c03ad1f4a",
-      "initialHeight": 841
+      "frameSha256": "5991435d6717f975400a8a1bf7197366ab054a9fd7239998aeb42a90610e9306",
+      "initialHeight": 841,
+      "originalFrame": "assets/kakao-maps/11981dedf684b4b28128.htm",
+      "renderDocumentTextSha256": "11981dedf684b4b281289e5d938b062fd04aebe4522bb2fbefca021c03ad1f4a"
     },
     "미사점": {
       "branch": "미사점",
@@ -427,11 +479,13 @@
       "sourceTextSha256": "ad6d79f634e58c1775fce63f785a85e37ff8341d6e7e9f2b1568c950ab680048",
       "timestamp": "1791972600661",
       "key": "39sjopf53vs",
-      "frame": "assets/kakao-maps/26ce6877fb1b06a17e6c.htm",
+      "frame": "assets/kakao-maps/d97b6d5a8e6aed5cebbc.htm",
       "placeUrl": "https://place.map.kakao.com/881427346",
       "userAdjusted": false,
-      "frameSha256": "26ce6877fb1b06a17e6c8641018c6e1afaebaa089adfefd242589b429a3eb1f3",
-      "initialHeight": 772
+      "frameSha256": "d97b6d5a8e6aed5cebbc0efce13f892920bef10a78bee4105097699bca2d5318",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/26ce6877fb1b06a17e6c.htm",
+      "renderDocumentTextSha256": "26ce6877fb1b06a17e6c8641018c6e1afaebaa089adfefd242589b429a3eb1f3"
     },
     "반달점": {
       "branch": "반달점",
@@ -443,11 +497,13 @@
       "sourceTextSha256": "d067a0c578fcd9b15ccdee92580361ab8deea4f413aea404790f24b008a0a419",
       "timestamp": "1791973717848",
       "key": "39tcakdozjx",
-      "frame": "assets/kakao-maps/0a0d17b7daf039520b64.htm",
+      "frame": "assets/kakao-maps/8f419b23e423af2e15c8.htm",
       "placeUrl": "https://place.map.kakao.com/76580935",
       "userAdjusted": false,
-      "frameSha256": "0a0d17b7daf039520b645de92a44a500ecbb528b60f126d12f68ea9647773278",
-      "initialHeight": 773
+      "frameSha256": "8f419b23e423af2e15c86e8405169815d678185c56fdfb002aab7ccda4dcdaab",
+      "initialHeight": 773,
+      "originalFrame": "assets/kakao-maps/0a0d17b7daf039520b64.htm",
+      "renderDocumentTextSha256": "0a0d17b7daf039520b645de92a44a500ecbb528b60f126d12f68ea9647773278"
     },
     "반송점": {
       "branch": "반송점",
@@ -459,11 +515,13 @@
       "sourceTextSha256": "a1f4b0ab6e8c1b271bb5d1379c61b1f30996998c6f4b3925ad18c520f5d432f2",
       "timestamp": "1791972608461",
       "key": "39sidw97k37",
-      "frame": "assets/kakao-maps/c846be1cee810035706e.htm",
+      "frame": "assets/kakao-maps/4adcabcb1e72c862e8f3.htm",
       "placeUrl": "https://place.map.kakao.com/1640571388",
       "userAdjusted": false,
-      "frameSha256": "c846be1cee810035706e7cd58b67e07ace9139a885d94e633c952a1b318d3982",
-      "initialHeight": 737
+      "frameSha256": "4adcabcb1e72c862e8f3ce7a2d2431d1459210898323fb61f1713e7f332babfc",
+      "initialHeight": 737,
+      "originalFrame": "assets/kakao-maps/c846be1cee810035706e.htm",
+      "renderDocumentTextSha256": "c846be1cee810035706e7cd58b67e07ace9139a885d94e633c952a1b318d3982"
     },
     "배곧점": {
       "branch": "배곧점",
@@ -475,11 +533,13 @@
       "sourceTextSha256": "797f91976db4f05dc9ae9a5d956d49c3a59f0972f17f413d701ca893244e1897",
       "timestamp": "1791973800180",
       "key": "39tdcodbguj",
-      "frame": "assets/kakao-maps/ae096f183f030d9ac64a.htm",
+      "frame": "assets/kakao-maps/555061669be8528ffca4.htm",
       "placeUrl": "https://place.map.kakao.com/438971066",
       "userAdjusted": false,
-      "frameSha256": "ae096f183f030d9ac64ad591cdfd38fbe41b9808224489e02783750ea842741a",
-      "initialHeight": 667
+      "frameSha256": "555061669be8528ffca45118ea64d1b88c616a96f905e08be6736e0bd7d70339",
+      "initialHeight": 667,
+      "originalFrame": "assets/kakao-maps/ae096f183f030d9ac64a.htm",
+      "renderDocumentTextSha256": "ae096f183f030d9ac64ad591cdfd38fbe41b9808224489e02783750ea842741a"
     },
     "범박점": {
       "branch": "범박점",
@@ -491,11 +551,13 @@
       "sourceTextSha256": "2f0ecc6cd43515e0425aeb960fc47316b7707624eb3b6a1f5d53bd1394888539",
       "timestamp": "1791972625809",
       "key": "39sidf6cw33",
-      "frame": "assets/kakao-maps/05731ea5e5e076a22b34.htm",
+      "frame": "assets/kakao-maps/52d75e6a5a5c1b788bc0.htm",
       "placeUrl": "https://place.map.kakao.com/1709653110",
       "userAdjusted": false,
-      "frameSha256": "05731ea5e5e076a22b34f32b2efa5567478e39ee43b669128c94ce8fef2b6cb1",
-      "initialHeight": 749
+      "frameSha256": "52d75e6a5a5c1b788bc06de547c421f7c776df05ddee685f0246019aa0af3dbd",
+      "initialHeight": 749,
+      "originalFrame": "assets/kakao-maps/05731ea5e5e076a22b34.htm",
+      "renderDocumentTextSha256": "05731ea5e5e076a22b34f32b2efa5567478e39ee43b669128c94ce8fef2b6cb1"
     },
     "별가람점": {
       "branch": "별가람점",
@@ -507,11 +569,13 @@
       "sourceTextSha256": "2600c8acf1c51000262fe6e352212a14d52ffe9768a6df84a41c4cdddb85b85d",
       "timestamp": "1791972629709",
       "key": "39sjyzhrgcp",
-      "frame": "assets/kakao-maps/65ce28788b2916227db2.htm",
+      "frame": "assets/kakao-maps/975d99a5ef0a6561e0d1.htm",
       "placeUrl": "https://place.map.kakao.com/41104830",
       "userAdjusted": false,
-      "frameSha256": "65ce28788b2916227db2c08947d4b0e5f8ba6621192edaeff4b9e1308975054c",
-      "initialHeight": 796
+      "frameSha256": "975d99a5ef0a6561e0d10fbaf2bb579dae512682c7bc870301cb5d40dc9fe827",
+      "initialHeight": 796,
+      "originalFrame": "assets/kakao-maps/65ce28788b2916227db2.htm",
+      "renderDocumentTextSha256": "65ce28788b2916227db2c08947d4b0e5f8ba6621192edaeff4b9e1308975054c"
     },
     "별내점": {
       "branch": "별내점",
@@ -523,11 +587,13 @@
       "sourceTextSha256": "509280d4e75ca3e45329c0f8e92fae2a02a7d9b129bbd9fea33d3229c156c69a",
       "timestamp": "1791972633633",
       "key": "39sk32s7bwu",
-      "frame": "assets/kakao-maps/c4def7103f7f55c197af.htm",
+      "frame": "assets/kakao-maps/a63dd2fbe260a85dd877.htm",
       "placeUrl": "https://place.map.kakao.com/721331640",
       "userAdjusted": false,
-      "frameSha256": "c4def7103f7f55c197af8ca652a6f5371e42572d48d058d4506f4fe4d2115e15",
-      "initialHeight": 737
+      "frameSha256": "a63dd2fbe260a85dd877eedbf0546d422a83b0c6cbb2d511683a6c7ba4e6b0f7",
+      "initialHeight": 737,
+      "originalFrame": "assets/kakao-maps/c4def7103f7f55c197af.htm",
+      "renderDocumentTextSha256": "c4def7103f7f55c197af8ca652a6f5371e42572d48d058d4506f4fe4d2115e15"
     },
     "별내중앙점": {
       "branch": "별내중앙점",
@@ -539,11 +605,13 @@
       "sourceTextSha256": "3f102db3e451b972b42190a74b356dc34be3ce398db0720e1261fdb0f7f6d86a",
       "timestamp": "1791972637643",
       "key": "39sk66ek8d2",
-      "frame": "assets/kakao-maps/fd28d64df1955d4711a6.htm",
+      "frame": "assets/kakao-maps/8eac64042df627fb522f.htm",
       "placeUrl": "https://place.map.kakao.com/1720144788",
       "userAdjusted": false,
-      "frameSha256": "fd28d64df1955d4711a6ac9065f19ac0a6402261ca7122533a5d6d21ede69053",
-      "initialHeight": 842
+      "frameSha256": "8eac64042df627fb522f32c45e68dba1e9f0061e57f5bb7fcbb480e9f81bfaf5",
+      "initialHeight": 842,
+      "originalFrame": "assets/kakao-maps/fd28d64df1955d4711a6.htm",
+      "renderDocumentTextSha256": "fd28d64df1955d4711a6ac9065f19ac0a6402261ca7122533a5d6d21ede69053"
     },
     "병점점": {
       "branch": "병점점",
@@ -555,11 +623,13 @@
       "sourceTextSha256": "01a6bd2863a2e737c1f9273d63a0cfaba7f3c931ce328f54151cf40f2a280877",
       "timestamp": "1791972641543",
       "key": "39sk27kms3q",
-      "frame": "assets/kakao-maps/a32482d0d79b654b176f.htm",
+      "frame": "assets/kakao-maps/3404ef2862b561ca61fb.htm",
       "placeUrl": "https://place.map.kakao.com/221956240",
       "userAdjusted": false,
-      "frameSha256": "a32482d0d79b654b176feb591bfd9ff32b3556336517c85dc95ccb079590e7ee",
-      "initialHeight": 736
+      "frameSha256": "3404ef2862b561ca61fbcb9c9ca8699d8fcdeb6204ec9db6dfc3e61cef8f19be",
+      "initialHeight": 736,
+      "originalFrame": "assets/kakao-maps/a32482d0d79b654b176f.htm",
+      "renderDocumentTextSha256": "a32482d0d79b654b176feb591bfd9ff32b3556336517c85dc95ccb079590e7ee"
     },
     "보라점": {
       "branch": "보라점",
@@ -571,11 +641,13 @@
       "sourceTextSha256": "3b4b812fc8d3f9887ffee035aac5373919bd5e38021512f505fc80190601c23e",
       "timestamp": "1791972645427",
       "key": "39sk57jtrh2",
-      "frame": "assets/kakao-maps/5a360a438d24731b8534.htm",
+      "frame": "assets/kakao-maps/7ea8fe36581c2f37cf70.htm",
       "placeUrl": "https://place.map.kakao.com/1708225726",
       "userAdjusted": false,
-      "frameSha256": "5a360a438d24731b85342e59237f0fa24a2d28e448a47c1def7986c9ce4ae839",
-      "initialHeight": 690
+      "frameSha256": "7ea8fe36581c2f37cf70ba6b64230e2c22adf48db1e5cdfde2d4955f6265b35f",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/5a360a438d24731b8534.htm",
+      "renderDocumentTextSha256": "5a360a438d24731b85342e59237f0fa24a2d28e448a47c1def7986c9ce4ae839"
     },
     "봉담점": {
       "branch": "봉담점",
@@ -587,11 +659,13 @@
       "sourceTextSha256": "d243204d129d59fcaa2fc5dd80de7b2771af8017b5dbbd413e02a7e6442fe229",
       "timestamp": "1791972714692",
       "key": "39skg9bttzf",
-      "frame": "assets/kakao-maps/eeb5525589a7a72e7302.htm",
+      "frame": "assets/kakao-maps/a9ba30a2ff2847f7ae5a.htm",
       "placeUrl": "https://place.map.kakao.com/1283572088",
       "userAdjusted": false,
-      "frameSha256": "eeb5525589a7a72e73026251f12bdb7e5bfa9f130647dd9cb5fa34dfdc5a795f",
-      "initialHeight": 713
+      "frameSha256": "a9ba30a2ff2847f7ae5a297a153f030441c625b459237113e0edaa9df6506f96",
+      "initialHeight": 713,
+      "originalFrame": "assets/kakao-maps/eeb5525589a7a72e7302.htm",
+      "renderDocumentTextSha256": "eeb5525589a7a72e73026251f12bdb7e5bfa9f130647dd9cb5fa34dfdc5a795f"
     },
     "부발점": {
       "branch": "부발점",
@@ -603,11 +677,13 @@
       "sourceTextSha256": "9d79d988dbf6d88ac028dd6861342b08087fc45f2cb2b36bb31d1ee8cb0e13ff",
       "timestamp": "1791972718592",
       "key": "39sky7cyb4h",
-      "frame": "assets/kakao-maps/b84325417addc4de91c5.htm",
+      "frame": "assets/kakao-maps/365334266bd144cb00e4.htm",
       "placeUrl": "https://place.map.kakao.com/1909427199",
       "userAdjusted": false,
-      "frameSha256": "b84325417addc4de91c50778c381cc1b39dd6ce7fa09431e49ae5d2a3b29c80b",
-      "initialHeight": 772
+      "frameSha256": "365334266bd144cb00e4f0064809969967a23555faa2475b2c160dab88e2f4c6",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/b84325417addc4de91c5.htm",
+      "renderDocumentTextSha256": "b84325417addc4de91c50778c381cc1b39dd6ce7fa09431e49ae5d2a3b29c80b"
     },
     "비산점": {
       "branch": "비산점",
@@ -619,11 +695,13 @@
       "sourceTextSha256": "a59702b0ebfc3ad89d76433563a190b977931f503afdb0a39590c39fab8ec274",
       "timestamp": "1791972730431",
       "key": "39sn5zmkupe",
-      "frame": "assets/kakao-maps/770e45594cb0506771b6.htm",
+      "frame": "assets/kakao-maps/84ad8c358adadbdbcfbb.htm",
       "placeUrl": "https://place.map.kakao.com/1727070075",
       "userAdjusted": false,
-      "frameSha256": "770e45594cb0506771b6f0d28470afff0bffedeef079e79d53480666dcd84a2a",
-      "initialHeight": 865
+      "frameSha256": "84ad8c358adadbdbcfbb6d3938eb1aca45a45f60815db68858e45ec65bbdbd99",
+      "initialHeight": 865,
+      "originalFrame": "assets/kakao-maps/770e45594cb0506771b6.htm",
+      "renderDocumentTextSha256": "770e45594cb0506771b6f0d28470afff0bffedeef079e79d53480666dcd84a2a"
     },
     "비전점": {
       "branch": "비전점",
@@ -635,11 +713,13 @@
       "sourceTextSha256": "5fd1c817e508e9d6d8675b5ed586c250fb2d2e84f449a7c78b99a7ecc4eef3ce",
       "timestamp": "1791972734344",
       "key": "39snf26dt5o",
-      "frame": "assets/kakao-maps/479efc7de893c0d1e4e3.htm",
+      "frame": "assets/kakao-maps/8b0e3d6033e544a3adc4.htm",
       "placeUrl": "https://place.map.kakao.com/27443094",
       "userAdjusted": false,
-      "frameSha256": "479efc7de893c0d1e4e31900fef674bb4dfaae98399da028bd0402049c27db18",
-      "initialHeight": 644
+      "frameSha256": "8b0e3d6033e544a3adc4bbcb1b508238cc4475915713f39897190047d9f77df8",
+      "initialHeight": 644,
+      "originalFrame": "assets/kakao-maps/479efc7de893c0d1e4e3.htm",
+      "renderDocumentTextSha256": "479efc7de893c0d1e4e31900fef674bb4dfaae98399da028bd0402049c27db18"
     },
     "사우점": {
       "branch": "사우점",
@@ -651,11 +731,13 @@
       "sourceTextSha256": "409081fea62112924379eb6bb8226ef46c12b486e2e2b4fe67ffd571fbb43e15",
       "timestamp": "1791972755211",
       "key": "39smtj2hbxb",
-      "frame": "assets/kakao-maps/1f04806cb509ab866997.htm",
+      "frame": "assets/kakao-maps/6b153ed81048429bc236.htm",
       "placeUrl": "https://place.map.kakao.com/288620977",
       "userAdjusted": false,
-      "frameSha256": "1f04806cb509ab866997efc3c690f30d98921b1fd423ad3e45725eeb6a0515ae",
-      "initialHeight": 818
+      "frameSha256": "6b153ed81048429bc236d3bfa3396ccd50ee656315ac0a591b76dfbfd5c2f653",
+      "initialHeight": 818,
+      "originalFrame": "assets/kakao-maps/1f04806cb509ab866997.htm",
+      "renderDocumentTextSha256": "1f04806cb509ab866997efc3c690f30d98921b1fd423ad3e45725eeb6a0515ae"
     },
     "산내점": {
       "branch": "산내점",
@@ -667,11 +749,13 @@
       "sourceTextSha256": "b17d70155e144d561ba2ae5d99ef637d3bebb49a70f3c865c170b1fc5156ebb2",
       "timestamp": "1791972766993",
       "key": "39sokhn8c8i",
-      "frame": "assets/kakao-maps/b3b932bfd7577f7eaffc.htm",
+      "frame": "assets/kakao-maps/5989a76246e4eb80146d.htm",
       "placeUrl": "https://place.map.kakao.com/484205762",
       "userAdjusted": false,
-      "frameSha256": "b3b932bfd7577f7eaffc430a9165e04b795d3941ff6e4d010547fbbbf0495d0a",
-      "initialHeight": 759
+      "frameSha256": "5989a76246e4eb80146d8b8344e5381442047f504218bb0141754cd5f4e15783",
+      "initialHeight": 759,
+      "originalFrame": "assets/kakao-maps/b3b932bfd7577f7eaffc.htm",
+      "renderDocumentTextSha256": "b3b932bfd7577f7eaffc430a9165e04b795d3941ff6e4d010547fbbbf0495d0a"
     },
     "산본점": {
       "branch": "산본점",
@@ -683,11 +767,13 @@
       "sourceTextSha256": "649d9a76482b350ede00813bce4fa3a71618b26660c1a71dbb70a87114c826cc",
       "timestamp": "1791973808265",
       "key": "39td5zmveo4",
-      "frame": "assets/kakao-maps/06f20042b716a515d2ba.htm",
+      "frame": "assets/kakao-maps/03c59f503ade84a4181d.htm",
       "placeUrl": "https://place.map.kakao.com/1554956502",
       "userAdjusted": false,
-      "frameSha256": "06f20042b716a515d2ba56573707c3a5ac169b352d39c23ea032e19dd8666702",
-      "initialHeight": 818
+      "frameSha256": "03c59f503ade84a4181d9f56d015eaad4fc98d1db9a100a8d4f391c9bf0aaca6",
+      "initialHeight": 818,
+      "originalFrame": "assets/kakao-maps/06f20042b716a515d2ba.htm",
+      "renderDocumentTextSha256": "06f20042b716a515d2ba56573707c3a5ac169b352d39c23ea032e19dd8666702"
     },
     "삼송점": {
       "branch": "삼송점",
@@ -699,11 +785,13 @@
       "sourceTextSha256": "8952f574776f0c212c57d08ae5e6d0bf64e66942a0a82e71079e65aa9dc3426b",
       "timestamp": "1791972778744",
       "key": "39sogeoqqht",
-      "frame": "assets/kakao-maps/b6d22ffc231921159065.htm",
+      "frame": "assets/kakao-maps/d8107984ce48f63a7e84.htm",
       "placeUrl": "https://place.map.kakao.com/1708305483",
       "userAdjusted": false,
-      "frameSha256": "b6d22ffc2319211590650a6129f31b8cf1e3a79f2f44fd2f58b467d9c6c5bc8b",
-      "initialHeight": 690
+      "frameSha256": "d8107984ce48f63a7e84ac970fa262f8d83e482a9d021b5ce0da66a53bede196",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/b6d22ffc231921159065.htm",
+      "renderDocumentTextSha256": "b6d22ffc2319211590650a6129f31b8cf1e3a79f2f44fd2f58b467d9c6c5bc8b"
     },
     "상동점": {
       "branch": "상동점",
@@ -715,11 +803,13 @@
       "sourceTextSha256": "0157396e7b33da25104e80f07a69e06fd47fffd63c43f326e069296fddd56755",
       "timestamp": "1791972786659",
       "key": "39snjvmmnye",
-      "frame": "assets/kakao-maps/78e961a1f43a086688c1.htm",
+      "frame": "assets/kakao-maps/84c5406cc67228ec2613.htm",
       "placeUrl": "https://place.map.kakao.com/1604320739",
       "userAdjusted": false,
-      "frameSha256": "78e961a1f43a086688c14dfa74be53c58926a53b471ef52787ab03410fbb0240",
-      "initialHeight": 818
+      "frameSha256": "84c5406cc67228ec2613165813dff30cec359f72408908b949be8896e17f9dcb",
+      "initialHeight": 818,
+      "originalFrame": "assets/kakao-maps/78e961a1f43a086688c1.htm",
+      "renderDocumentTextSha256": "78e961a1f43a086688c14dfa74be53c58926a53b471ef52787ab03410fbb0240"
     },
     "상현점": {
       "branch": "상현점",
@@ -731,11 +821,13 @@
       "sourceTextSha256": "b9c09a213002f6ba7f8a1b2536013b7d697bb951368fab0f02380bdb71c3e784",
       "timestamp": "1791972842010",
       "key": "39spxe9wdb2",
-      "frame": "assets/kakao-maps/0c514ce1e24541503df7.htm",
+      "frame": "assets/kakao-maps/39d6e19875219aacb308.htm",
       "placeUrl": "https://place.map.kakao.com/1537629268",
       "userAdjusted": false,
-      "frameSha256": "0c514ce1e24541503df7a70a6dab88fa41d56446f5a606b1d07e98c4c4ea7bf7",
-      "initialHeight": 796
+      "frameSha256": "39d6e19875219aacb308466dee529b4f76f7ad60c71687a68685ca27040c5590",
+      "initialHeight": 796,
+      "originalFrame": "assets/kakao-maps/0c514ce1e24541503df7.htm",
+      "renderDocumentTextSha256": "0c514ce1e24541503df7a70a6dab88fa41d56446f5a606b1d07e98c4c4ea7bf7"
     },
     "서수원점": {
       "branch": "서수원점",
@@ -747,11 +839,13 @@
       "sourceTextSha256": "b7c3d14c8d17784d9891471e686485f72d8217032d38bcdc31505e9c0435b5d0",
       "timestamp": "1791972849831",
       "key": "39somvg9skh",
-      "frame": "assets/kakao-maps/5e3de375ed843a91de6b.htm",
+      "frame": "assets/kakao-maps/5d378ee51105222b7186.htm",
       "placeUrl": "https://place.map.kakao.com/1117800225",
       "userAdjusted": false,
-      "frameSha256": "5e3de375ed843a91de6b7265a08ba96fc8ebe3559bd8816a5fba627e0bf739cf",
-      "initialHeight": 690
+      "frameSha256": "5d378ee51105222b7186051fbba408bd62dc023ed12c315046c9333dfd5d7abf",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/5e3de375ed843a91de6b.htm",
+      "renderDocumentTextSha256": "5e3de375ed843a91de6b7265a08ba96fc8ebe3559bd8816a5fba627e0bf739cf"
     },
     "세교점": {
       "branch": "세교점",
@@ -763,11 +857,13 @@
       "sourceTextSha256": "aa4c3aa5c60505d3efaf2df1e025f6584363442fd7cf3780aeaa075036e7ccd7",
       "timestamp": "1791972865558",
       "key": "39sqang5rfx",
-      "frame": "assets/kakao-maps/349b683724fb9e301947.htm",
+      "frame": "assets/kakao-maps/e1598b6f1a2620803b29.htm",
       "placeUrl": "https://place.map.kakao.com/1708816247",
       "userAdjusted": false,
-      "frameSha256": "349b683724fb9e301947a5b8411d535e852d954aa432dfd62a4b2d76b9349ce3",
-      "initialHeight": 736
+      "frameSha256": "e1598b6f1a2620803b291822a6c212e2faa75ece11e0bd58bafe2008deb6584e",
+      "initialHeight": 736,
+      "originalFrame": "assets/kakao-maps/349b683724fb9e301947.htm",
+      "renderDocumentTextSha256": "349b683724fb9e301947a5b8411d535e852d954aa432dfd62a4b2d76b9349ce3"
     },
     "센트럴점": {
       "branch": "센트럴점",
@@ -779,11 +875,13 @@
       "sourceTextSha256": "88a0978fd85e75adaf142f7aaf5a48bb237e998fa28ece6df2ff892590bc5abe",
       "timestamp": "1791972869508",
       "key": "39sqyv4e5z2",
-      "frame": "assets/kakao-maps/0e81420cf6290d49f9be.htm",
+      "frame": "assets/kakao-maps/cfc7f2eea1735ad6018a.htm",
       "placeUrl": "https://place.map.kakao.com/1944919023",
       "userAdjusted": false,
-      "frameSha256": "0e81420cf6290d49f9bea0c13b9184d02e24975ee4e88040d3ecd2acaec6c589",
-      "initialHeight": 772
+      "frameSha256": "cfc7f2eea1735ad6018a9529a3680c13ab5e67f6d7c2276977bb0fe1b0411c83",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/0e81420cf6290d49f9be.htm",
+      "renderDocumentTextSha256": "0e81420cf6290d49f9bea0c13b9184d02e24975ee4e88040d3ecd2acaec6c589"
     },
     "소하점": {
       "branch": "소하점",
@@ -795,11 +893,13 @@
       "sourceTextSha256": "690f825f803dd5471d5afd6ff7267169e64e01e41618ebf4c08accf9871b3af3",
       "timestamp": "1791972882296",
       "key": "39sras5rsm5",
-      "frame": "assets/kakao-maps/a90849ca9a51d2556b9b.htm",
+      "frame": "assets/kakao-maps/8e54f3274244c318d884.htm",
       "placeUrl": "https://place.map.kakao.com/175431435",
       "userAdjusted": false,
-      "frameSha256": "a90849ca9a51d2556b9b2feeb06f72e423a492c93039f9740a8a81d87c44c87d",
-      "initialHeight": 806
+      "frameSha256": "8e54f3274244c318d88445142c14a7c48f74c05f690bb4b8fe6a23cd1aeec56b",
+      "initialHeight": 806,
+      "originalFrame": "assets/kakao-maps/a90849ca9a51d2556b9b.htm",
+      "renderDocumentTextSha256": "a90849ca9a51d2556b9b2feeb06f72e423a492c93039f9740a8a81d87c44c87d"
     },
     "수지점": {
       "branch": "수지점",
@@ -811,11 +911,13 @@
       "sourceTextSha256": "0e5402f2de885e348dbadc98bc1e8c9c5405baf629476bb1dcfaf2b4bac84f2c",
       "timestamp": "1791972910076",
       "key": "39src5czfme",
-      "frame": "assets/kakao-maps/2bc0ba0beb700c1e7049.htm",
+      "frame": "assets/kakao-maps/da281029cb4937c1d21a.htm",
       "placeUrl": "https://place.map.kakao.com/1865929700",
       "userAdjusted": false,
-      "frameSha256": "2bc0ba0beb700c1e7049520baaaae04748a5be83dc79a0b6ca11a47fd8ff24e4",
-      "initialHeight": 796
+      "frameSha256": "da281029cb4937c1d21aa4c860249cdfdad82acebfc2fcdd4a0dfc8eef9ab606",
+      "initialHeight": 796,
+      "originalFrame": "assets/kakao-maps/2bc0ba0beb700c1e7049.htm",
+      "renderDocumentTextSha256": "2bc0ba0beb700c1e7049520baaaae04748a5be83dc79a0b6ca11a47fd8ff24e4"
     },
     "수진점": {
       "branch": "수진점",
@@ -827,11 +929,13 @@
       "sourceTextSha256": "dacd276a2074ef464d108c58de95c627b3ab037f6cab7b751c4d7b6a082f5d25",
       "timestamp": "1791972962311",
       "key": "39ssjjy22s3",
-      "frame": "assets/kakao-maps/9b9411233ca8d4c21c5a.htm",
+      "frame": "assets/kakao-maps/662398c748d3adc9f040.htm",
       "placeUrl": "https://place.map.kakao.com/1730515151",
       "userAdjusted": false,
-      "frameSha256": "9b9411233ca8d4c21c5a867cbbbca9de83ee0981f23df5f6dc98fd2d2e45c325",
-      "initialHeight": 772
+      "frameSha256": "662398c748d3adc9f0408fa981921d2b96126af04d98ce25bf758efe5de9e521",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/9b9411233ca8d4c21c5a.htm",
+      "renderDocumentTextSha256": "9b9411233ca8d4c21c5a867cbbbca9de83ee0981f23df5f6dc98fd2d2e45c325"
     },
     "시흥대야점": {
       "branch": "시흥대야점",
@@ -843,11 +947,13 @@
       "sourceTextSha256": "a1c348eff861947d6004ed242ad10cd110359138b6a69a75b103a9d94131f269",
       "timestamp": "1791972966329",
       "key": "39ssnod82j6",
-      "frame": "assets/kakao-maps/600a1bcbc076d9b701d4.htm",
+      "frame": "assets/kakao-maps/f7dfccc438a4d4af08a8.htm",
       "placeUrl": "https://place.map.kakao.com/843900779",
       "userAdjusted": false,
-      "frameSha256": "600a1bcbc076d9b701d41f44d36326a22f1d06ab882833cda822d7cc1705cd94",
-      "initialHeight": 795
+      "frameSha256": "f7dfccc438a4d4af08a86e8aa47efc2241a1da2f69cd1528f101eb9a96a067a0",
+      "initialHeight": 795,
+      "originalFrame": "assets/kakao-maps/600a1bcbc076d9b701d4.htm",
+      "renderDocumentTextSha256": "600a1bcbc076d9b701d41f44d36326a22f1d06ab882833cda822d7cc1705cd94"
     },
     "신곡점": {
       "branch": "신곡점",
@@ -859,11 +965,13 @@
       "sourceTextSha256": "94fbe78104a4f83e367d8810590b8e6471b3cecf9f2618a2419074812e039959",
       "timestamp": "1791972970337",
       "key": "39ssqrtw2pj",
-      "frame": "assets/kakao-maps/3d6492f01b22d31b62d0.htm",
+      "frame": "assets/kakao-maps/f70296408816ccbed2eb.htm",
       "placeUrl": "https://place.map.kakao.com/27443017",
       "userAdjusted": false,
-      "frameSha256": "3d6492f01b22d31b62d07811651bea0919bc3976077f951185e37fcfaece79a6",
-      "initialHeight": 819
+      "frameSha256": "f70296408816ccbed2ebf94af57d20d253801ff29e5dfa2b86a63c3c3361067d",
+      "initialHeight": 819,
+      "originalFrame": "assets/kakao-maps/3d6492f01b22d31b62d0.htm",
+      "renderDocumentTextSha256": "3d6492f01b22d31b62d07811651bea0919bc3976077f951185e37fcfaece79a6"
     },
     "신봉점": {
       "branch": "신봉점",
@@ -875,11 +983,13 @@
       "sourceTextSha256": "ad63c536c442c3e78e8110095ffeba781eb671c67b9339f0b56d94b7639e1717",
       "timestamp": "1791972986500",
       "key": "39st5as63pj",
-      "frame": "assets/kakao-maps/3dbff682b5e75e78651c.htm",
+      "frame": "assets/kakao-maps/7def2a1ce5103054b9e8.htm",
       "placeUrl": "https://place.map.kakao.com/779154359",
       "userAdjusted": false,
-      "frameSha256": "3dbff682b5e75e78651ce532a4499a0c65515ebdd9a7993c5444b03f3f74f30f",
-      "initialHeight": 644
+      "frameSha256": "7def2a1ce5103054b9e82176a590ea9cc61724ee7cd4b564629f063c94b4c85b",
+      "initialHeight": 644,
+      "originalFrame": "assets/kakao-maps/3dbff682b5e75e78651c.htm",
+      "renderDocumentTextSha256": "3dbff682b5e75e78651ce532a4499a0c65515ebdd9a7993c5444b03f3f74f30f"
     },
     "신중동점": {
       "branch": "신중동점",
@@ -891,11 +1001,13 @@
       "sourceTextSha256": "89aa2dd0bc24ff2682394e19e34641fea55dea5cfe3976c1973f5fa15225362f",
       "timestamp": "1791973008815",
       "key": "39ssrw7sndb",
-      "frame": "assets/kakao-maps/01421926039f3c66f6de.htm",
+      "frame": "assets/kakao-maps/d0f7532fd5a26db8763a.htm",
       "placeUrl": "https://place.map.kakao.com/1399912832",
       "userAdjusted": false,
-      "frameSha256": "01421926039f3c66f6de3340342f06a87de93c149a7ddc6563468ed7c1f976df",
-      "initialHeight": 773
+      "frameSha256": "d0f7532fd5a26db8763acc42dcf87df56cf241bdaf002583f847d771f89f0601",
+      "initialHeight": 773,
+      "originalFrame": "assets/kakao-maps/01421926039f3c66f6de.htm",
+      "renderDocumentTextSha256": "01421926039f3c66f6de3340342f06a87de93c149a7ddc6563468ed7c1f976df"
     },
     "야탑점": {
       "branch": "야탑점",
@@ -907,11 +1019,13 @@
       "sourceTextSha256": "25456592b6fa24dce8012125d32c6c5dccb98a36f9ea17f8df87411fb479cec3",
       "timestamp": "1791973024909",
       "key": "39sun8z53rw",
-      "frame": "assets/kakao-maps/a92e6c02156e67b9ade4.htm",
+      "frame": "assets/kakao-maps/556c34db96dd6c72bd5c.htm",
       "placeUrl": "https://place.map.kakao.com/828176050",
       "userAdjusted": false,
-      "frameSha256": "a92e6c02156e67b9ade4c232e46b4f5d01ba1da4af3c86c03d2a200ad168d3d3",
-      "initialHeight": 796
+      "frameSha256": "556c34db96dd6c72bd5c037321f7953d7f67badb53233054ce98c22dcf35b8ee",
+      "initialHeight": 796,
+      "originalFrame": "assets/kakao-maps/a92e6c02156e67b9ade4.htm",
+      "renderDocumentTextSha256": "a92e6c02156e67b9ade4c232e46b4f5d01ba1da4af3c86c03d2a200ad168d3d3"
     },
     "영천점": {
       "branch": "영천점",
@@ -923,11 +1037,13 @@
       "sourceTextSha256": "c046c1829a6c7a82307f9a1156bb0fbcedb1ad08ed5e96222d8a2e4fa696c36c",
       "timestamp": "1791973033001",
       "key": "39su8bzzqu9",
-      "frame": "assets/kakao-maps/49127b9cfeaa9d1845c3.htm",
+      "frame": "assets/kakao-maps/bafec6ea1bbc410976ec.htm",
       "placeUrl": "https://place.map.kakao.com/474531704",
       "userAdjusted": false,
-      "frameSha256": "49127b9cfeaa9d1845c310e990c3e4ed5284c2c23ba452c63996012c0698d02e",
-      "initialHeight": 713
+      "frameSha256": "bafec6ea1bbc410976ec2dd272efa4fe5e55e46a7d68f5796f81c5c5d988c885",
+      "initialHeight": 713,
+      "originalFrame": "assets/kakao-maps/49127b9cfeaa9d1845c3.htm",
+      "renderDocumentTextSha256": "49127b9cfeaa9d1845c310e990c3e4ed5284c2c23ba452c63996012c0698d02e"
     },
     "영통구청점": {
       "branch": "영통구청점",
@@ -939,11 +1055,13 @@
       "sourceTextSha256": "0c4cd7335c6ff83da72e8bf06acbf220aff97008b3a21b50d2ce1f07d0c6c384",
       "timestamp": "1791973855141",
       "key": "39tfhvstapn",
-      "frame": "assets/kakao-maps/f6830d4b6d078cc242b3.htm",
+      "frame": "assets/kakao-maps/faa034b3f8973afd9c37.htm",
       "placeUrl": "https://place.map.kakao.com/1121540736",
       "userAdjusted": false,
-      "frameSha256": "f6830d4b6d078cc242b3f2bca9e07ee8abd82f7847b1cd8724e27f46b982acf1",
-      "initialHeight": 726
+      "frameSha256": "faa034b3f8973afd9c377b0f858ebf49ad5ca44b1cdd1fc08f5d203e2507cfc3",
+      "initialHeight": 726,
+      "originalFrame": "assets/kakao-maps/f6830d4b6d078cc242b3.htm",
+      "renderDocumentTextSha256": "f6830d4b6d078cc242b3f2bca9e07ee8abd82f7847b1cd8724e27f46b982acf1"
     },
     "영통점": {
       "branch": "영통점",
@@ -955,11 +1073,13 @@
       "sourceTextSha256": "ddb7a2146a3f4199baac12f2fe03d079a0f4115fb8591afc66cb4bfef755b553",
       "timestamp": "1791973036962",
       "key": "39subdhztj8",
-      "frame": "assets/kakao-maps/f35694d595f33bb12759.htm",
+      "frame": "assets/kakao-maps/d9feda8c3ceeca2fc5c5.htm",
       "placeUrl": "https://place.map.kakao.com/27443153",
       "userAdjusted": false,
-      "frameSha256": "f35694d595f33bb12759fafd0ecef7dc20e21fdcf08ec283dba169c0830c916d",
-      "initialHeight": 772
+      "frameSha256": "d9feda8c3ceeca2fc5c5149ef5256cd4965e69100ef3b5da3bed622cf11c69b9",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/f35694d595f33bb12759.htm",
+      "renderDocumentTextSha256": "f35694d595f33bb12759fafd0ecef7dc20e21fdcf08ec283dba169c0830c916d"
     },
     "오산대역점": {
       "branch": "오산대역점",
@@ -971,11 +1091,13 @@
       "sourceTextSha256": "b41bc97819b43487c078270539b2571338078fbe18e49fe4556c73eb7b12569c",
       "timestamp": "1791973077760",
       "key": "39stydjfz38",
-      "frame": "assets/kakao-maps/2fa94d98289157b33347.htm",
+      "frame": "assets/kakao-maps/bb3b468074ea927a014a.htm",
       "placeUrl": "https://place.map.kakao.com/1789980649",
       "userAdjusted": false,
-      "frameSha256": "2fa94d98289157b33347bda7b33b54d01ee4df0f14f981e7aa9785e3c7255483",
-      "initialHeight": 841
+      "frameSha256": "bb3b468074ea927a014ac8e820032af9c405cf2f79e1c947ab1627b2cdfd3489",
+      "initialHeight": 841,
+      "originalFrame": "assets/kakao-maps/2fa94d98289157b33347.htm",
+      "renderDocumentTextSha256": "2fa94d98289157b33347bda7b33b54d01ee4df0f14f981e7aa9785e3c7255483"
     },
     "오산점": {
       "branch": "오산점",
@@ -987,11 +1109,13 @@
       "sourceTextSha256": "0ecff42ac66b3525335fde6dee52e2857ef15c23aae75e309d38348bd10d2cf5",
       "timestamp": "1791973081789",
       "key": "39su3hjy23f",
-      "frame": "assets/kakao-maps/984626112e6bbc618981.htm",
+      "frame": "assets/kakao-maps/2dbdea22a744de01350e.htm",
       "placeUrl": "https://place.map.kakao.com/996143644",
       "userAdjusted": false,
-      "frameSha256": "984626112e6bbc6189810c284d1e4130434ad56e0fabeafc71dcafd5a160771f",
-      "initialHeight": 795
+      "frameSha256": "2dbdea22a744de01350ee267a417d9839dc2b7acfb5ed8f771581c6b79f671b3",
+      "initialHeight": 795,
+      "originalFrame": "assets/kakao-maps/984626112e6bbc618981.htm",
+      "renderDocumentTextSha256": "984626112e6bbc6189810c284d1e4130434ad56e0fabeafc71dcafd5a160771f"
     },
     "옥길스타점": {
       "branch": "옥길스타점",
@@ -1003,11 +1127,13 @@
       "sourceTextSha256": "311885498e7dbd1230d0c784213a8d411488429385861d0329afaa50660ce6fb",
       "timestamp": "1791973089675",
       "key": "39sw6cwckou",
-      "frame": "assets/kakao-maps/1a114687ba57524da30b.htm",
+      "frame": "assets/kakao-maps/0d1b43c4ebaa8adfc7fc.htm",
       "placeUrl": "https://place.map.kakao.com/1629127377",
       "userAdjusted": false,
-      "frameSha256": "1a114687ba57524da30bdd81de61643aacbb117d7a824aec9ebd3c5e9bf6e908",
-      "initialHeight": 667
+      "frameSha256": "0d1b43c4ebaa8adfc7fc4cea2b71c72507f22f339993fd40a5aaba9a967bc3ea",
+      "initialHeight": 667,
+      "originalFrame": "assets/kakao-maps/1a114687ba57524da30b.htm",
+      "renderDocumentTextSha256": "1a114687ba57524da30bdd81de61643aacbb117d7a824aec9ebd3c5e9bf6e908"
     },
     "옥길점": {
       "branch": "옥길점",
@@ -1019,11 +1145,13 @@
       "sourceTextSha256": "b56eb14b02bf04dec7710514eca76e73a1ad6f575f6f7a9ccb8c9a44c5a00b43",
       "timestamp": "1791973093665",
       "key": "39sucoyfmth",
-      "frame": "assets/kakao-maps/879384dc01b9f6d46f95.htm",
+      "frame": "assets/kakao-maps/b95e0fdde034a665cc4c.htm",
       "placeUrl": "https://place.map.kakao.com/1022706406",
       "userAdjusted": false,
-      "frameSha256": "879384dc01b9f6d46f95c06345eda86e767fbaf7ffd49be5924ad7d99542a38b",
-      "initialHeight": 690
+      "frameSha256": "b95e0fdde034a665cc4c938b914d4217cc2d84b117497f454252343a4ee27678",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/879384dc01b9f6d46f95.htm",
+      "renderDocumentTextSha256": "879384dc01b9f6d46f95c06345eda86e767fbaf7ffd49be5924ad7d99542a38b"
     },
     "옥정점": {
       "branch": "옥정점",
@@ -1035,11 +1163,13 @@
       "sourceTextSha256": "0a4df99816f0d459da5292173c5e6873210986447f75c918dd4e01bee090a7c6",
       "timestamp": "1791973097576",
       "key": "39svqbcnfnq",
-      "frame": "assets/kakao-maps/d6241c70a315c726ff52.htm",
+      "frame": "assets/kakao-maps/1af285413e02bf14235c.htm",
       "placeUrl": "https://place.map.kakao.com/1355020889",
       "userAdjusted": false,
-      "frameSha256": "d6241c70a315c726ff52ca30c62e5db396340e878451f1f1ab0789d7d314a1c0",
-      "initialHeight": 690
+      "frameSha256": "1af285413e02bf14235cf1a39d4e0a781daabce9c3a6218279dd788c6e49737f",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/d6241c70a315c726ff52.htm",
+      "renderDocumentTextSha256": "d6241c70a315c726ff52ca30c62e5db396340e878451f1f1ab0789d7d314a1c0"
     },
     "용인백현점": {
       "branch": "용인백현점",
@@ -1051,11 +1181,13 @@
       "sourceTextSha256": "57fdcdb9ecbc97ea5b1a3b697860a07d9fe9436a921d8fba7ef455d346b21658",
       "timestamp": "1791973101549",
       "key": "39suxprt6de",
-      "frame": "assets/kakao-maps/8caae0dd9b8cf9856c5f.htm",
+      "frame": "assets/kakao-maps/2cff64c46ff5c29fb778.htm",
       "placeUrl": "https://place.map.kakao.com/34253463",
       "userAdjusted": false,
-      "frameSha256": "8caae0dd9b8cf9856c5f853472c2b753e5619092928f2e2c17f4ce44a72b0239",
-      "initialHeight": 690
+      "frameSha256": "2cff64c46ff5c29fb778fe3c3ab0074d1d663c378a2ef782b2553d1b3e1ebbba",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/8caae0dd9b8cf9856c5f.htm",
+      "renderDocumentTextSha256": "8caae0dd9b8cf9856c5f853472c2b753e5619092928f2e2c17f4ce44a72b0239"
     },
     "운양점": {
       "branch": "운양점",
@@ -1067,11 +1199,13 @@
       "sourceTextSha256": "78a26b80eb94d23863f5fac0cb7e7cf3fc6e15b421977ce7fe9474c0179ad61d",
       "timestamp": "1791973105495",
       "key": "39svwfmxrz7",
-      "frame": "assets/kakao-maps/3b741ee364b1b3c9ddf7.htm",
+      "frame": "assets/kakao-maps/66f8a22ef819cfb42b84.htm",
       "placeUrl": "https://place.map.kakao.com/1022662189",
       "userAdjusted": false,
-      "frameSha256": "3b741ee364b1b3c9ddf7ed525d80a1bd7d1647d6690991b52b207fbaf17a8105",
-      "initialHeight": 841
+      "frameSha256": "66f8a22ef819cfb42b84c4e53b4bf7f1e5c87b6a857ab05362a7e35cee6cd44e",
+      "initialHeight": 841,
+      "originalFrame": "assets/kakao-maps/3b741ee364b1b3c9ddf7.htm",
+      "renderDocumentTextSha256": "3b741ee364b1b3c9ddf7ed525d80a1bd7d1647d6690991b52b207fbaf17a8105"
     },
     "운정점": {
       "branch": "운정점",
@@ -1083,11 +1217,13 @@
       "sourceTextSha256": "3bba429bb7fe3dbd7198e67f2d0366e61d34c89211b85ce02ba7970e8db0c28f",
       "timestamp": "1791973109591",
       "key": "39sv5xbzhpy",
-      "frame": "assets/kakao-maps/4b8191074d27998fc817.htm",
+      "frame": "assets/kakao-maps/c4d685e5140d487712fa.htm",
       "placeUrl": "https://place.map.kakao.com/1093083997",
       "userAdjusted": false,
-      "frameSha256": "4b8191074d27998fc817d6a1dfc6275d9665d4dafc10a561d68bc16cd32276e7",
-      "initialHeight": 713
+      "frameSha256": "c4d685e5140d487712faf3d54b5218a1f95380797f4e5080e8bbac463a49edc2",
+      "initialHeight": 713,
+      "originalFrame": "assets/kakao-maps/4b8191074d27998fc817.htm",
+      "renderDocumentTextSha256": "4b8191074d27998fc817d6a1dfc6275d9665d4dafc10a561d68bc16cd32276e7"
     },
     "운정중앙점": {
       "branch": "운정중앙점",
@@ -1099,11 +1235,13 @@
       "sourceTextSha256": "baeb58ae8183c83f7d86c2185b61a0c25b3f1e0613ef0cea0ebb5689b30cbcac",
       "timestamp": "1791973150426",
       "key": "39sxke8jen9",
-      "frame": "assets/kakao-maps/6d997ccd3c8e23b30801.htm",
+      "frame": "assets/kakao-maps/0433ca67e645915e0f31.htm",
       "placeUrl": "https://place.map.kakao.com/311360576",
       "userAdjusted": false,
-      "frameSha256": "6d997ccd3c8e23b308015038e166f7015045e9d192727d76e7af21102214fd9b",
-      "initialHeight": 772
+      "frameSha256": "0433ca67e645915e0f31c1b70cd6127b23244e137f2af72487c032e508b6b6f6",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/6d997ccd3c8e23b30801.htm",
+      "renderDocumentTextSha256": "6d997ccd3c8e23b308015038e166f7015045e9d192727d76e7af21102214fd9b"
     },
     "운정호수점": {
       "branch": "운정호수점",
@@ -1115,11 +1253,13 @@
       "sourceTextSha256": "bc9ae92e9acb1fa9e0d412016732b56398db96dc6230cf97abd22977a6b9815c",
       "timestamp": "1791973154474",
       "key": "39sxoinq7nb",
-      "frame": "assets/kakao-maps/b75ffa8869a49b494825.htm",
+      "frame": "assets/kakao-maps/ab1f58946f452cda6146.htm",
       "placeUrl": "https://place.map.kakao.com/2023427712",
       "userAdjusted": false,
-      "frameSha256": "b75ffa8869a49b49482538427322093b8e6ae79c1488793e56680e1f40481ad0",
-      "initialHeight": 749
+      "frameSha256": "ab1f58946f452cda61465b0b16e8d5c50cdf8841bf2095ae9382a5c05fee4a75",
+      "initialHeight": 749,
+      "originalFrame": "assets/kakao-maps/b75ffa8869a49b494825.htm",
+      "renderDocumentTextSha256": "b75ffa8869a49b49482538427322093b8e6ae79c1488793e56680e1f40481ad0"
     },
     "원당점": {
       "branch": "원당점",
@@ -1131,11 +1271,13 @@
       "sourceTextSha256": "c242e7c7b6edfea34653563c23f44ab42a8a436cec251438b5b3ef56d335d09c",
       "timestamp": "1791973158493",
       "key": "39sx6gn8dxt",
-      "frame": "assets/kakao-maps/5ad352acd0667d21a430.htm",
+      "frame": "assets/kakao-maps/2f434e7aa3c0cec5de6f.htm",
       "placeUrl": "https://place.map.kakao.com/1789945756",
       "userAdjusted": false,
-      "frameSha256": "5ad352acd0667d21a430be6cee152c05cfe922c6fc44ff7cf357689edac10884",
-      "initialHeight": 842
+      "frameSha256": "2f434e7aa3c0cec5de6ff472dbb5f4348f416598d2a62960a69c744db881a9bd",
+      "initialHeight": 842,
+      "originalFrame": "assets/kakao-maps/5ad352acd0667d21a430.htm",
+      "renderDocumentTextSha256": "5ad352acd0667d21a430be6cee152c05cfe922c6fc44ff7cf357689edac10884"
     },
     "원흥점": {
       "branch": "원흥점",
@@ -1147,11 +1289,13 @@
       "sourceTextSha256": "f1125af314cdf17178327a67dfd06489553ceb8a71bfe2794b802676a8cacfc7",
       "timestamp": "1791973166505",
       "key": "39sxconug6p",
-      "frame": "assets/kakao-maps/bf94247c427fb16e60fc.htm",
+      "frame": "assets/kakao-maps/0ab19702c28b88481617.htm",
       "placeUrl": "https://place.map.kakao.com/210184604",
       "userAdjusted": false,
-      "frameSha256": "bf94247c427fb16e60fccdc44d7f410fa396dc30574507e89d1c1cc2f3b626b0",
-      "initialHeight": 818
+      "frameSha256": "0ab19702c28b8848161798261abbaa478b485dc4a1c69b7758b9775064244bd0",
+      "initialHeight": 818,
+      "originalFrame": "assets/kakao-maps/bf94247c427fb16e60fc.htm",
+      "renderDocumentTextSha256": "bf94247c427fb16e60fccdc44d7f410fa396dc30574507e89d1c1cc2f3b626b0"
     },
     "위례점": {
       "branch": "위례점",
@@ -1163,11 +1307,13 @@
       "sourceTextSha256": "57799a3462019ddd35ab4f3fbbbcccf49d6f9ff7656eefd2edc42b6fc11a3fc4",
       "timestamp": "1791973174594",
       "key": "39sxixa4ann",
-      "frame": "assets/kakao-maps/b4a9b61e1642c8115c81.htm",
+      "frame": "assets/kakao-maps/ffc899e9f893493e3560.htm",
       "placeUrl": "https://place.map.kakao.com/1172471470",
       "userAdjusted": false,
-      "frameSha256": "b4a9b61e1642c8115c81df280426195a615349c238bae5626d1f916239902f30",
-      "initialHeight": 760
+      "frameSha256": "ffc899e9f893493e35606599546e9aa7e01eefdf1ec496f866684a9e716d19a8",
+      "initialHeight": 760,
+      "originalFrame": "assets/kakao-maps/b4a9b61e1642c8115c81.htm",
+      "renderDocumentTextSha256": "b4a9b61e1642c8115c81df280426195a615349c238bae5626d1f916239902f30"
     },
     "위례창곡점": {
       "branch": "위례창곡점",
@@ -1179,11 +1325,13 @@
       "sourceTextSha256": "0e5775eac83b3fb213c5c9461ab165ba1e77cf67ce3b115f649ee62582c242c8",
       "timestamp": "1791973178628",
       "key": "39swrecrva9",
-      "frame": "assets/kakao-maps/caefea21ba856a8303c2.htm",
+      "frame": "assets/kakao-maps/ec52f766f093aa9dfaea.htm",
       "placeUrl": "https://place.map.kakao.com/1709637639",
       "userAdjusted": false,
-      "frameSha256": "caefea21ba856a8303c284ab4c2905d5df78d9100c69a39d8245b7fcf5b976d0",
-      "initialHeight": 690
+      "frameSha256": "ec52f766f093aa9dfaea0656408767f4e22cc9b6da8dafe7c65dde480bfcdafe",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/caefea21ba856a8303c2.htm",
+      "renderDocumentTextSha256": "caefea21ba856a8303c284ab4c2905d5df78d9100c69a39d8245b7fcf5b976d0"
     },
     "이매점": {
       "branch": "이매점",
@@ -1195,11 +1343,13 @@
       "sourceTextSha256": "3e43a47f70474da0fa418f0938822c531c9019b5b3e67292637fdbcea0898d55",
       "timestamp": "1791973235361",
       "key": "39tz6ycsg5r",
-      "frame": "assets/kakao-maps/eeed9c9fd68ca8c618e8.htm",
+      "frame": "assets/kakao-maps/7b5c65903818afe85044.htm",
       "placeUrl": "https://place.map.kakao.com/1981716459",
       "userAdjusted": false,
-      "frameSha256": "eeed9c9fd68ca8c618e80ea19b12d41930786915a1691b9a9801a45e3c694274",
-      "initialHeight": 865
+      "frameSha256": "7b5c65903818afe850445862538795c72d67b25b0173fe83146532926d5ac026",
+      "initialHeight": 865,
+      "originalFrame": "assets/kakao-maps/eeed9c9fd68ca8c618e8.htm",
+      "renderDocumentTextSha256": "eeed9c9fd68ca8c618e80ea19b12d41930786915a1691b9a9801a45e3c694274"
     },
     "이충점": {
       "branch": "이충점",
@@ -1211,11 +1361,13 @@
       "sourceTextSha256": "39f3406b274b11af3cc9465de69efc168e3c10b61fe64d8b37660c66d23f3411",
       "timestamp": "1791973239329",
       "key": "39tzo8w32ri",
-      "frame": "assets/kakao-maps/332c4fb0b5e56885e71a.htm",
+      "frame": "assets/kakao-maps/af32c032dd9ef67dda86.htm",
       "placeUrl": "https://place.map.kakao.com/1708413138",
       "userAdjusted": false,
-      "frameSha256": "332c4fb0b5e56885e71a605606fec12af72ee25655789a5a096897a0bcd2e7f7",
-      "initialHeight": 667
+      "frameSha256": "af32c032dd9ef67dda86c3d2c3a64a22b41f28817cfa82f5c4da316f6afb459a",
+      "initialHeight": 667,
+      "originalFrame": "assets/kakao-maps/332c4fb0b5e56885e71a.htm",
+      "renderDocumentTextSha256": "332c4fb0b5e56885e71a605606fec12af72ee25655789a5a096897a0bcd2e7f7"
     },
     "인창점": {
       "branch": "인창점",
@@ -1227,11 +1379,13 @@
       "sourceTextSha256": "f3cd495c94510d500ea742fd319114b759e9e6818b0d9779e1a3de742d1a4ac8",
       "timestamp": "1791973243510",
       "key": "39tz6b4ip4h",
-      "frame": "assets/kakao-maps/a07f28b852663d21f428.htm",
+      "frame": "assets/kakao-maps/864c414b7ea4e2a0a166.htm",
       "placeUrl": "https://place.map.kakao.com/27443085",
       "userAdjusted": false,
-      "frameSha256": "a07f28b852663d21f42800baf44352060f72b7cf4e3bcaeb604b1b6e38e5f233",
-      "initialHeight": 773
+      "frameSha256": "864c414b7ea4e2a0a16611fe426b7daf5b60d65928b457e574870fefef24a78c",
+      "initialHeight": 773,
+      "originalFrame": "assets/kakao-maps/a07f28b852663d21f428.htm",
+      "renderDocumentTextSha256": "a07f28b852663d21f42800baf44352060f72b7cf4e3bcaeb604b1b6e38e5f233"
     },
     "장곡점": {
       "branch": "장곡점",
@@ -1243,11 +1397,13 @@
       "sourceTextSha256": "5d0af5a57911ba7b644b5beb9c0d31968bc862a8c3f68dcc5855e1bfd29e15db",
       "timestamp": "1791973251559",
       "key": "39sy2xiaehj",
-      "frame": "assets/kakao-maps/9dcd2d12400dd749d939.htm",
+      "frame": "assets/kakao-maps/e0d522bec11a511332dc.htm",
       "placeUrl": "https://place.map.kakao.com/2089501440",
       "userAdjusted": false,
-      "frameSha256": "9dcd2d12400dd749d9396f1d64ed652a43354f33621e127d0a1c9873dd0f097a",
-      "initialHeight": 690
+      "frameSha256": "e0d522bec11a511332dccb84b1429f85844a8ca7ea1d09857bc88e15d4dcf2d6",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/9dcd2d12400dd749d939.htm",
+      "renderDocumentTextSha256": "9dcd2d12400dd749d9396f1d64ed652a43354f33621e127d0a1c9873dd0f097a"
     },
     "장기점": {
       "branch": "장기점",
@@ -1259,11 +1415,13 @@
       "sourceTextSha256": "de3aaa8b1fe8ab234a38b91a45a948041e02ccf89f1adb7d54c5fb2683466969",
       "timestamp": "1791973255507",
       "key": "39tzfkt6uwc",
-      "frame": "assets/kakao-maps/a034b13f67e8b8b12576.htm",
+      "frame": "assets/kakao-maps/4ed5f0ef1a5469ed3094.htm",
       "placeUrl": "https://place.map.kakao.com/1784085550",
       "userAdjusted": false,
-      "frameSha256": "a034b13f67e8b8b12576f4423c7f4d9cc343c9d4769d90b5a03fd4662f6cb04c",
-      "initialHeight": 795
+      "frameSha256": "4ed5f0ef1a5469ed309483ba5b7bb63acb65f340923c68a0975dcb7e10595fa1",
+      "initialHeight": 795,
+      "originalFrame": "assets/kakao-maps/a034b13f67e8b8b12576.htm",
+      "renderDocumentTextSha256": "a034b13f67e8b8b12576f4423c7f4d9cc343c9d4769d90b5a03fd4662f6cb04c"
     },
     "주엽점": {
       "branch": "주엽점",
@@ -1275,11 +1433,13 @@
       "sourceTextSha256": "d4ee92c4616d5aefbc3297149caee2f55d2f5d25831614c5537cc3a20846fe26",
       "timestamp": "1791973305878",
       "key": "39t2mknu4da",
-      "frame": "assets/kakao-maps/7f6819ff0459bd7b701e.htm",
+      "frame": "assets/kakao-maps/44a89caacab5cd2f8284.htm",
       "placeUrl": "https://place.map.kakao.com/1779734018",
       "userAdjusted": false,
-      "frameSha256": "7f6819ff0459bd7b701ebe98dc13fdd2a0d83bd065e4f15c64aecd21009bc731",
-      "initialHeight": 841
+      "frameSha256": "44a89caacab5cd2f8284f918213ed786f324139aefd990f216f6333db83fcadd",
+      "initialHeight": 841,
+      "originalFrame": "assets/kakao-maps/7f6819ff0459bd7b701e.htm",
+      "renderDocumentTextSha256": "7f6819ff0459bd7b701ebe98dc13fdd2a0d83bd065e4f15c64aecd21009bc731"
     },
     "중동점": {
       "branch": "중동점",
@@ -1291,11 +1451,13 @@
       "sourceTextSha256": "785e02aa85e12a9413e5581c4a90b1335b507ef3a9e5d77648ee0d0db54d6c10",
       "timestamp": "1791973309973",
       "key": "39t2wquprtk",
-      "frame": "assets/kakao-maps/2ae19259dd4032a59f1d.htm",
+      "frame": "assets/kakao-maps/217c132e6eb0c69ecbc8.htm",
       "placeUrl": "https://place.map.kakao.com/1704940832",
       "userAdjusted": false,
-      "frameSha256": "2ae19259dd4032a59f1da3e6451c7bdc0ad3d858cbb1d471975b4f37e2405c4d",
-      "initialHeight": 819
+      "frameSha256": "217c132e6eb0c69ecbc86a4e76a3bcc7f076e5977ce9ed730c70ee2d16449a72",
+      "initialHeight": 819,
+      "originalFrame": "assets/kakao-maps/2ae19259dd4032a59f1d.htm",
+      "renderDocumentTextSha256": "2ae19259dd4032a59f1da3e6451c7bdc0ad3d858cbb1d471975b4f37e2405c4d"
     },
     "중산점": {
       "branch": "중산점",
@@ -1307,11 +1469,13 @@
       "sourceTextSha256": "33b22d746706f2c5902ee9092c9c2f0bc467751695efad30335efde6ad666816",
       "timestamp": "1791973318196",
       "key": "39t22gnivkw",
-      "frame": "assets/kakao-maps/6146e8bd5aeb03119d36.htm",
+      "frame": "assets/kakao-maps/8c952ff1057d3caf93f4.htm",
       "placeUrl": "https://place.map.kakao.com/825065884",
       "userAdjusted": false,
-      "frameSha256": "6146e8bd5aeb03119d36363e614bd4870b7226af71749bac81e254f568f74ee0",
-      "initialHeight": 782
+      "frameSha256": "8c952ff1057d3caf93f4b71bf5640d0858f4d2817c78b0f03f51cbb176596b94",
+      "initialHeight": 782,
+      "originalFrame": "assets/kakao-maps/6146e8bd5aeb03119d36.htm",
+      "renderDocumentTextSha256": "6146e8bd5aeb03119d36363e614bd4870b7226af71749bac81e254f568f74ee0"
     },
     "진접점": {
       "branch": "진접점",
@@ -1323,11 +1487,13 @@
       "sourceTextSha256": "9b5c6d68e2111db4052db56b5dced966d94b44d33f312a51ee328320fee69e93",
       "timestamp": "1791973383407",
       "key": "39t4fmoycuv",
-      "frame": "assets/kakao-maps/8d2cb594c5134d27cb33.htm",
+      "frame": "assets/kakao-maps/1813e5ecca50f20f11e1.htm",
       "placeUrl": "https://place.map.kakao.com/969718171",
       "userAdjusted": false,
-      "frameSha256": "8d2cb594c5134d27cb33c150ed1cf2edea1fde666bb97aa60756390faa0838bd",
-      "initialHeight": 796
+      "frameSha256": "1813e5ecca50f20f11e13721d246d059d4a6dfbb538b8e16dd1d3b539a8cd535",
+      "initialHeight": 796,
+      "originalFrame": "assets/kakao-maps/8d2cb594c5134d27cb33.htm",
+      "renderDocumentTextSha256": "8d2cb594c5134d27cb33c150ed1cf2edea1fde666bb97aa60756390faa0838bd"
     },
     "천천점": {
       "branch": "천천점",
@@ -1339,11 +1505,13 @@
       "sourceTextSha256": "a716320dfa301e888f6a204f52d3471db0bbdfd983b5de9e99ad3d425c21a4f2",
       "timestamp": "1791973391461",
       "key": "39t4mugjdz3",
-      "frame": "assets/kakao-maps/5804ce2b687f653fdb83.htm",
+      "frame": "assets/kakao-maps/b233d8ca85b1e49182f5.htm",
       "placeUrl": "https://place.map.kakao.com/27443150",
       "userAdjusted": false,
-      "frameSha256": "5804ce2b687f653fdb83c3c19496cd1fd6eecb297965934d36c157aeaa5b0bf0",
-      "initialHeight": 714
+      "frameSha256": "b233d8ca85b1e49182f50d2e99c5cb01f899563598671224cc7dce5e301b3459",
+      "initialHeight": 714,
+      "originalFrame": "assets/kakao-maps/5804ce2b687f653fdb83.htm",
+      "renderDocumentTextSha256": "5804ce2b687f653fdb83c3c19496cd1fd6eecb297965934d36c157aeaa5b0bf0"
     },
     "철산점": {
       "branch": "철산점",
@@ -1355,11 +1523,13 @@
       "sourceTextSha256": "2c3ba2d51bb1284bc6157b2c08c216d2b5c5d178631a152409d5da8173b3e111",
       "timestamp": "1791973395443",
       "key": "39t4px7uzcq",
-      "frame": "assets/kakao-maps/74d568564dd023ab1b99.htm",
+      "frame": "assets/kakao-maps/c3b6af41fd45460db1c8.htm",
       "placeUrl": "https://place.map.kakao.com/1987372484",
       "userAdjusted": false,
-      "frameSha256": "74d568564dd023ab1b99e37a3bf80f97ce08d34a1b4a0f3a162fd2bb12bf51e7",
-      "initialHeight": 795
+      "frameSha256": "c3b6af41fd45460db1c832acefcd972bb980f785409a16e546613dd0721548be",
+      "initialHeight": 795,
+      "originalFrame": "assets/kakao-maps/74d568564dd023ab1b99.htm",
+      "renderDocumentTextSha256": "74d568564dd023ab1b99e37a3bf80f97ce08d34a1b4a0f3a162fd2bb12bf51e7"
     },
     "탄벌점": {
       "branch": "탄벌점",
@@ -1371,11 +1541,13 @@
       "sourceTextSha256": "70b1c0b03709485109519ff9eef38a84298cfde55973f43d6913444a05123458",
       "timestamp": "1791973478876",
       "key": "39t5svaejiq",
-      "frame": "assets/kakao-maps/fab6aae965284c605230.htm",
+      "frame": "assets/kakao-maps/31f6469771a4fc5b3b58.htm",
       "placeUrl": "https://place.map.kakao.com/227583963",
       "userAdjusted": false,
-      "frameSha256": "fab6aae965284c60523057e898804a59b87220eb1f04c06ff49ce5b7887030f7",
-      "initialHeight": 667
+      "frameSha256": "31f6469771a4fc5b3b585ce76cd5490f8b03d5b4fb0c3b29e8e5ffb3a6eb60c6",
+      "initialHeight": 667,
+      "originalFrame": "assets/kakao-maps/fab6aae965284c605230.htm",
+      "renderDocumentTextSha256": "fab6aae965284c60523057e898804a59b87220eb1f04c06ff49ce5b7887030f7"
     },
     "탄현점": {
       "branch": "탄현점",
@@ -1387,11 +1559,13 @@
       "sourceTextSha256": "6e4048327c49e46a11e61a9b6c2aed6f2f270f47bf86381a134ae3229898ddd3",
       "timestamp": "1791973482965",
       "key": "39t6rpjw93v",
-      "frame": "assets/kakao-maps/17c17d39553336e4fb80.htm",
+      "frame": "assets/kakao-maps/e6b073d4e430af323cf5.htm",
       "placeUrl": "https://place.map.kakao.com/1812256916",
       "userAdjusted": false,
-      "frameSha256": "17c17d39553336e4fb80e01122ed9b6a5f2d3b1d39622ceaeb37115a56d83d4c",
-      "initialHeight": 795
+      "frameSha256": "e6b073d4e430af323cf5aa581ac26cf0ba5aea67843b3f71410651d095ce22bc",
+      "initialHeight": 795,
+      "originalFrame": "assets/kakao-maps/17c17d39553336e4fb80.htm",
+      "renderDocumentTextSha256": "17c17d39553336e4fb80e01122ed9b6a5f2d3b1d39622ceaeb37115a56d83d4c"
     },
     "퇴계원점": {
       "branch": "퇴계원점",
@@ -1403,11 +1577,13 @@
       "sourceTextSha256": "9e4eb02b529115af2fa5fcc1fc22993d4530483675c679007e67c9b39f400885",
       "timestamp": "1791973871495",
       "key": "39tfzvnvp4g",
-      "frame": "assets/kakao-maps/08a608cb5867282647c7.htm",
+      "frame": "assets/kakao-maps/4e9e43312f72da941d85.htm",
       "placeUrl": "https://place.map.kakao.com/1421396644",
       "userAdjusted": false,
-      "frameSha256": "08a608cb5867282647c7079ef9a56a2330b3353a4dbe0b58118b288158cdfd5c",
-      "initialHeight": 795
+      "frameSha256": "4e9e43312f72da941d851671bc8bc49075c8856d01f2e75e6b95c899c5da68bb",
+      "initialHeight": 795,
+      "originalFrame": "assets/kakao-maps/08a608cb5867282647c7.htm",
+      "renderDocumentTextSha256": "08a608cb5867282647c7079ef9a56a2330b3353a4dbe0b58118b288158cdfd5c"
     },
     "평내점": {
       "branch": "평내점",
@@ -1419,11 +1595,13 @@
       "sourceTextSha256": "d5dc87f732bf37a44e1d47ae8fd8da582aa214baffebde8f88cac057df702adc",
       "timestamp": "1791973494909",
       "key": "39t5rdnde2m",
-      "frame": "assets/kakao-maps/0adef71720e8b28c38ac.htm",
+      "frame": "assets/kakao-maps/d9fa50a9641a5a97acaa.htm",
       "placeUrl": "https://place.map.kakao.com/1474348258",
       "userAdjusted": false,
-      "frameSha256": "0adef71720e8b28c38ac0bfc72da43ad0d3eac09c74a281ff816aa25549f0ab5",
-      "initialHeight": 714
+      "frameSha256": "d9fa50a9641a5a97acaaeb95d4c0b8a5f8a31c28f8b42e12147b636e84059d79",
+      "initialHeight": 714,
+      "originalFrame": "assets/kakao-maps/0adef71720e8b28c38ac.htm",
+      "renderDocumentTextSha256": "0adef71720e8b28c38ac0bfc72da43ad0d3eac09c74a281ff816aa25549f0ab5"
     },
     "풍동점": {
       "branch": "풍동점",
@@ -1435,11 +1613,13 @@
       "sourceTextSha256": "737b33e4d0f7386f3d397c505597634f763aec32c6567c473c3499eba50e0318",
       "timestamp": "1791973875492",
       "key": "39tep3ee2ir",
-      "frame": "assets/kakao-maps/83961a7e2130931e795f.htm",
+      "frame": "assets/kakao-maps/5544eb22cad93df5ca2a.htm",
       "placeUrl": "https://place.map.kakao.com/1787352326",
       "userAdjusted": false,
-      "frameSha256": "83961a7e2130931e795fcfac210b8ae47b35beb7b3003eeac5dccd61f4b67d3e",
-      "initialHeight": 713
+      "frameSha256": "5544eb22cad93df5ca2a998d664ea4e478e7bf4ce1bb5f944ae638746e59a2a5",
+      "initialHeight": 713,
+      "originalFrame": "assets/kakao-maps/83961a7e2130931e795f.htm",
+      "renderDocumentTextSha256": "83961a7e2130931e795fcfac210b8ae47b35beb7b3003eeac5dccd61f4b67d3e"
     },
     "하남풍산점": {
       "branch": "하남풍산점",
@@ -1451,11 +1631,13 @@
       "sourceTextSha256": "2884579407e7dab4002ab136f5dc9a44f6bd76695f753141f9021ddf6ef674c4",
       "timestamp": "1791973502759",
       "key": "39t7gzxhwxo",
-      "frame": "assets/kakao-maps/4a1f5873eff6c0141089.htm",
+      "frame": "assets/kakao-maps/8568fa00bcac7a3ab775.htm",
       "placeUrl": "https://place.map.kakao.com/321374271",
       "userAdjusted": false,
-      "frameSha256": "4a1f5873eff6c01410892c423b3ddf90af6a0776a20295da6c723143f15c93ff",
-      "initialHeight": 772
+      "frameSha256": "8568fa00bcac7a3ab775488aae9af54d4e835dfc2d7b3a52b9c0af048303d427",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/4a1f5873eff6c0141089.htm",
+      "renderDocumentTextSha256": "4a1f5873eff6c01410892c423b3ddf90af6a0776a20295da6c723143f15c93ff"
     },
     "행신점": {
       "branch": "행신점",
@@ -1467,11 +1649,13 @@
       "sourceTextSha256": "a140d537eb98a1994a0de1e656fe0b39a43c2e702ad89af5ff121d86ebed3e66",
       "timestamp": "1791973879745",
       "key": "39tf8agdybu",
-      "frame": "assets/kakao-maps/15ac3d213199865f2c6b.htm",
+      "frame": "assets/kakao-maps/b36ecf7e03bc680a54ae.htm",
       "placeUrl": "https://place.map.kakao.com/1504017356",
       "userAdjusted": false,
-      "frameSha256": "15ac3d213199865f2c6b995f5040b390c68787a3a5fb935a30ff80298e7c0150",
-      "initialHeight": 911
+      "frameSha256": "b36ecf7e03bc680a54aeeb12b489924ec7eeba1f754719f2f848a0f8bef62f6f",
+      "initialHeight": 911,
+      "originalFrame": "assets/kakao-maps/15ac3d213199865f2c6b.htm",
+      "renderDocumentTextSha256": "15ac3d213199865f2c6b995f5040b390c68787a3a5fb935a30ff80298e7c0150"
     },
     "향남점": {
       "branch": "향남점",
@@ -1483,11 +1667,13 @@
       "sourceTextSha256": "4cc8b97dbe1106860e1659dc1b603c2ce7e3f5645162a6b6bd8b9ee3e7a144bc",
       "timestamp": "1791973534507",
       "key": "39t74xu82gs",
-      "frame": "assets/kakao-maps/89a38681797bf7664ee7.htm",
+      "frame": "assets/kakao-maps/201557c7f7ced1f01fdf.htm",
       "placeUrl": "https://place.map.kakao.com/1047435714",
       "userAdjusted": false,
-      "frameSha256": "89a38681797bf7664ee7a0b29efc809eb4df6e8eed008ca220c4b58e0599bb28",
-      "initialHeight": 737
+      "frameSha256": "201557c7f7ced1f01fdffe177eddab8d20fa8c3f75792aee6860d04c1fd822da",
+      "initialHeight": 737,
+      "originalFrame": "assets/kakao-maps/89a38681797bf7664ee7.htm",
+      "renderDocumentTextSha256": "89a38681797bf7664ee7a0b29efc809eb4df6e8eed008ca220c4b58e0599bb28"
     },
     "호매실점": {
       "branch": "호매실점",
@@ -1499,11 +1685,13 @@
       "sourceTextSha256": "b38f7f398fcc3a62ccc835eb630d9e781c5357122c88a9284283ce5a18deedfe",
       "timestamp": "1791973542570",
       "key": "39t8s2ggspd",
-      "frame": "assets/kakao-maps/7b76adde9550c4b880b3.htm",
+      "frame": "assets/kakao-maps/e34c37a5467cacae681d.htm",
       "placeUrl": "https://place.map.kakao.com/1093632125",
       "userAdjusted": false,
-      "frameSha256": "7b76adde9550c4b880b3b043cce3c91fca4825260b30101239876ed00297a4d9",
-      "initialHeight": 714
+      "frameSha256": "e34c37a5467cacae681d0bc8d8e959228b89c71d954d22bfb2287099fbe212e1",
+      "initialHeight": 714,
+      "originalFrame": "assets/kakao-maps/7b76adde9550c4b880b3.htm",
+      "renderDocumentTextSha256": "7b76adde9550c4b880b3b043cce3c91fca4825260b30101239876ed00297a4d9"
     },
     "호평점": {
       "branch": "호평점",
@@ -1515,11 +1703,13 @@
       "sourceTextSha256": "64771e651ee3ac384695f337030e8ffa6c63b52897d4c6aa4b1ff15c65d5f3f2",
       "timestamp": "1791973546708",
       "key": "39t8h2ws4ee",
-      "frame": "assets/kakao-maps/7b7c50770e82d24ce0e0.htm",
+      "frame": "assets/kakao-maps/883e2dc96b2c2f0ff6a5.htm",
       "placeUrl": "https://place.map.kakao.com/364985649",
       "userAdjusted": false,
-      "frameSha256": "7b7c50770e82d24ce0e0f50801bb8e412cb45f2e68c47c864b18cd998c758a6f",
-      "initialHeight": 772
+      "frameSha256": "883e2dc96b2c2f0ff6a531d9f1f91f655cac45ea1c8f22da21f0af3d96d70e1b",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/7b7c50770e82d24ce0e0.htm",
+      "renderDocumentTextSha256": "7b7c50770e82d24ce0e0f50801bb8e412cb45f2e68c47c864b18cd998c758a6f"
     },
     "화성태안점": {
       "branch": "화성태안점",
@@ -1531,11 +1721,13 @@
       "sourceTextSha256": "2c3e60ebd73f41bb3acf4e00950cfdfdac1dcb9e52d6d5f5bfe2aede9fc8a68a",
       "timestamp": "1792028118824",
       "key": "3bzzqxbjvw8",
-      "frame": "assets/kakao-maps/b538ad4bcfc4e8b91d44.htm",
+      "frame": "assets/kakao-maps/35b0a4494f6e5d7636b6.htm",
       "placeUrl": "https://map.kakao.com/?urlX=509298.0000000027&urlY=1029770.0000000012&itemId=974282755&q=%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%ED%95%99%EC%9B%90%20%ED%99%94%EC%84%B1%ED%83%9C%EC%95%88%EC%A0%90&srcid=974282755&map_type=TYPE_MAP&from=roughmap",
       "userAdjusted": true,
-      "frameSha256": "b538ad4bcfc4e8b91d44c7fe72eb1448d27407193868eb373d9ca3ac2e75c92c",
-      "initialHeight": 478
+      "frameSha256": "35b0a4494f6e5d7636b60143c36537f80d7a472594118619cd04865aaec28a07",
+      "initialHeight": 478,
+      "originalFrame": "assets/kakao-maps/b538ad4bcfc4e8b91d44.htm",
+      "renderDocumentTextSha256": "31cc4265b61af74ddecec1dd98aa4152fc52d3839bd4587fdf46559caf29f4b9"
     },
     "화정점": {
       "branch": "화정점",
@@ -1547,11 +1739,13 @@
       "sourceTextSha256": "9a4242ff531311d3b60ffaed4d499ecf3c164eabf2d7ae90eb4507a33e9d5c8e",
       "timestamp": "1791973554824",
       "key": "39t93iisqkx",
-      "frame": "assets/kakao-maps/21de6c903349f9d14187.htm",
+      "frame": "assets/kakao-maps/bc29a3725de1cce62350.htm",
       "placeUrl": "https://place.map.kakao.com/1358071193",
       "userAdjusted": false,
-      "frameSha256": "21de6c903349f9d141879e94466bce923213da85734e86be7628ccdbef98cbb5",
-      "initialHeight": 841
+      "frameSha256": "bc29a3725de1cce6235039b2a82a9a51a59d0a8bd2a3a06a773c367352ba6c82",
+      "initialHeight": 841,
+      "originalFrame": "assets/kakao-maps/21de6c903349f9d14187.htm",
+      "renderDocumentTextSha256": "21de6c903349f9d141879e94466bce923213da85734e86be7628ccdbef98cbb5"
     },
     "후곡점": {
       "branch": "후곡점",
@@ -1563,11 +1757,13 @@
       "sourceTextSha256": "45a159af302409e4b6fc57227d129e108041b4359968b34b90dc773ea52dd4fd",
       "timestamp": "1791973563084",
       "key": "39t7d6noyjf",
-      "frame": "assets/kakao-maps/d90beeb3c647d37a2c6f.htm",
+      "frame": "assets/kakao-maps/ba4831b411300a3fa3de.htm",
       "placeUrl": "https://place.map.kakao.com/92121482",
       "userAdjusted": false,
-      "frameSha256": "d90beeb3c647d37a2c6fedaad2ed5a008017cb86cabe37ba908989ce4b2b2efc",
-      "initialHeight": 818
+      "frameSha256": "ba4831b411300a3fa3de653df3a4014d610985597b37124c8efca37366f74085",
+      "initialHeight": 818,
+      "originalFrame": "assets/kakao-maps/d90beeb3c647d37a2c6f.htm",
+      "renderDocumentTextSha256": "d90beeb3c647d37a2c6fedaad2ed5a008017cb86cabe37ba908989ce4b2b2efc"
     },
     "흥덕점": {
       "branch": "흥덕점",
@@ -1579,11 +1775,13 @@
       "sourceTextSha256": "fd529a3827fafc6a7379ce8e31ec19413344d1dc068c30cc85b6d68e50652b04",
       "timestamp": "1791973571092",
       "key": "39t8txej9os",
-      "frame": "assets/kakao-maps/028f47b858ad5ef0e349.htm",
+      "frame": "assets/kakao-maps/aa411aec18da85e38d61.htm",
       "placeUrl": "https://place.map.kakao.com/2049492157",
       "userAdjusted": false,
-      "frameSha256": "028f47b858ad5ef0e3492cd63063692f92a889bc2c10a03fee2d9a8f96649d66",
-      "initialHeight": 690
+      "frameSha256": "aa411aec18da85e38d615329758b73b72113ab92345deedafeb0536d27cfd35d",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/028f47b858ad5ef0e349.htm",
+      "renderDocumentTextSha256": "028f47b858ad5ef0e3492cd63063692f92a889bc2c10a03fee2d9a8f96649d66"
     },
     "거제수월점": {
       "branch": "거제수월점",
@@ -1595,11 +1793,13 @@
       "sourceTextSha256": "5863b87a421b758f25fdbbb77be6e53bd8be71529ecccba0e25e003178e67808",
       "timestamp": "1791972176595",
       "key": "39s89i5v9aq",
-      "frame": "assets/kakao-maps/1966b3e70040be08cf8d.htm",
+      "frame": "assets/kakao-maps/97633f2cacd253f6c259.htm",
       "placeUrl": "https://place.map.kakao.com/1708799624",
       "userAdjusted": false,
-      "frameSha256": "1966b3e70040be08cf8d9a3d2f3984cd504f3114e225d7397d91b22a5ef135df",
-      "initialHeight": 811
+      "frameSha256": "97633f2cacd253f6c259fde05a6d821c27fd919c09140a23a12a85c5866a4bf0",
+      "initialHeight": 811,
+      "originalFrame": "assets/kakao-maps/1966b3e70040be08cf8d.htm",
+      "renderDocumentTextSha256": "1966b3e70040be08cf8d9a3d2f3984cd504f3114e225d7397d91b22a5ef135df"
     },
     "상남점": {
       "branch": "상남점",
@@ -1611,11 +1811,13 @@
       "sourceTextSha256": "7de09c13dde79965fc9306d3d9911751916c4224e6d27bffa713e4077ec955ef",
       "timestamp": "1791972782759",
       "key": "39sociq9qii",
-      "frame": "assets/kakao-maps/7fb0e9e31ebc0b2867f9.htm",
+      "frame": "assets/kakao-maps/c5f8840e699b035afedb.htm",
       "placeUrl": "https://place.map.kakao.com/1257573021",
       "userAdjusted": false,
-      "frameSha256": "7fb0e9e31ebc0b2867f9fd1fc622713c6638a2b6c3ad73efb168a7fb2c13f035",
-      "initialHeight": 644
+      "frameSha256": "c5f8840e699b035afedbb1eef81b6ea0a0917abdb219ab4a0c7123e7345f5f2e",
+      "initialHeight": 644,
+      "originalFrame": "assets/kakao-maps/7fb0e9e31ebc0b2867f9.htm",
+      "renderDocumentTextSha256": "7fb0e9e31ebc0b2867f9fd1fc622713c6638a2b6c3ad73efb168a7fb2c13f035"
     },
     "석동점": {
       "branch": "석동점",
@@ -1627,11 +1829,13 @@
       "sourceTextSha256": "ba4aae6df10271d81c0860f5f1199e1b8ece97417b612de4d78402508c66c1c7",
       "timestamp": "1791972857614",
       "key": "39sp8tnx3qe",
-      "frame": "assets/kakao-maps/b83bf318e146cc65301b.htm",
+      "frame": "assets/kakao-maps/eb79644784790762e66f.htm",
       "placeUrl": "https://place.map.kakao.com/1677021527",
       "userAdjusted": false,
-      "frameSha256": "b83bf318e146cc65301bb92afeadb5e634c887afe31b4bc386e269afd3aaab2f",
-      "initialHeight": 690
+      "frameSha256": "eb79644784790762e66f38d1cd04a040a797f4e5180a315f3369e64ca9b67f16",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/b83bf318e146cc65301b.htm",
+      "renderDocumentTextSha256": "b83bf318e146cc65301bb92afeadb5e634c887afe31b4bc386e269afd3aaab2f"
     },
     "두호점": {
       "branch": "두호점",
@@ -1643,11 +1847,13 @@
       "sourceTextSha256": "e24bfbd5f9bb4e7b53f55dcd8a927013d123b0de3baee457a095d6b0f1883599",
       "timestamp": "1791972479478",
       "key": "39sg8pfktjw",
-      "frame": "assets/kakao-maps/83103b04b2a5ca981140.htm",
+      "frame": "assets/kakao-maps/862b2e120a17c8a69947.htm",
       "placeUrl": "https://place.map.kakao.com/27443038",
       "userAdjusted": false,
-      "frameSha256": "83103b04b2a5ca9811409d233f4683a926819861c5814edb28902624221f4772",
-      "initialHeight": 644
+      "frameSha256": "862b2e120a17c8a69947398f96dbcc817cc8ba00b33c0916ee2e7ad31a19e432",
+      "initialHeight": 644,
+      "originalFrame": "assets/kakao-maps/83103b04b2a5ca981140.htm",
+      "renderDocumentTextSha256": "83103b04b2a5ca9811409d233f4683a926819861c5814edb28902624221f4772"
     },
     "사동점": {
       "branch": "사동점",
@@ -1659,11 +1865,13 @@
       "sourceTextSha256": "c7ec1bab0dfeb324a9f2f2588beaeea05118fbac6605764b04a1fabdc659b1cb",
       "timestamp": "1791972738243",
       "key": "39smfegbcyo",
-      "frame": "assets/kakao-maps/251d429c889462bc82fe.htm",
+      "frame": "assets/kakao-maps/e6274c53512140993e3e.htm",
       "placeUrl": "https://place.map.kakao.com/878366015",
       "userAdjusted": false,
-      "frameSha256": "251d429c889462bc82fee2cfda939dc91fb5ac20805cbd304dcc3b6bb236772e",
-      "initialHeight": 747
+      "frameSha256": "e6274c53512140993e3e3128e5dec6a3720a2140e643218ce3ee46ece53518dd",
+      "initialHeight": 747,
+      "originalFrame": "assets/kakao-maps/251d429c889462bc82fe.htm",
+      "renderDocumentTextSha256": "251d429c889462bc82fee2cfda939dc91fb5ac20805cbd304dcc3b6bb236772e"
     },
     "양덕점": {
       "branch": "양덕점",
@@ -1675,11 +1883,13 @@
       "sourceTextSha256": "a14d2f3fd050d72b0822760b9088c58360c94850b0239ba96f26b5d01fc375f7",
       "timestamp": "1791973029027",
       "key": "39suqe8zox6",
-      "frame": "assets/kakao-maps/ce4748a48f11609c88a7.htm",
+      "frame": "assets/kakao-maps/602e7e588aa85e91afb1.htm",
       "placeUrl": "https://place.map.kakao.com/1687173683",
       "userAdjusted": false,
-      "frameSha256": "ce4748a48f11609c88a739f7eefe31e0fd5cdf758abeabdf02b6562ef7722530",
-      "initialHeight": 667
+      "frameSha256": "602e7e588aa85e91afb15aa5df72ee32353171495ae1d59f4386be043b1f81aa",
+      "initialHeight": 667,
+      "originalFrame": "assets/kakao-maps/ce4748a48f11609c88a7.htm",
+      "renderDocumentTextSha256": "ce4748a48f11609c88a739f7eefe31e0fd5cdf758abeabdf02b6562ef7722530"
     },
     "옥계점": {
       "branch": "옥계점",
@@ -1691,11 +1901,13 @@
       "sourceTextSha256": "f1801c78a350ad5f2fb7d4c41f419ec0983ddcd40882a04dd239e28cc22ecbda",
       "timestamp": "1791973085761",
       "key": "39su6k7mo3f",
-      "frame": "assets/kakao-maps/81aa787384d756214002.htm",
+      "frame": "assets/kakao-maps/5169de409377732256e6.htm",
       "placeUrl": "https://place.map.kakao.com/669359383",
       "userAdjusted": false,
-      "frameSha256": "81aa787384d75621400285da115177c9987554e12a1d0f7dadcb4c0edb37a665",
-      "initialHeight": 803
+      "frameSha256": "5169de409377732256e6f214d5d493644865ae2d1401c90a1a74e1f0c6cd10e9",
+      "initialHeight": 803,
+      "originalFrame": "assets/kakao-maps/81aa787384d756214002.htm",
+      "renderDocumentTextSha256": "81aa787384d75621400285da115177c9987554e12a1d0f7dadcb4c0edb37a665"
     },
     "정평점": {
       "branch": "정평점",
@@ -1707,11 +1919,13 @@
       "sourceTextSha256": "f30da2aabfd00f89dc7eb9ea3102e5c06fd9d1c196235871be10a29f6d2bbf80",
       "timestamp": "1791973259449",
       "key": "39tzinf6nf2",
-      "frame": "assets/kakao-maps/8cd9a0a78cd3b6419fb0.htm",
+      "frame": "assets/kakao-maps/56eb45b3b2ce59cc5e73.htm",
       "placeUrl": "https://place.map.kakao.com/938473550",
       "userAdjusted": false,
-      "frameSha256": "8cd9a0a78cd3b6419fb05134fa778d2cc1d423128b869167a848f16dcb1e235b",
-      "initialHeight": 1036
+      "frameSha256": "56eb45b3b2ce59cc5e7382435b3905904e80f47fbebe3e6628eb439cd5b4819a",
+      "initialHeight": 1036,
+      "originalFrame": "assets/kakao-maps/8cd9a0a78cd3b6419fb0.htm",
+      "renderDocumentTextSha256": "8cd9a0a78cd3b6419fb05134fa778d2cc1d423128b869167a848f16dcb1e235b"
     },
     "선운점": {
       "branch": "선운점",
@@ -1723,11 +1937,13 @@
       "sourceTextSha256": "a5a7ce29603ec6f07fcca769ceb0c38beea8d8a906014db8f562e72d74a2b134",
       "timestamp": "1791973812281",
       "key": "39td8594xpd",
-      "frame": "assets/kakao-maps/ed459d8138e6f942a1d6.htm",
+      "frame": "assets/kakao-maps/dc9cf171832b728da750.htm",
       "placeUrl": "https://place.map.kakao.com/1895557260",
       "userAdjusted": false,
-      "frameSha256": "ed459d8138e6f942a1d6691b1e42759b076a84a0b53ec1599a75f23057f09b94",
-      "initialHeight": 667
+      "frameSha256": "dc9cf171832b728da750c82e39321c5aafa94493cf5077d9f2f3a3b08996583f",
+      "initialHeight": 667,
+      "originalFrame": "assets/kakao-maps/ed459d8138e6f942a1d6.htm",
+      "renderDocumentTextSha256": "ed459d8138e6f942a1d6691b1e42759b076a84a0b53ec1599a75f23057f09b94"
     },
     "수완점": {
       "branch": "수완점",
@@ -1739,11 +1955,13 @@
       "sourceTextSha256": "d28d693caa99fefe5e8501c7171b14d93443eb5d8f049ea785a408ee797d863e",
       "timestamp": "1791972906059",
       "key": "39sr9zc6hys",
-      "frame": "assets/kakao-maps/68526018388f6071645f.htm",
+      "frame": "assets/kakao-maps/71e19a64bf6a141d54aa.htm",
       "placeUrl": "https://place.map.kakao.com/186852711",
       "userAdjusted": false,
-      "frameSha256": "68526018388f6071645f5a22f56e2d518b8ba426be994f53093a2cd491a688cc",
-      "initialHeight": 713
+      "frameSha256": "71e19a64bf6a141d54aa869a911522297fb722863c68316be6706ad73970e293",
+      "initialHeight": 713,
+      "originalFrame": "assets/kakao-maps/68526018388f6071645f.htm",
+      "renderDocumentTextSha256": "68526018388f6071645f5a22f56e2d518b8ba426be994f53093a2cd491a688cc"
     },
     "신창점": {
       "branch": "신창점",
@@ -1755,11 +1973,13 @@
       "sourceTextSha256": "1a66881bcafb534456887555a06e50448959f37160a78919c5128dbf2e819820",
       "timestamp": "1791973012745",
       "key": "39ssuxmueqh",
-      "frame": "assets/kakao-maps/873c08879eb793ad8c97.htm",
+      "frame": "assets/kakao-maps/e3a973e4dd81976a9bdc.htm",
       "placeUrl": "https://place.map.kakao.com/224758252",
       "userAdjusted": false,
-      "frameSha256": "873c08879eb793ad8c97799053a2909929fe08378778c2b329a9a13c768d5cfb",
-      "initialHeight": 713
+      "frameSha256": "e3a973e4dd81976a9bdc0f1e54b46e58f6addd110332d47ad21a156c5ac6aeca",
+      "initialHeight": 713,
+      "originalFrame": "assets/kakao-maps/873c08879eb793ad8c97.htm",
+      "renderDocumentTextSha256": "873c08879eb793ad8c97799053a2909929fe08378778c2b329a9a13c768d5cfb"
     },
     "진월점": {
       "branch": "진월점",
@@ -1771,11 +1991,13 @@
       "sourceTextSha256": "7639c2fbbcb2bbda66fe246ddd48ebf3fd08a122883643c10ee3db653d9b1b9a",
       "timestamp": "1791973326314",
       "key": "39t34f434d7",
-      "frame": "assets/kakao-maps/b3169916004f02cecbbc.htm",
+      "frame": "assets/kakao-maps/6587b2ccafbe96ca59bb.htm",
       "placeUrl": "https://place.map.kakao.com/400907137",
       "userAdjusted": false,
-      "frameSha256": "b3169916004f02cecbbcd57197a1b80b28efa8f9f65ee1d41f41169ee42e7efe",
-      "initialHeight": 736
+      "frameSha256": "6587b2ccafbe96ca59bb8d9486ca91c8563c8f28ab19db689b6d79b0d5aea5ca",
+      "initialHeight": 736,
+      "originalFrame": "assets/kakao-maps/b3169916004f02cecbbc.htm",
+      "renderDocumentTextSha256": "b3169916004f02cecbbcd57197a1b80b28efa8f9f65ee1d41f41169ee42e7efe"
     },
     "첨단점": {
       "branch": "첨단점",
@@ -1787,11 +2009,13 @@
       "sourceTextSha256": "9efabca58366fa160b346a76d261117a157155f67d1c3649286895a475462475",
       "timestamp": "1791973399341",
       "key": "39t5zxcqt3m",
-      "frame": "assets/kakao-maps/e4d69609e1c5abc11a5e.htm",
+      "frame": "assets/kakao-maps/cbd6aea7bc78e169d6cf.htm",
       "placeUrl": "https://place.map.kakao.com/641036468",
       "userAdjusted": false,
-      "frameSha256": "e4d69609e1c5abc11a5e47ffab940c33f2dec3d5d57e788e77136792eb542c35",
-      "initialHeight": 667
+      "frameSha256": "cbd6aea7bc78e169d6cf3de3bc875c919d13a7a9cc7bede15acbc0003c28d7ba",
+      "initialHeight": 667,
+      "originalFrame": "assets/kakao-maps/e4d69609e1c5abc11a5e.htm",
+      "renderDocumentTextSha256": "e4d69609e1c5abc11a5e47ffab940c33f2dec3d5d57e788e77136792eb542c35"
     },
     "치평점": {
       "branch": "치평점",
@@ -1803,11 +2027,13 @@
       "sourceTextSha256": "f8a9edd31f7dfdfc3c84698760bab9be717e02cd4c899460a76cc9c6dbe14936",
       "timestamp": "1791973407208",
       "key": "39t5z353uti",
-      "frame": "assets/kakao-maps/4dadca658a7494bde360.htm",
+      "frame": "assets/kakao-maps/ef32c9adc20572162c61.htm",
       "placeUrl": "https://place.map.kakao.com/27443131",
       "userAdjusted": false,
-      "frameSha256": "4dadca658a7494bde36062caca74064a1f3428603e10ddb3d7c5ee61e4da7398",
-      "initialHeight": 772
+      "frameSha256": "ef32c9adc20572162c618907b36f7bf3c660005fb43b7359e125591ba93e0d92",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/4dadca658a7494bde360.htm",
+      "renderDocumentTextSha256": "4dadca658a7494bde36062caca74064a1f3428603e10ddb3d7c5ee61e4da7398"
     },
     "대구도남점": {
       "branch": "대구도남점",
@@ -1819,11 +2045,13 @@
       "sourceTextSha256": "384fb684a414b729e79b58d51041e406efb4ad57e247addb4398ea745cbd223e",
       "timestamp": "1791972370263",
       "key": "39sdv53h4ko",
-      "frame": "assets/kakao-maps/9165095b2fff496e06b0.htm",
+      "frame": "assets/kakao-maps/3d16a3c2cc81cdbec766.htm",
       "placeUrl": "https://place.map.kakao.com/1695171575",
       "userAdjusted": false,
-      "frameSha256": "9165095b2fff496e06b00317714a2ccf5e6de82501197b0257f3aedcb2f5e47b",
-      "initialHeight": 667
+      "frameSha256": "3d16a3c2cc81cdbec7667e9872608fb9152bbbb141b407414738633212d9e131",
+      "initialHeight": 667,
+      "originalFrame": "assets/kakao-maps/9165095b2fff496e06b0.htm",
+      "renderDocumentTextSha256": "9165095b2fff496e06b00317714a2ccf5e6de82501197b0257f3aedcb2f5e47b"
     },
     "대구역점": {
       "branch": "대구역점",
@@ -1835,11 +2063,13 @@
       "sourceTextSha256": "92faf912d2f6cdc2a3df4b4609450b3936d977cb6534544b787648216892f2f3",
       "timestamp": "1791972430312",
       "key": "39sf3mvkb9i",
-      "frame": "assets/kakao-maps/4f9cf22c6fb664f3e49a.htm",
+      "frame": "assets/kakao-maps/65b5e1bfb36f595c613b.htm",
       "placeUrl": "https://place.map.kakao.com/238094690",
       "userAdjusted": false,
-      "frameSha256": "4f9cf22c6fb664f3e49ae69c0ab2fd32d75c1894c2f894de20af92c25ef7e738",
-      "initialHeight": 781
+      "frameSha256": "65b5e1bfb36f595c613b4820ecb2a5ed26bc054647e6d6d710376326b5af071e",
+      "initialHeight": 781,
+      "originalFrame": "assets/kakao-maps/4f9cf22c6fb664f3e49a.htm",
+      "renderDocumentTextSha256": "4f9cf22c6fb664f3e49ae69c0ab2fd32d75c1894c2f894de20af92c25ef7e738"
     },
     "대구장기점": {
       "branch": "대구장기점",
@@ -1851,11 +2081,13 @@
       "sourceTextSha256": "a96a4a8c420ec390b47ad1c8efc45c1a22cb3ae7655b37ee98efdf2abfd70ade",
       "timestamp": "1791972434311",
       "key": "39sf6q2pzxp",
-      "frame": "assets/kakao-maps/762c0eab8afd61027721.htm",
+      "frame": "assets/kakao-maps/87e6ff820798afc66a4c.htm",
       "placeUrl": "https://place.map.kakao.com/1811901814",
       "userAdjusted": false,
-      "frameSha256": "762c0eab8afd61027721a426b67700403cea55d8f6640e4602697fab52e38bc6",
-      "initialHeight": 749
+      "frameSha256": "87e6ff820798afc66a4c7180a913271416c5936d7dd225237feabad5b91aa6b0",
+      "initialHeight": 749,
+      "originalFrame": "assets/kakao-maps/762c0eab8afd61027721.htm",
+      "renderDocumentTextSha256": "762c0eab8afd61027721a426b67700403cea55d8f6640e4602697fab52e38bc6"
     },
     "반월당점": {
       "branch": "반월당점",
@@ -1867,11 +2099,13 @@
       "sourceTextSha256": "1277b37e0504ff234253b628f67d593f4cd567bda10faa1acb27bdbcacc66707",
       "timestamp": "1791973796117",
       "key": "39tctm95gvq",
-      "frame": "assets/kakao-maps/f7d2e8ec2361a2816095.htm",
+      "frame": "assets/kakao-maps/8d958d003d5f76dece0b.htm",
       "placeUrl": "https://place.map.kakao.com/977012270",
       "userAdjusted": false,
-      "frameSha256": "f7d2e8ec2361a2816095af9bb9542fbcb1a3428bed86b298e54432e4ea5daa99",
-      "initialHeight": 781
+      "frameSha256": "8d958d003d5f76dece0b4fc5e311ede93772f25be1dcdc75504af658c56ea727",
+      "initialHeight": 781,
+      "originalFrame": "assets/kakao-maps/f7d2e8ec2361a2816095.htm",
+      "renderDocumentTextSha256": "f7d2e8ec2361a2816095af9bb9542fbcb1a3428bed86b298e54432e4ea5daa99"
     },
     "복현점": {
       "branch": "복현점",
@@ -1883,11 +2117,13 @@
       "sourceTextSha256": "91f86e3843fb582d163670cbed85187ea608cf744924dbc5a4a2370ba4e79be8",
       "timestamp": "1791973804224",
       "key": "39tdzvd2qoy",
-      "frame": "assets/kakao-maps/66e5f66be60a6cf6da00.htm",
+      "frame": "assets/kakao-maps/b7f7646fc43792a9aedc.htm",
       "placeUrl": "https://place.map.kakao.com/811160378",
       "userAdjusted": false,
-      "frameSha256": "66e5f66be60a6cf6da00ea986acdc91b35c7b248db523144cec19b90fa48b09a",
-      "initialHeight": 690
+      "frameSha256": "b7f7646fc43792a9aedc1d5f9671ae73c2e9cadf7c662d23ee6d5fc5d070a4ec",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/66e5f66be60a6cf6da00.htm",
+      "renderDocumentTextSha256": "66e5f66be60a6cf6da00ea986acdc91b35c7b248db523144cec19b90fa48b09a"
     },
     "수성2가점": {
       "branch": "수성2가점",
@@ -1899,11 +2135,13 @@
       "sourceTextSha256": "04a85a0e23befbf36cc65189e6986dcac800b633ab53ffcbb8e0e71aff6e0088",
       "timestamp": "1791973851141",
       "key": "39te587ijrv",
-      "frame": "assets/kakao-maps/828391eb55ad97f9189d.htm",
+      "frame": "assets/kakao-maps/be0c478bbf52647fce48.htm",
       "placeUrl": "https://place.map.kakao.com/724763572",
       "userAdjusted": false,
-      "frameSha256": "828391eb55ad97f9189d200a8a96a9e49b351e1a4f2fa9511fc86628290e7c5f",
-      "initialHeight": 795
+      "frameSha256": "be0c478bbf52647fce480d4b79302e76ed39ac3a96c90dc21bddc00477668fc5",
+      "initialHeight": 795,
+      "originalFrame": "assets/kakao-maps/828391eb55ad97f9189d.htm",
+      "renderDocumentTextSha256": "828391eb55ad97f9189d200a8a96a9e49b351e1a4f2fa9511fc86628290e7c5f"
     },
     "수성만촌점": {
       "branch": "수성만촌점",
@@ -1915,11 +2153,13 @@
       "sourceTextSha256": "ee8e887000373a4e526df7025f1bf44f24615d644877a6779f3dc242f4216996",
       "timestamp": "1791972902128",
       "key": "39sr5y9hevp",
-      "frame": "assets/kakao-maps/93414cbe9531f84333a3.htm",
+      "frame": "assets/kakao-maps/2df7a94c06d526a3c9d3.htm",
       "placeUrl": "https://place.map.kakao.com/1800817910",
       "userAdjusted": false,
-      "frameSha256": "93414cbe9531f84333a30b94931bbc8cc8d40ef4d0eaec240c937dc54b93cd32",
-      "initialHeight": 800
+      "frameSha256": "2df7a94c06d526a3c9d32e2846b216f1ccce564aef3b58f29e042d9fec665e06",
+      "initialHeight": 800,
+      "originalFrame": "assets/kakao-maps/93414cbe9531f84333a3.htm",
+      "renderDocumentTextSha256": "93414cbe9531f84333a30b94931bbc8cc8d40ef4d0eaec240c937dc54b93cd32"
     },
     "신월성점": {
       "branch": "신월성점",
@@ -1931,11 +2171,13 @@
       "sourceTextSha256": "c3715602e0840607893b0201d22d04fa8f43431fc8d6db879a422f5ef1b76a19",
       "timestamp": "1791973004745",
       "key": "39stjexdysq",
-      "frame": "assets/kakao-maps/2dc72122993d7d2243d1.htm",
+      "frame": "assets/kakao-maps/7a5eb443e26e14f59c99.htm",
       "placeUrl": "https://place.map.kakao.com/121946832",
       "userAdjusted": false,
-      "frameSha256": "2dc72122993d7d2243d105d4477cb4d5e22c2fe128a7ef86c2ddbe4bfa9859a6",
-      "initialHeight": 749
+      "frameSha256": "7a5eb443e26e14f59c99b13347a482ea512356fb1d97fba19e4e5c34985ec509",
+      "initialHeight": 749,
+      "originalFrame": "assets/kakao-maps/2dc72122993d7d2243d1.htm",
+      "renderDocumentTextSha256": "2dc72122993d7d2243d105d4477cb4d5e22c2fe128a7ef86c2ddbe4bfa9859a6"
     },
     "알파시티점": {
       "branch": "알파시티점",
@@ -1947,11 +2189,13 @@
       "sourceTextSha256": "6049a95cb63bec527c4eee51de0fb5e53776518ab59606eb356ac965c5be4574",
       "timestamp": "1791973020904",
       "key": "39stwwweeeu",
-      "frame": "assets/kakao-maps/3ecc7a24b0a1d984fd05.htm",
+      "frame": "assets/kakao-maps/c83d431007781a49c9c4.htm",
       "placeUrl": "https://place.map.kakao.com/1328212300",
       "userAdjusted": false,
-      "frameSha256": "3ecc7a24b0a1d984fd058f6df8647552dff0f87194656635600101fd233938ce",
-      "initialHeight": 726
+      "frameSha256": "c83d431007781a49c9c442cd2386df6380f71e69ed3f16b3b599ef92761110d5",
+      "initialHeight": 726,
+      "originalFrame": "assets/kakao-maps/3ecc7a24b0a1d984fd05.htm",
+      "renderDocumentTextSha256": "3ecc7a24b0a1d984fd058f6df8647552dff0f87194656635600101fd233938ce"
     },
     "율하점": {
       "branch": "율하점",
@@ -1963,11 +2207,13 @@
       "sourceTextSha256": "39e7c1f239e68b18bded9672ecf458985a6d8e52e1cd7f4eba8d6b3d228e2964",
       "timestamp": "1791973859212",
       "key": "39tfm2tdqmf",
-      "frame": "assets/kakao-maps/cc417b6d21fd5b9d5e86.htm",
+      "frame": "assets/kakao-maps/8784ce9b0932a38f128e.htm",
       "placeUrl": "https://place.map.kakao.com/1721817948",
       "userAdjusted": false,
-      "frameSha256": "cc417b6d21fd5b9d5e8692b314f2f904f61298461d9bae31df51d8397cc260a2",
-      "initialHeight": 726
+      "frameSha256": "8784ce9b0932a38f128eda58e3b663ab16ee3c90f305e849fd0972956579e2ea",
+      "initialHeight": 726,
+      "originalFrame": "assets/kakao-maps/cc417b6d21fd5b9d5e86.htm",
+      "renderDocumentTextSha256": "cc417b6d21fd5b9d5e8692b314f2f904f61298461d9bae31df51d8397cc260a2"
     },
     "이곡점": {
       "branch": "이곡점",
@@ -1979,11 +2225,13 @@
       "sourceTextSha256": "758cc5d2ada74953db57e2c2aab7cbcf4047ffd9a4ff4aad7c08e2380508eb23",
       "timestamp": "1791973231311",
       "key": "39tzh228wph",
-      "frame": "assets/kakao-maps/dd03d873269b5f55e58b.htm",
+      "frame": "assets/kakao-maps/3a7b34c1d23ec5b3d838.htm",
       "placeUrl": "https://place.map.kakao.com/27443178",
       "userAdjusted": false,
-      "frameSha256": "dd03d873269b5f55e58bb8085e5dace3b34d7021b97a9be99e4a5d808cfe8ce4",
-      "initialHeight": 772
+      "frameSha256": "3a7b34c1d23ec5b3d838a35a4955321f9104bc85eb76e3442dd245b085cfa010",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/dd03d873269b5f55e58b.htm",
+      "renderDocumentTextSha256": "dd03d873269b5f55e58bb8085e5dace3b34d7021b97a9be99e4a5d808cfe8ce4"
     },
     "이시아폴리스점": {
       "branch": "이시아폴리스점",
@@ -1995,11 +2243,13 @@
       "sourceTextSha256": "f357ebd450848f86335157507e72b96ae159ca0dc5eb46e615e1de06eefb082f",
       "timestamp": "1791973863307",
       "key": "39tfp8go5cz",
-      "frame": "assets/kakao-maps/97355b5c302a62f0cdc8.htm",
+      "frame": "assets/kakao-maps/c82fbebdffd6a25b3218.htm",
       "placeUrl": "https://place.map.kakao.com/34782557",
       "userAdjusted": false,
-      "frameSha256": "97355b5c302a62f0cdc8aa494baf47b7a0189ad3f83bd055c784e67b57039828",
-      "initialHeight": 644
+      "frameSha256": "c82fbebdffd6a25b3218990e581e919fd8c8c9f102e5b407012568d4ac38dada",
+      "initialHeight": 644,
+      "originalFrame": "assets/kakao-maps/97355b5c302a62f0cdc8.htm",
+      "renderDocumentTextSha256": "97355b5c302a62f0cdc8aa494baf47b7a0189ad3f83bd055c784e67b57039828"
     },
     "진천점": {
       "branch": "진천점",
@@ -2011,11 +2261,13 @@
       "sourceTextSha256": "2fa2418a2ba84e221186c8983af68288fd5fedfb05ac5d4b4032cd8d4080fe59",
       "timestamp": "1791973387507",
       "key": "39t4qrxq92z",
-      "frame": "assets/kakao-maps/0718c64627328dc840f3.htm",
+      "frame": "assets/kakao-maps/b1eafc57e413577d9d1a.htm",
       "placeUrl": "https://place.map.kakao.com/1048364718",
       "userAdjusted": false,
-      "frameSha256": "0718c64627328dc840f3acb183900d5a2422fb41e8c5ce562095433a07e4f1f1",
-      "initialHeight": 765
+      "frameSha256": "b1eafc57e413577d9d1a4cc8076ced54062e34151a7092061c604f55cf235655",
+      "initialHeight": 765,
+      "originalFrame": "assets/kakao-maps/0718c64627328dc840f3.htm",
+      "renderDocumentTextSha256": "0718c64627328dc840f3acb183900d5a2422fb41e8c5ce562095433a07e4f1f1"
     },
     "칠곡점": {
       "branch": "칠곡점",
@@ -2027,11 +2279,13 @@
       "sourceTextSha256": "20511e1b0fe852fbd0bc081ebd758467bb57791d56051e040bf93f8a18e52128",
       "timestamp": "1791973411191",
       "key": "39t3sjgn5jh",
-      "frame": "assets/kakao-maps/8ff9cab77ac92b89214a.htm",
+      "frame": "assets/kakao-maps/85cd4fc18c063d0b08b4.htm",
       "placeUrl": "https://place.map.kakao.com/1801182151",
       "userAdjusted": false,
-      "frameSha256": "8ff9cab77ac92b89214a283061f243199085ad7d4368cca6f76552278c82e2c5",
-      "initialHeight": 788
+      "frameSha256": "85cd4fc18c063d0b08b424e915688f70827732f8f728d884ae812fd79d8857d6",
+      "initialHeight": 788,
+      "originalFrame": "assets/kakao-maps/8ff9cab77ac92b89214a.htm",
+      "renderDocumentTextSha256": "8ff9cab77ac92b89214a283061f243199085ad7d4368cca6f76552278c82e2c5"
     },
     "침산점": {
       "branch": "침산점",
@@ -2043,11 +2297,13 @@
       "sourceTextSha256": "cd0ee77a223768bc298b0b4963c7d3a82276f9674abcd04616c54afb07d5427f",
       "timestamp": "1791973474909",
       "key": "39t5psy4vv5",
-      "frame": "assets/kakao-maps/d8f203b0588cbfa6efe2.htm",
+      "frame": "assets/kakao-maps/a2a95433d20fa491703c.htm",
       "placeUrl": "https://place.map.kakao.com/453365204",
       "userAdjusted": false,
-      "frameSha256": "d8f203b0588cbfa6efe2a808a31114292361b3c81d92cbf568807c84b98ff8a6",
-      "initialHeight": 683
+      "frameSha256": "a2a95433d20fa491703c5851bfeba78b28256236c8851e22aece08a1ac770dd0",
+      "initialHeight": 683,
+      "originalFrame": "assets/kakao-maps/d8f203b0588cbfa6efe2.htm",
+      "renderDocumentTextSha256": "d8f203b0588cbfa6efe2a808a31114292361b3c81d92cbf568807c84b98ff8a6"
     },
     "관저점": {
       "branch": "관저점",
@@ -2059,11 +2315,13 @@
       "sourceTextSha256": "3623863f715766f413c1a2b1474748937dbd69e45a0ac5f1d8fec2703d7f1b74",
       "timestamp": "1791972184495",
       "key": "39s9iaa5gyh",
-      "frame": "assets/kakao-maps/61436ca1570d532db7e1.htm",
+      "frame": "assets/kakao-maps/5a22b48216ee7e6f38bd.htm",
       "placeUrl": "https://place.map.kakao.com/1113340670",
       "userAdjusted": false,
-      "frameSha256": "61436ca1570d532db7e1695ae2b1343feb3cd5f73ddda76d2109e03d7bcd09dd",
-      "initialHeight": 644
+      "frameSha256": "5a22b48216ee7e6f38bdd5c7c9496258c71ace0cd4f82d0074ee25478fe1f75d",
+      "initialHeight": 644,
+      "originalFrame": "assets/kakao-maps/61436ca1570d532db7e1.htm",
+      "renderDocumentTextSha256": "61436ca1570d532db7e1695ae2b1343feb3cd5f73ddda76d2109e03d7bcd09dd"
     },
     "관평점": {
       "branch": "관평점",
@@ -2075,11 +2333,13 @@
       "sourceTextSha256": "fd207a5b0762fbe1b6a3272a5b89728adbad7800242da83347c3b4ed7470fa01",
       "timestamp": "1791972188395",
       "key": "39s9ec6p9tn",
-      "frame": "assets/kakao-maps/f0f38026515d95f4fde6.htm",
+      "frame": "assets/kakao-maps/d99e3b81399313e900a7.htm",
       "placeUrl": "https://place.map.kakao.com/1480335374",
       "userAdjusted": false,
-      "frameSha256": "f0f38026515d95f4fde69d41c53f72a87380f40410fa1eefefb5561b6762bfeb",
-      "initialHeight": 690
+      "frameSha256": "d99e3b81399313e900a758d1991b00f4c09095541e63b4ea9650a46b349743bd",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/f0f38026515d95f4fde6.htm",
+      "renderDocumentTextSha256": "f0f38026515d95f4fde69d41c53f72a87380f40410fa1eefefb5561b6762bfeb"
     },
     "도안점": {
       "branch": "도안점",
@@ -2091,11 +2351,13 @@
       "sourceTextSha256": "ce2c3e9b83f6513ee255aa5e70123d17ad4c06c4328bea97576c23598654c3d5",
       "timestamp": "1791972442111",
       "key": "39sfxx5hotv",
-      "frame": "assets/kakao-maps/f38364a015603dac3e03.htm",
+      "frame": "assets/kakao-maps/fc4f35573b1a884355d8.htm",
       "placeUrl": "https://place.map.kakao.com/1022658510",
       "userAdjusted": false,
-      "frameSha256": "f38364a015603dac3e0331972a40c23dbef11a51223ae0b796644ff3ae9f00e0",
-      "initialHeight": 667
+      "frameSha256": "fc4f35573b1a884355d8f10644e44bc1c3e018c9cf51dfa3ab9f25f53d692323",
+      "initialHeight": 667,
+      "originalFrame": "assets/kakao-maps/f38364a015603dac3e03.htm",
+      "renderDocumentTextSha256": "f38364a015603dac3e0331972a40c23dbef11a51223ae0b796644ff3ae9f00e0"
     },
     "둔산점": {
       "branch": "둔산점",
@@ -2107,11 +2369,13 @@
       "sourceTextSha256": "b7b197246878dbed159746c76a7002bcdd6eb754e300c379c2c0374c04792af8",
       "timestamp": "1791972483410",
       "key": "39sgbqntdgo",
-      "frame": "assets/kakao-maps/c3a2c858049a2abe289a.htm",
+      "frame": "assets/kakao-maps/7f68493e156d2c85b52d.htm",
       "placeUrl": "https://place.map.kakao.com/27443035",
       "userAdjusted": false,
-      "frameSha256": "c3a2c858049a2abe289a497dcebdaad2f5de77c6d7102f0952fb87715a90824f",
-      "initialHeight": 726
+      "frameSha256": "7f68493e156d2c85b52d9cf98bf4b1187b87ff43ff9eda028ea6be14594e9384",
+      "initialHeight": 726,
+      "originalFrame": "assets/kakao-maps/c3a2c858049a2abe289a.htm",
+      "renderDocumentTextSha256": "c3a2c858049a2abe289a497dcebdaad2f5de77c6d7102f0952fb87715a90824f"
     },
     "반석점": {
       "branch": "반석점",
@@ -2123,11 +2387,13 @@
       "sourceTextSha256": "d58f64fa2b201b8d59ed8b994d60a61edf9c08ac52a515e6d4260bf18ecc9b7e",
       "timestamp": "1791972604560",
       "key": "39sjrq57ndx",
-      "frame": "assets/kakao-maps/cf6fb891f2e5c3636819.htm",
+      "frame": "assets/kakao-maps/3bd4419992f276fd93a6.htm",
       "placeUrl": "https://place.map.kakao.com/924345312",
       "userAdjusted": false,
-      "frameSha256": "cf6fb891f2e5c3636819d2a2ba12457a9e9dc380d0ac009eaa3cda4b30c15363",
-      "initialHeight": 749
+      "frameSha256": "3bd4419992f276fd93a65d38a2d6e4c38964f5732b0d9cebbc28dff76358ae38",
+      "initialHeight": 749,
+      "originalFrame": "assets/kakao-maps/cf6fb891f2e5c3636819.htm",
+      "renderDocumentTextSha256": "cf6fb891f2e5c3636819d2a2ba12457a9e9dc380d0ac009eaa3cda4b30c15363"
     },
     "송촌점": {
       "branch": "송촌점",
@@ -2139,11 +2405,13 @@
       "sourceTextSha256": "6cf02ed72d510b50d1eaaf9542f2e5b355860dc0d00f971640a0a406e4dc1425",
       "timestamp": "1791972898196",
       "key": "39sr2woamaz",
-      "frame": "assets/kakao-maps/7daf97aa936a4814d543.htm",
+      "frame": "assets/kakao-maps/e2b45c4b08e30f947810.htm",
       "placeUrl": "https://place.map.kakao.com/517779643",
       "userAdjusted": false,
-      "frameSha256": "7daf97aa936a4814d543cd10ef2162722ff081b572fd99de0c574ff6e5e33e07",
-      "initialHeight": 644
+      "frameSha256": "e2b45c4b08e30f94781093ce52e56ab64300e4431000c6a5fff045353ce5bb29",
+      "initialHeight": 644,
+      "originalFrame": "assets/kakao-maps/7daf97aa936a4814d543.htm",
+      "renderDocumentTextSha256": "7daf97aa936a4814d543cd10ef2162722ff081b572fd99de0c574ff6e5e33e07"
     },
     "지족점": {
       "branch": "지족점",
@@ -2155,11 +2423,13 @@
       "sourceTextSha256": "00ef5c58342f0b903018dc451b11f76ad4387032f09b3463cbe17e16aed6c17d",
       "timestamp": "1791973322275",
       "key": "39t3zav62fo",
-      "frame": "assets/kakao-maps/86a437373919e1fc5bf6.htm",
+      "frame": "assets/kakao-maps/ebb64c772e1366ed0673.htm",
       "placeUrl": "https://place.map.kakao.com/1811584463",
       "userAdjusted": false,
-      "frameSha256": "86a437373919e1fc5bf6366431ebb5a24f6e621fd70924fc94b6f451c316745b",
-      "initialHeight": 749
+      "frameSha256": "ebb64c772e1366ed06734d692fee985abf4b809c22322b99b9342a09aa7f1e1b",
+      "initialHeight": 749,
+      "originalFrame": "assets/kakao-maps/86a437373919e1fc5bf6.htm",
+      "renderDocumentTextSha256": "86a437373919e1fc5bf6366431ebb5a24f6e621fd70924fc94b6f451c316745b"
     },
     "태평점": {
       "branch": "태평점",
@@ -2171,11 +2441,13 @@
       "sourceTextSha256": "4d7d26336b310048faa944ac29d13e166d0e648ef726a5b0dcc8a3462fa3ae68",
       "timestamp": "1791973490974",
       "key": "39t649gfukc",
-      "frame": "assets/kakao-maps/49a3a02c02e0605c30b5.htm",
+      "frame": "assets/kakao-maps/974c9d8f56de079fb8c5.htm",
       "placeUrl": "https://place.map.kakao.com/1143777324",
       "userAdjusted": false,
-      "frameSha256": "49a3a02c02e0605c30b520d8c8e16bc35a7dd307de1d5bc432d8d9cc98b3cb2f",
-      "initialHeight": 690
+      "frameSha256": "974c9d8f56de079fb8c5e31a75e49beff1cb2ec7e580054f93887dbeaa11496f",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/49a3a02c02e0605c30b5.htm",
+      "renderDocumentTextSha256": "49a3a02c02e0605c30b520d8c8e16bc35a7dd307de1d5bc432d8d9cc98b3cb2f"
     },
     "동래점": {
       "branch": "동래점",
@@ -2187,11 +2459,13 @@
       "sourceTextSha256": "bde02a1d2065e85da31e669a3f6e833dadbece65b1a65cda229b76ace51cb1c6",
       "timestamp": "1791972449896",
       "key": "39sfiskpiyb",
-      "frame": "assets/kakao-maps/07b85a96787a13397fe4.htm",
+      "frame": "assets/kakao-maps/bf4ecd07060db9883c34.htm",
       "placeUrl": "https://place.map.kakao.com/109638806",
       "userAdjusted": false,
-      "frameSha256": "07b85a96787a13397fe4c8331a25ce5935af857e03e3799471d70182a090aa91",
-      "initialHeight": 772
+      "frameSha256": "bf4ecd07060db9883c3446337121272283806e5a580e15b853c1ca743b900504",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/07b85a96787a13397fe4.htm",
+      "renderDocumentTextSha256": "07b85a96787a13397fe4c8331a25ce5935af857e03e3799471d70182a090aa91"
     },
     "반여점": {
       "branch": "반여점",
@@ -2203,11 +2477,13 @@
       "sourceTextSha256": "45325327686f26cb33c1c253638f714e91e89b4de5c3ca687cfc81491f08b5ed",
       "timestamp": "1791972621859",
       "key": "39sk754iqwg",
-      "frame": "assets/kakao-maps/735b188ec5b6a519d396.htm",
+      "frame": "assets/kakao-maps/b8f3da25d0827116e0c7.htm",
       "placeUrl": "https://place.map.kakao.com/2037679436",
       "userAdjusted": false,
-      "frameSha256": "735b188ec5b6a519d3964473fb06e550d13b534f1d027cccf2fca2ffc2994174",
-      "initialHeight": 667
+      "frameSha256": "b8f3da25d0827116e0c7e8b3dae9bba9c3a97c5e30a6cb945eaf63b5ddd480dd",
+      "initialHeight": 667,
+      "originalFrame": "assets/kakao-maps/735b188ec5b6a519d396.htm",
+      "renderDocumentTextSha256": "735b188ec5b6a519d3964473fb06e550d13b534f1d027cccf2fca2ffc2994174"
     },
     "사직점": {
       "branch": "사직점",
@@ -2219,11 +2495,13 @@
       "sourceTextSha256": "47779c0441f5e30738e30e956603a2bbce813e551289e9644f909ff0a21b942d",
       "timestamp": "1791972759176",
       "key": "39soefvward",
-      "frame": "assets/kakao-maps/dbbcf4eb6709a1cf0ea8.htm",
+      "frame": "assets/kakao-maps/0335e2dfc995c694b447.htm",
       "placeUrl": "https://place.map.kakao.com/856102642",
       "userAdjusted": false,
-      "frameSha256": "dbbcf4eb6709a1cf0ea88da30d5e3bb569184a8e96aee3864b535dc3140a0f42",
-      "initialHeight": 772
+      "frameSha256": "0335e2dfc995c694b447e8e04c09e5d34622b0e9108ebc55a23aad75535ed566",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/dbbcf4eb6709a1cf0ea8.htm",
+      "renderDocumentTextSha256": "dbbcf4eb6709a1cf0ea88da30d5e3bb569184a8e96aee3864b535dc3140a0f42"
     },
     "좌동점": {
       "branch": "좌동점",
@@ -2235,11 +2513,13 @@
       "sourceTextSha256": "274d16a907049ead0c96fc1848d667c9b03e406377cb4878e4030e5576f75a81",
       "timestamp": "1791973301751",
       "key": "39t2ie7dbjc",
-      "frame": "assets/kakao-maps/a3f23292e0ee2a0cfdf4.htm",
+      "frame": "assets/kakao-maps/d1131a4993c73abf6674.htm",
       "placeUrl": "https://place.map.kakao.com/27443072",
       "userAdjusted": false,
-      "frameSha256": "a3f23292e0ee2a0cfdf4b153304499da4f8049404600e9d66cf8b21312af9ffc",
-      "initialHeight": 772
+      "frameSha256": "d1131a4993c73abf667489be7296f66731b904ff245092776595ff8f533abafe",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/a3f23292e0ee2a0cfdf4.htm",
+      "renderDocumentTextSha256": "a3f23292e0ee2a0cfdf4b153304499da4f8049404600e9d66cf8b21312af9ffc"
     },
     "화명점": {
       "branch": "화명점",
@@ -2251,11 +2531,13 @@
       "sourceTextSha256": "c8bfb981ff8a8f2259f9f3b2b6e931c2d166a6e78257034cff324510558d50bc",
       "timestamp": "1791973550832",
       "key": "39t8da2vrk4",
-      "frame": "assets/kakao-maps/16f5be4024f465f58198.htm",
+      "frame": "assets/kakao-maps/8b57e0523c09e3568636.htm",
       "placeUrl": "https://place.map.kakao.com/2049580636",
       "userAdjusted": false,
-      "frameSha256": "16f5be4024f465f581986d80bd901ed5a4cb0d54376c56ce80878d4f45c05db1",
-      "initialHeight": 773
+      "frameSha256": "8b57e0523c09e3568636c5ebc619b0b9e9111ac4ffd171583898e8a4f188ef0f",
+      "initialHeight": 773,
+      "originalFrame": "assets/kakao-maps/16f5be4024f465f58198.htm",
+      "renderDocumentTextSha256": "16f5be4024f465f581986d80bd901ed5a4cb0d54376c56ce80878d4f45c05db1"
     },
     "가좌점": {
       "branch": "가좌점",
@@ -2267,11 +2549,13 @@
       "sourceTextSha256": "963148e216ac103eae4c9f347a3bc40223a16aa78a3f4ace6fa68e4b417c5d17",
       "timestamp": "1791972160747",
       "key": "39s9d3pa6ie",
-      "frame": "assets/kakao-maps/496df985d37810e5e653.htm",
+      "frame": "assets/kakao-maps/b2e97ebbc6a9e5b8249d.htm",
       "placeUrl": "https://place.map.kakao.com/529345446",
       "userAdjusted": false,
-      "frameSha256": "496df985d37810e5e653895ad944e78925e1bdca98123cdb4b87832466180cfa",
-      "initialHeight": 796
+      "frameSha256": "b2e97ebbc6a9e5b8249da63b4815018cdeb0ea1ca78bb201f546f86c31b93929",
+      "initialHeight": 796,
+      "originalFrame": "assets/kakao-maps/496df985d37810e5e653.htm",
+      "renderDocumentTextSha256": "496df985d37810e5e653895ad944e78925e1bdca98123cdb4b87832466180cfa"
     },
     "광장점": {
       "branch": "광장점",
@@ -2283,11 +2567,13 @@
       "sourceTextSha256": "2bcf049b6bf1100224c129759a80b03ea575eb39460bef2e2df65c9565e5e01c",
       "timestamp": "1791972249330",
       "key": "39sbfo7zjx6",
-      "frame": "assets/kakao-maps/ce0ff78a1230506ea4a2.htm",
+      "frame": "assets/kakao-maps/e95c93d32917756ada2e.htm",
       "placeUrl": "https://place.map.kakao.com/1874218940",
       "userAdjusted": false,
-      "frameSha256": "ce0ff78a1230506ea4a2b585e65624bb105bf9d9d37b23fb990624a33cfe4542",
-      "initialHeight": 772
+      "frameSha256": "e95c93d32917756ada2e0c7cf0d70908eb28ca1801b9ccccb28ea77363d89b2b",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/ce0ff78a1230506ea4a2.htm",
+      "renderDocumentTextSha256": "ce0ff78a1230506ea4a2b585e65624bb105bf9d9d37b23fb990624a33cfe4542"
     },
     "구산점": {
       "branch": "구산점",
@@ -2299,11 +2585,13 @@
       "sourceTextSha256": "eba80f4b55902a278ebd481da0675afd572d2f015501e93235a7e1a714674c83",
       "timestamp": "1791972253329",
       "key": "39sawkjai9x",
-      "frame": "assets/kakao-maps/4e96f32263151723bf92.htm",
+      "frame": "assets/kakao-maps/5900b0d69e2d101c9a0f.htm",
       "placeUrl": "https://place.map.kakao.com/1091020828",
       "userAdjusted": false,
-      "frameSha256": "4e96f32263151723bf92aac169454492b747fbd7f738616b77105f062198a209",
-      "initialHeight": 772
+      "frameSha256": "5900b0d69e2d101c9a0f19ffe32b0dd25cb88df323f8d4a9f4707b3ec7204d35",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/4e96f32263151723bf92.htm",
+      "renderDocumentTextSha256": "4e96f32263151723bf92aac169454492b747fbd7f738616b77105f062198a209"
     },
     "금천점": {
       "branch": "금천점",
@@ -2315,11 +2603,13 @@
       "sourceTextSha256": "a15af106401ca6908d17fa6f7a3f0f38f80887f71bc0c03867a820c37b6be20f",
       "timestamp": "1791972261112",
       "key": "39s9t2c8tz2",
-      "frame": "assets/kakao-maps/08cc730f882dd0ab6b61.htm",
+      "frame": "assets/kakao-maps/a921ad357e3324a92cf5.htm",
       "placeUrl": "https://place.map.kakao.com/818125347",
       "userAdjusted": false,
-      "frameSha256": "08cc730f882dd0ab6b6191d360aec28efdb70aa8a2d89e2a41c9da4cc32bcc7f",
-      "initialHeight": 714
+      "frameSha256": "a921ad357e3324a92cf504e52716e7d515cbf0d023ce04bbb83b62a7b39651ba",
+      "initialHeight": 714,
+      "originalFrame": "assets/kakao-maps/08cc730f882dd0ab6b61.htm",
+      "renderDocumentTextSha256": "08cc730f882dd0ab6b6191d360aec28efdb70aa8a2d89e2a41c9da4cc32bcc7f"
     },
     "내발산점": {
       "branch": "내발산점",
@@ -2331,11 +2621,13 @@
       "sourceTextSha256": "e6e5cddcecbe6e0800870f9d1428fa0f0c3659be146c74cdd296ecccf12f4b16",
       "timestamp": "1791972272877",
       "key": "39sa45wtcgt",
-      "frame": "assets/kakao-maps/7421d79b726f98cf0b22.htm",
+      "frame": "assets/kakao-maps/ab87e6216e8aff3e01cf.htm",
       "placeUrl": "https://place.map.kakao.com/1746465741",
       "userAdjusted": false,
-      "frameSha256": "7421d79b726f98cf0b224eb5f52e1b5ef84b0132d6fe1ac74710ddbf7afe33eb",
-      "initialHeight": 864
+      "frameSha256": "ab87e6216e8aff3e01cf879128758140a1b474357c36a7bedaa16fe70b1c0859",
+      "initialHeight": 864,
+      "originalFrame": "assets/kakao-maps/7421d79b726f98cf0b22.htm",
+      "renderDocumentTextSha256": "7421d79b726f98cf0b224eb5f52e1b5ef84b0132d6fe1ac74710ddbf7afe33eb"
     },
     "당산점": {
       "branch": "당산점",
@@ -2347,11 +2639,13 @@
       "sourceTextSha256": "e209d29976828b77c7a747a8caed4f17d9e58162a3fb84e72619425d072fddf0",
       "timestamp": "1791972362444",
       "key": "39sdh43cgum",
-      "frame": "assets/kakao-maps/ca094a38fb4152d3a3b9.htm",
+      "frame": "assets/kakao-maps/2d8568c8be0fdeda09ec.htm",
       "placeUrl": "https://place.map.kakao.com/2145999310",
       "userAdjusted": false,
-      "frameSha256": "ca094a38fb4152d3a3b950e35080df51669bfca18874c62b43675a38a5677db5",
-      "initialHeight": 911
+      "frameSha256": "2d8568c8be0fdeda09ec6550d6c9a49aa8ca005618c6812a66bc8ef5818cdbed",
+      "initialHeight": 911,
+      "originalFrame": "assets/kakao-maps/ca094a38fb4152d3a3b9.htm",
+      "renderDocumentTextSha256": "ca094a38fb4152d3a3b950e35080df51669bfca18874c62b43675a38a5677db5"
     },
     "돈암점": {
       "branch": "돈암점",
@@ -2363,11 +2657,13 @@
       "sourceTextSha256": "1b29798e4322640455b32dae63306d6fee03929d0ad4b35e613450eb71ff100b",
       "timestamp": "1791972445994",
       "key": "39se67gj6vx",
-      "frame": "assets/kakao-maps/0df46fda381e9e6839e2.htm",
+      "frame": "assets/kakao-maps/073f2c2f96196d9651b5.htm",
       "placeUrl": "https://place.map.kakao.com/347878745",
       "userAdjusted": false,
-      "frameSha256": "0df46fda381e9e6839e2dd2bec646be3bebc4eac90cede55b317376f0885fee9",
-      "initialHeight": 795
+      "frameSha256": "073f2c2f96196d9651b5f114903312d4a2c600a5f3e94218e3c034cf873576ad",
+      "initialHeight": 795,
+      "originalFrame": "assets/kakao-maps/0df46fda381e9e6839e2.htm",
+      "renderDocumentTextSha256": "0df46fda381e9e6839e2dd2bec646be3bebc4eac90cede55b317376f0885fee9"
     },
     "동소문점": {
       "branch": "동소문점",
@@ -2379,11 +2675,13 @@
       "sourceTextSha256": "63422ca131c4b1b92c69612ffc365dcaa31b5f21b62fd668e003d8b37855e329",
       "timestamp": "1791972457797",
       "key": "39sfpw6xhg3",
-      "frame": "assets/kakao-maps/08eb89aa074a53c0d6aa.htm",
+      "frame": "assets/kakao-maps/37d004378ec8c79b9683.htm",
       "placeUrl": "https://place.map.kakao.com/442772950",
       "userAdjusted": false,
-      "frameSha256": "08eb89aa074a53c0d6aa37cf2258c5bb96b31544988fab78837f9a2fc0cb0d0e",
-      "initialHeight": 796
+      "frameSha256": "37d004378ec8c79b9683310852015aff1ac1559b2b5ca829205e00f90afddc8e",
+      "initialHeight": 796,
+      "originalFrame": "assets/kakao-maps/08eb89aa074a53c0d6aa.htm",
+      "renderDocumentTextSha256": "08eb89aa074a53c0d6aa37cf2258c5bb96b31544988fab78837f9a2fc0cb0d0e"
     },
     "마포2호점": {
       "branch": "마포2호점",
@@ -2395,11 +2693,13 @@
       "sourceTextSha256": "5036ec13454ef6cd9b3bd862495f37a8d96c9622f406be25167cf500d6d15d61",
       "timestamp": "1791972499294",
       "key": "39sfegfgubv",
-      "frame": "assets/kakao-maps/8ace7b295edfd2d8b80d.htm",
+      "frame": "assets/kakao-maps/6bea774f224c5def0215.htm",
       "placeUrl": "https://place.map.kakao.com/696396295",
       "userAdjusted": false,
-      "frameSha256": "8ace7b295edfd2d8b80da02af4d970dcbc9e6bdeb6fa4aa3451d80946fc8919d",
-      "initialHeight": 749
+      "frameSha256": "6bea774f224c5def0215bad9d4322a74e37b57283da217678f69cb181b386b3f",
+      "initialHeight": 749,
+      "originalFrame": "assets/kakao-maps/8ace7b295edfd2d8b80d.htm",
+      "renderDocumentTextSha256": "8ace7b295edfd2d8b80da02af4d970dcbc9e6bdeb6fa4aa3451d80946fc8919d"
     },
     "마포점": {
       "branch": "마포점",
@@ -2411,11 +2711,13 @@
       "sourceTextSha256": "d617ae8a0815b5ab70a1776af3fdff148d0aeda51c9cce3d79248668b19af42d",
       "timestamp": "1791972503197",
       "key": "39sfwehovxz",
-      "frame": "assets/kakao-maps/d3c5cdf6026dfb4be11f.htm",
+      "frame": "assets/kakao-maps/2d8ccedd483fe6786aa5.htm",
       "placeUrl": "https://place.map.kakao.com/646160923",
       "userAdjusted": false,
-      "frameSha256": "d3c5cdf6026dfb4be11f05f0440f758ab10e928278c343e8e85e224c2bd022b0",
-      "initialHeight": 888
+      "frameSha256": "2d8ccedd483fe6786aa56d754aa0566926a9a728358fe9df38059f1d44ce87ac",
+      "initialHeight": 888,
+      "originalFrame": "assets/kakao-maps/d3c5cdf6026dfb4be11f.htm",
+      "renderDocumentTextSha256": "d3c5cdf6026dfb4be11f05f0440f758ab10e928278c343e8e85e224c2bd022b0"
     },
     "명일점": {
       "branch": "명일점",
@@ -2427,11 +2729,13 @@
       "sourceTextSha256": "0411af0f45e27ca8f475ae9f987fc9ba37c8a4e59e7aa9a3737e16c2ef698538",
       "timestamp": "1791972584678",
       "key": "39sip6jfer9",
-      "frame": "assets/kakao-maps/694a4a6435622c21a255.htm",
+      "frame": "assets/kakao-maps/5215a5b4b4454e2480d5.htm",
       "placeUrl": "https://place.map.kakao.com/1583539760",
       "userAdjusted": false,
-      "frameSha256": "694a4a6435622c21a25531c330f0598ded2a1ef55943fd3c04e6aa65c3fc49ee",
-      "initialHeight": 818
+      "frameSha256": "5215a5b4b4454e2480d51b6406e50614b6f1919a7bde1a0c9149088332359644",
+      "initialHeight": 818,
+      "originalFrame": "assets/kakao-maps/694a4a6435622c21a255.htm",
+      "renderDocumentTextSha256": "694a4a6435622c21a25531c330f0598ded2a1ef55943fd3c04e6aa65c3fc49ee"
     },
     "목동점": {
       "branch": "목동점",
@@ -2443,11 +2747,13 @@
       "sourceTextSha256": "eadf759b8ca69fa0be10ce77a237767eafd1594f64bedfab1842f1fba8b7f07d",
       "timestamp": "1791972592677",
       "key": "39sizow7pqu",
-      "frame": "assets/kakao-maps/f1075de6675bb4533d0e.htm",
+      "frame": "assets/kakao-maps/a0a915e8eec7519e0142.htm",
       "placeUrl": "https://place.map.kakao.com/719970080",
       "userAdjusted": false,
-      "frameSha256": "f1075de6675bb4533d0ebe9874747c51a8bbfb64df87a66fc8d03599732e6044",
-      "initialHeight": 842
+      "frameSha256": "a0a915e8eec7519e01429654b7d3a964740e30b263016b3d2ba7ec2101001bc7",
+      "initialHeight": 842,
+      "originalFrame": "assets/kakao-maps/f1075de6675bb4533d0e.htm",
+      "renderDocumentTextSha256": "f1075de6675bb4533d0ebe9874747c51a8bbfb64df87a66fc8d03599732e6044"
     },
     "삼각산점": {
       "branch": "삼각산점",
@@ -2459,11 +2765,13 @@
       "sourceTextSha256": "7d9f91178f31da3354a5227e2aff7f14cf54a5c50afa72216e65fbbd42146c8c",
       "timestamp": "1791972770928",
       "key": "39sooj87nnr",
-      "frame": "assets/kakao-maps/08520cdc0b5a21155436.htm",
+      "frame": "assets/kakao-maps/8c5bbf3bcdac0f723d0c.htm",
       "placeUrl": "https://place.map.kakao.com/377762882",
       "userAdjusted": false,
-      "frameSha256": "08520cdc0b5a21155436409badc6e158de2c19e48abe9e1c3038196280f6ca5f",
-      "initialHeight": 796
+      "frameSha256": "8c5bbf3bcdac0f723d0c39b2bb4c72bda3d233f10357054c69963635d38ccf5a",
+      "initialHeight": 796,
+      "originalFrame": "assets/kakao-maps/08520cdc0b5a21155436.htm",
+      "renderDocumentTextSha256": "08520cdc0b5a21155436409badc6e158de2c19e48abe9e1c3038196280f6ca5f"
     },
     "상암점": {
       "branch": "상암점",
@@ -2475,11 +2783,13 @@
       "sourceTextSha256": "500e30e0e0ca91cc8d29286526a3feed55fff2dcce25ba93aa90644c2d314f80",
       "timestamp": "1791972790545",
       "key": "39soqjbmr45",
-      "frame": "assets/kakao-maps/1986da02e39e4f87dcca.htm",
+      "frame": "assets/kakao-maps/5bf99ce84f0e66da6f60.htm",
       "placeUrl": "https://place.map.kakao.com/27220406",
       "userAdjusted": false,
-      "frameSha256": "1986da02e39e4f87dcca6864559d33aba2c15ae7f801e5eb239322a4279b5620",
-      "initialHeight": 783
+      "frameSha256": "5bf99ce84f0e66da6f60dff4d5aa3ad5c99bde7bbf1145f8728d0abcc17724e4",
+      "initialHeight": 783,
+      "originalFrame": "assets/kakao-maps/1986da02e39e4f87dcca.htm",
+      "renderDocumentTextSha256": "1986da02e39e4f87dcca6864559d33aba2c15ae7f801e5eb239322a4279b5620"
     },
     "송파위례점": {
       "branch": "송파위례점",
@@ -2491,11 +2801,13 @@
       "sourceTextSha256": "d1a780caffffb3a2abefb571ee666610ca63a09579f087bda61b7488bd35fce3",
       "timestamp": "1791973847209",
       "key": "39teg436wgb",
-      "frame": "assets/kakao-maps/55be2b02fe511e85770b.htm",
+      "frame": "assets/kakao-maps/a96dfc578f61ad3f73b2.htm",
       "placeUrl": "https://place.map.kakao.com/452296046",
       "userAdjusted": false,
-      "frameSha256": "55be2b02fe511e85770b34a600f8729f2e201604851c7495966fb53e49bd3f22",
-      "initialHeight": 737
+      "frameSha256": "a96dfc578f61ad3f73b2e616cc5b41b9ddf26f7d60bb17675b8eee2e5cdc4872",
+      "initialHeight": 737,
+      "originalFrame": "assets/kakao-maps/55be2b02fe511e85770b.htm",
+      "renderDocumentTextSha256": "55be2b02fe511e85770b34a600f8729f2e201604851c7495966fb53e49bd3f22"
     },
     "신도림점": {
       "branch": "신도림점",
@@ -2507,11 +2819,13 @@
       "sourceTextSha256": "a7c2ad768d3fa03ce92291fdc6a46a6b9bcbd0a37c875e0cfc648bd3b4612353",
       "timestamp": "1791972974329",
       "key": "39sstv34msb",
-      "frame": "assets/kakao-maps/6f833ccdcd6bba1f349e.htm",
+      "frame": "assets/kakao-maps/0ffe6ac020b0ca0f397e.htm",
       "placeUrl": "https://place.map.kakao.com/1136801687",
       "userAdjusted": false,
-      "frameSha256": "6f833ccdcd6bba1f349e04bf8065939484aa3a8d3f690e1e3a53242afd77f5a2",
-      "initialHeight": 819
+      "frameSha256": "0ffe6ac020b0ca0f397e0d58a74a5cfb4ca11ed57e7cd624bcf4ca69a876efd3",
+      "initialHeight": 819,
+      "originalFrame": "assets/kakao-maps/6f833ccdcd6bba1f349e.htm",
+      "renderDocumentTextSha256": "6f833ccdcd6bba1f349e04bf8065939484aa3a8d3f690e1e3a53242afd77f5a2"
     },
     "신방화점": {
       "branch": "신방화점",
@@ -2523,11 +2837,13 @@
       "sourceTextSha256": "ae56ccd393d5ba6655c360bd3aca463cc781b63cffa9bf789c24673f0eeba95f",
       "timestamp": "1791972982329",
       "key": "39st23ixioq",
-      "frame": "assets/kakao-maps/53d18f7c7f6428ed99ff.htm",
+      "frame": "assets/kakao-maps/746c99dc82d3b71a18ca.htm",
       "placeUrl": "https://place.map.kakao.com/1812195715",
       "userAdjusted": false,
-      "frameSha256": "53d18f7c7f6428ed99ff785b026e4a5eca12cbbe25a5e01edcbcddd9373f882d",
-      "initialHeight": 772
+      "frameSha256": "746c99dc82d3b71a18cab572b85bcd319989c35417679ffcc5ceb131e46f0ddd",
+      "initialHeight": 772,
+      "originalFrame": "assets/kakao-maps/53d18f7c7f6428ed99ff.htm",
+      "renderDocumentTextSha256": "53d18f7c7f6428ed99ff785b026e4a5eca12cbbe25a5e01edcbcddd9373f882d"
     },
     "염창점": {
       "branch": "염창점",
@@ -2539,11 +2855,13 @@
       "sourceTextSha256": "acfec74d5bdcfd5234b7f4092f515fef0399a974d8bfbe206c40b5a125c51453",
       "timestamp": "1792024559823",
       "key": "3awgdh22r6i",
-      "frame": "assets/kakao-maps/b4515cdd784afdbc492a.htm",
+      "frame": "assets/kakao-maps/92b8ac9a0d07bc15c792.htm",
       "placeUrl": "https://map.kakao.com/?urlX=470734.9999999973&urlY=1126555.0000000023&name=%EC%84%9C%EC%9A%B8%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EC%96%91%EC%B2%9C%EB%A1%9C67%EA%B8%B8%2015&map_type=TYPE_MAP&from=roughmap",
       "userAdjusted": true,
-      "frameSha256": "b4515cdd784afdbc492ad4aa19bce045c4e24d8b211ade01e4aefa4d3292aa63",
-      "initialHeight": 478
+      "frameSha256": "92b8ac9a0d07bc15c792487c90b25ca9185c3194f2bd94883b21b6d688be567b",
+      "initialHeight": 478,
+      "originalFrame": "assets/kakao-maps/b4515cdd784afdbc492a.htm",
+      "renderDocumentTextSha256": "b4515cdd784afdbc492ad4aa19bce045c4e24d8b211ade01e4aefa4d3292aa63"
     },
     "은평점": {
       "branch": "은평점",
@@ -2555,11 +2873,13 @@
       "sourceTextSha256": "2d3ab0639326f0b59879c3c2bc7d6064a8591c7e04d362a10e8e737fd267cf96",
       "timestamp": "1791973182746",
       "key": "39sxq9cbb4n",
-      "frame": "assets/kakao-maps/c18dbae06fe0102b7927.htm",
+      "frame": "assets/kakao-maps/97f3abb3e274bc6d1c20.htm",
       "placeUrl": "https://place.map.kakao.com/52572008",
       "userAdjusted": false,
-      "frameSha256": "c18dbae06fe0102b79279c7c441abed3ee3b446bfd4e280ff4592a0509ecc000",
-      "initialHeight": 841
+      "frameSha256": "97f3abb3e274bc6d1c20a784da5ef309d4120f41edaa1b612a1f3c4d95ce0f69",
+      "initialHeight": 841,
+      "originalFrame": "assets/kakao-maps/c18dbae06fe0102b7927.htm",
+      "renderDocumentTextSha256": "c18dbae06fe0102b79279c7c441abed3ee3b446bfd4e280ff4592a0509ecc000"
     },
     "제기점": {
       "branch": "제기점",
@@ -2571,11 +2891,13 @@
       "sourceTextSha256": "c0c2ce4267a7b4a0cd8dfce68ea4b20a4580059c21d13be5e38963d8d94cf8cb",
       "timestamp": "1791973293830",
       "key": "39tzgmzyoqc",
-      "frame": "assets/kakao-maps/e2590ffbaf13d4c94e02.htm",
+      "frame": "assets/kakao-maps/d06eee4b8f6df56821fb.htm",
       "placeUrl": "https://place.map.kakao.com/1284187101",
       "userAdjusted": false,
-      "frameSha256": "e2590ffbaf13d4c94e021ef624a4e4ee631dc28ea66845ce68af99851ee75f53",
-      "initialHeight": 795
+      "frameSha256": "d06eee4b8f6df56821fbf91817f33798c5200baed2ee1765b6f1168ba985825f",
+      "initialHeight": 795,
+      "originalFrame": "assets/kakao-maps/e2590ffbaf13d4c94e02.htm",
+      "renderDocumentTextSha256": "e2590ffbaf13d4c94e021ef624a4e4ee631dc28ea66845ce68af99851ee75f53"
     },
     "종암점": {
       "branch": "종암점",
@@ -2587,11 +2909,13 @@
       "sourceTextSha256": "7703344d7cf33d089fde528d667081c8d6fb8df444b7171ba4b861955fb78655",
       "timestamp": "1791973297794",
       "key": "39t2fcd7fsn",
-      "frame": "assets/kakao-maps/b948aa6520c15b0861d6.htm",
+      "frame": "assets/kakao-maps/75f915a3a5e885bdec39.htm",
       "placeUrl": "https://place.map.kakao.com/1936427544",
       "userAdjusted": false,
-      "frameSha256": "b948aa6520c15b0861d659c3a55bf78b09c327be268322622c13ab95bffc421f",
-      "initialHeight": 819
+      "frameSha256": "75f915a3a5e885bdec39981e18fa94232d2a95d5c72987f59762a9a4f035e9a8",
+      "initialHeight": 819,
+      "originalFrame": "assets/kakao-maps/b948aa6520c15b0861d6.htm",
+      "renderDocumentTextSha256": "b948aa6520c15b0861d659c3a55bf78b09c327be268322622c13ab95bffc421f"
     },
     "하계점": {
       "branch": "하계점",
@@ -2603,11 +2927,13 @@
       "sourceTextSha256": "13f66f8f17771dac88d4844d025edf019bd174d925c1a7c4d13a711b922cad78",
       "timestamp": "1791973498828",
       "key": "39t6ac6gziu",
-      "frame": "assets/kakao-maps/abf1d12bbb970ed5410a.htm",
+      "frame": "assets/kakao-maps/d53a6299c8754a2d3bdf.htm",
       "placeUrl": "https://place.map.kakao.com/27443163",
       "userAdjusted": false,
-      "frameSha256": "abf1d12bbb970ed5410a121ce8d60bd45be302b19089d39fc3499b24a4f5242e",
-      "initialHeight": 749
+      "frameSha256": "d53a6299c8754a2d3bdfe9fb23862e134b711d1b8017871694b3e4ba0bfb1e61",
+      "initialHeight": 749,
+      "originalFrame": "assets/kakao-maps/abf1d12bbb970ed5410a.htm",
+      "renderDocumentTextSha256": "abf1d12bbb970ed5410a121ce8d60bd45be302b19089d39fc3499b24a4f5242e"
     },
     "새롬점": {
       "branch": "새롬점",
@@ -2619,11 +2945,13 @@
       "sourceTextSha256": "ab231bf61480b7453657f5df16c38b94f651cd36e9c3f574c55dab610c121845",
       "timestamp": "1791972845908",
       "key": "39soiu7wyug",
-      "frame": "assets/kakao-maps/018806d8d46aea603589.htm",
+      "frame": "assets/kakao-maps/34531af0a8b0639c2b87.htm",
       "placeUrl": "https://place.map.kakao.com/1811931431",
       "userAdjusted": false,
-      "frameSha256": "018806d8d46aea60358922751e1cac147d0efae48e2f8a2bfa34d9f4a89179b8",
-      "initialHeight": 667
+      "frameSha256": "34531af0a8b0639c2b8737cd8b27693afa72b7da37d28643dd51e3a72677118c",
+      "initialHeight": 667,
+      "originalFrame": "assets/kakao-maps/018806d8d46aea603589.htm",
+      "renderDocumentTextSha256": "018806d8d46aea60358922751e1cac147d0efae48e2f8a2bfa34d9f4a89179b8"
     },
     "남외점": {
       "branch": "남외점",
@@ -2635,11 +2963,13 @@
       "sourceTextSha256": "04f0ccabc47a587d828ebd4e0cef8514aee78ab14a515ce8cab8b5be240effd8",
       "timestamp": "1791972268877",
       "key": "39sbhmeiawh",
-      "frame": "assets/kakao-maps/3723c5ef3683c433a71c.htm",
+      "frame": "assets/kakao-maps/3beabece474126112c9e.htm",
       "placeUrl": "https://place.map.kakao.com/1708980336",
       "userAdjusted": false,
-      "frameSha256": "3723c5ef3683c433a71c97cbf820dd8a843278ff66b73436e59144ab9a617c26",
-      "initialHeight": 660
+      "frameSha256": "3beabece474126112c9e8f6631033ad7d1e28e0256fb750c6a54f0aa917b60aa",
+      "initialHeight": 660,
+      "originalFrame": "assets/kakao-maps/3723c5ef3683c433a71c.htm",
+      "renderDocumentTextSha256": "3723c5ef3683c433a71c97cbf820dd8a843278ff66b73436e59144ab9a617c26"
     },
     "복산점": {
       "branch": "복산점",
@@ -2651,11 +2981,13 @@
       "sourceTextSha256": "6d67f8bb73592ffd4def2cdb49e87de198425f8fb2814a9b70748a26639b2083",
       "timestamp": "1791972710761",
       "key": "39skd7wf79j",
-      "frame": "assets/kakao-maps/e0d8b82e08bbd88882cd.htm",
+      "frame": "assets/kakao-maps/d2c89f36b7e076cf1e6a.htm",
       "placeUrl": "https://place.map.kakao.com/1226944655",
       "userAdjusted": false,
-      "frameSha256": "e0d8b82e08bbd88882cd9c4929f39b60d466da467e2439da74048e4ff7da5d74",
-      "initialHeight": 768
+      "frameSha256": "d2c89f36b7e076cf1e6a18c4869156a6da2e982b9c5555a7a8ecccf7f3a1a684",
+      "initialHeight": 768,
+      "originalFrame": "assets/kakao-maps/e0d8b82e08bbd88882cd.htm",
+      "renderDocumentTextSha256": "e0d8b82e08bbd88882cd9c4929f39b60d466da467e2439da74048e4ff7da5d74"
     },
     "삼산점": {
       "branch": "삼산점",
@@ -2667,11 +2999,13 @@
       "sourceTextSha256": "23f107475162c7e44271b7c93c656cfd747da72bf02a65a2606c202146b71570",
       "timestamp": "1791972774809",
       "key": "39snaptti23",
-      "frame": "assets/kakao-maps/318f17247244c18ad15b.htm",
+      "frame": "assets/kakao-maps/73526b86eb396ea5a5db.htm",
       "placeUrl": "https://place.map.kakao.com/375901890",
       "userAdjusted": false,
-      "frameSha256": "318f17247244c18ad15b470b46c64b82a50a7162677e88b0679fe956c66becce",
-      "initialHeight": 722
+      "frameSha256": "73526b86eb396ea5a5dbeeea589145d41de116dfe4b08e784817f798666c7167",
+      "initialHeight": 722,
+      "originalFrame": "assets/kakao-maps/318f17247244c18ad15b.htm",
+      "renderDocumentTextSha256": "318f17247244c18ad15b470b46c64b82a50a7162677e88b0679fe956c66becce"
     },
     "송정점": {
       "branch": "송정점",
@@ -2683,11 +3017,13 @@
       "sourceTextSha256": "8d5cb928bdf59af65fcc5815707ff42ac28a6e69b3c79bc9a457385f339c52d0",
       "timestamp": "1791972894192",
       "key": "39sr6soe2v4",
-      "frame": "assets/kakao-maps/5ff10f1767c894ca138b.htm",
+      "frame": "assets/kakao-maps/c5f645b0873437cbf4eb.htm",
       "placeUrl": "https://place.map.kakao.com/1676311911",
       "userAdjusted": false,
-      "frameSha256": "5ff10f1767c894ca138b45b6e6328e21dc6f5321774a2eaf885db233c48139a9",
-      "initialHeight": 706
+      "frameSha256": "c5f645b0873437cbf4eb17e2cea45603b886d71e84edc621dd4e58269bf548f7",
+      "initialHeight": 706,
+      "originalFrame": "assets/kakao-maps/5ff10f1767c894ca138b.htm",
+      "renderDocumentTextSha256": "5ff10f1767c894ca138b45b6e6328e21dc6f5321774a2eaf885db233c48139a9"
     },
     "구월점": {
       "branch": "구월점",
@@ -2699,11 +3035,13 @@
       "sourceTextSha256": "f07578b3100abcb907248a53c8930e9b345be6c2180417380e8c242f7fe25238",
       "timestamp": "1791973694094",
       "key": "39tauimyve7",
-      "frame": "assets/kakao-maps/84a83ebe3e26a500c6a4.htm",
+      "frame": "assets/kakao-maps/6669c50a21f2c0f5213a.htm",
       "placeUrl": "https://place.map.kakao.com/1071352585",
       "userAdjusted": false,
-      "frameSha256": "84a83ebe3e26a500c6a44cdba696b3220cff59cb4c3bc47399241f91b0ce8919",
-      "initialHeight": 818
+      "frameSha256": "6669c50a21f2c0f5213a00024f5b318e8a7fd7d38808b95e26b9a982b4eb02ee",
+      "initialHeight": 818,
+      "originalFrame": "assets/kakao-maps/84a83ebe3e26a500c6a4.htm",
+      "renderDocumentTextSha256": "84a83ebe3e26a500c6a44cdba696b3220cff59cb4c3bc47399241f91b0ce8919"
     },
     "논현점": {
       "branch": "논현점",
@@ -2715,11 +3053,13 @@
       "sourceTextSha256": "cedcf3d9790f523e1368958b5fb663368a0666d5e37b6a5d1e936fc7929791b9",
       "timestamp": "1791973698139",
       "key": "39tcfhiy86f",
-      "frame": "assets/kakao-maps/7ed844ad803344cbcab5.htm",
+      "frame": "assets/kakao-maps/5f0e9b12bedcb0eac24d.htm",
       "placeUrl": "https://place.map.kakao.com/1985072686",
       "userAdjusted": false,
-      "frameSha256": "7ed844ad803344cbcab5d75bc8db85d590528083d561107d99851c5ae7a4afe7",
-      "initialHeight": 795
+      "frameSha256": "5f0e9b12bedcb0eac24d444cb7a3b309894722cec581ebf5b657a51a4b44cc17",
+      "initialHeight": 795,
+      "originalFrame": "assets/kakao-maps/7ed844ad803344cbcab5.htm",
+      "renderDocumentTextSha256": "7ed844ad803344cbcab5d75bc8db85d590528083d561107d99851c5ae7a4afe7"
     },
     "동춘점": {
       "branch": "동춘점",
@@ -2731,11 +3071,13 @@
       "sourceTextSha256": "ce68de656934c35f05ed6d59f494f813561b6019b942b223dc8e53e5e6d88e37",
       "timestamp": "1791972471643",
       "key": "39sg9mj4vac",
-      "frame": "assets/kakao-maps/f2d4e4d46dd656879c27.htm",
+      "frame": "assets/kakao-maps/268c74be77da3980906c.htm",
       "placeUrl": "https://place.map.kakao.com/923758547",
       "userAdjusted": false,
-      "frameSha256": "f2d4e4d46dd656879c2778a6315dfbcc2df62e28520ae96e4892d654a569f8a4",
-      "initialHeight": 749
+      "frameSha256": "268c74be77da3980906ce7fb86cd29fb2fa9d813bb0904bc913acd524fa11864",
+      "initialHeight": 749,
+      "originalFrame": "assets/kakao-maps/f2d4e4d46dd656879c27.htm",
+      "renderDocumentTextSha256": "f2d4e4d46dd656879c2778a6315dfbcc2df62e28520ae96e4892d654a569f8a4"
     },
     "루원시티점": {
       "branch": "루원시티점",
@@ -2747,11 +3089,13 @@
       "sourceTextSha256": "5757a47a60be8b2377fa852dee58673f6c7a442943d273176f2dfae1cc671add",
       "timestamp": "1791972491410",
       "key": "39sh54twp7h",
-      "frame": "assets/kakao-maps/47f4594da75d9504e24e.htm",
+      "frame": "assets/kakao-maps/81a92424dbf66fe5c4c5.htm",
       "placeUrl": "https://place.map.kakao.com/148937868",
       "userAdjusted": false,
-      "frameSha256": "47f4594da75d9504e24e4504cb6d0e7451eb1e047d7b791360a3cb503d5a67ef",
-      "initialHeight": 726
+      "frameSha256": "81a92424dbf66fe5c4c5728f5428a5f64d3db784229ffc83ad087651d34f9d1e",
+      "initialHeight": 726,
+      "originalFrame": "assets/kakao-maps/47f4594da75d9504e24e.htm",
+      "renderDocumentTextSha256": "47f4594da75d9504e24e4504cb6d0e7451eb1e047d7b791360a3cb503d5a67ef"
     },
     "부평점": {
       "branch": "부평점",
@@ -2763,11 +3107,13 @@
       "sourceTextSha256": "6d06c42cf2d3490742ac992ecb75bca7b6fbfaa325149ce977e1093a826b2058",
       "timestamp": "1791972722643",
       "key": "39snj6gbk9d",
-      "frame": "assets/kakao-maps/94392044318e34969b8d.htm",
+      "frame": "assets/kakao-maps/7cbb5154e0807c42b778.htm",
       "placeUrl": "https://place.map.kakao.com/27432682",
       "userAdjusted": false,
-      "frameSha256": "94392044318e34969b8df6ab4fd5c9df5062dca4d831531f25a224ba84867b50",
-      "initialHeight": 842
+      "frameSha256": "7cbb5154e0807c42b77816547debf1b8730aa11c3db535433b665376514f6024",
+      "initialHeight": 842,
+      "originalFrame": "assets/kakao-maps/94392044318e34969b8d.htm",
+      "renderDocumentTextSha256": "94392044318e34969b8df6ab4fd5c9df5062dca4d831531f25a224ba84867b50"
     },
     "송도점": {
       "branch": "송도점",
@@ -2779,11 +3125,13 @@
       "sourceTextSha256": "6d4ab77abce7a6cef00bc3951b5f89983b7e24b3659459ffa146a3a94a1d8545",
       "timestamp": "1791972886295",
       "key": "39sqrpm332d",
-      "frame": "assets/kakao-maps/58d691e1a831d819b3b7.htm",
+      "frame": "assets/kakao-maps/4ef775bc158de7cb84ca.htm",
       "placeUrl": "https://place.map.kakao.com/453874369",
       "userAdjusted": false,
-      "frameSha256": "58d691e1a831d819b3b72117b7a0e10bf3c87f4f9348004e54a72b369479f239",
-      "initialHeight": 760
+      "frameSha256": "4ef775bc158de7cb84ca493b3800a0fd02c7516a14e01dfb6c745af7e5c8ac2a",
+      "initialHeight": 760,
+      "originalFrame": "assets/kakao-maps/58d691e1a831d819b3b7.htm",
+      "renderDocumentTextSha256": "58d691e1a831d819b3b72117b7a0e10bf3c87f4f9348004e54a72b369479f239"
     },
     "웰카운티점": {
       "branch": "웰카운티점",
@@ -2795,11 +3143,13 @@
       "sourceTextSha256": "c2aad21546fb68954cb41b3e65b43d14444b06d26bba46a66200df97812dc40d",
       "timestamp": "1791973170549",
       "key": "39sxfsp844z",
-      "frame": "assets/kakao-maps/18d6d7947bec3a2c4085.htm",
+      "frame": "assets/kakao-maps/2d7c88e1adefdfd63765.htm",
       "placeUrl": "https://place.map.kakao.com/547715026",
       "userAdjusted": false,
-      "frameSha256": "18d6d7947bec3a2c4085c113de74aec58de4004f854f8b74f2775ae831a998e1",
-      "initialHeight": 841
+      "frameSha256": "2d7c88e1adefdfd63765c37d21384819e6c978f0e5e127599906703cf6c91797",
+      "initialHeight": 841,
+      "originalFrame": "assets/kakao-maps/18d6d7947bec3a2c4085.htm",
+      "renderDocumentTextSha256": "18d6d7947bec3a2c4085c113de74aec58de4004f854f8b74f2775ae831a998e1"
     },
     "인천삼산점": {
       "branch": "인천삼산점",
@@ -2811,11 +3161,13 @@
       "sourceTextSha256": "eccb9fa43be233b9c121b7f0c310bf5cb9c2abb9193a6416b311b6ec8da43846",
       "timestamp": "1791973247591",
       "key": "39tz9gh9yt5",
-      "frame": "assets/kakao-maps/ed8a1e82d707ac383ea7.htm",
+      "frame": "assets/kakao-maps/e482a2b6e4db0840698b.htm",
       "placeUrl": "https://place.map.kakao.com/1811745401",
       "userAdjusted": false,
-      "frameSha256": "ed8a1e82d707ac383ea7713394012dabbbe93245a026f422ae77fdcb5d2f236b",
-      "initialHeight": 796
+      "frameSha256": "e482a2b6e4db0840698bc8e6beafb80a9dca7159a3730d5c81c2f4ba316a0a0d",
+      "initialHeight": 796,
+      "originalFrame": "assets/kakao-maps/ed8a1e82d707ac383ea7.htm",
+      "renderDocumentTextSha256": "ed8a1e82d707ac383ea7713394012dabbbe93245a026f422ae77fdcb5d2f236b"
     },
     "청라점": {
       "branch": "청라점",
@@ -2827,11 +3179,13 @@
       "sourceTextSha256": "888b475203dac6276d4a01a936308319289fff384d000e7620e3a61164e8e512",
       "timestamp": "1791973403241",
       "key": "39t4vypyj4i",
-      "frame": "assets/kakao-maps/957aaaf2d7077707d454.htm",
+      "frame": "assets/kakao-maps/893880ee077b67246d49.htm",
       "placeUrl": "https://place.map.kakao.com/1872117673",
       "userAdjusted": false,
-      "frameSha256": "957aaaf2d7077707d4545d03a4ddb6a16ae0904199f7d27243cc5b030408fb82",
-      "initialHeight": 736
+      "frameSha256": "893880ee077b67246d499dbbbbe926e68415c16699cb89f434aa277c4e5f83a0",
+      "initialHeight": 736,
+      "originalFrame": "assets/kakao-maps/957aaaf2d7077707d454.htm",
+      "renderDocumentTextSha256": "957aaaf2d7077707d4545d03a4ddb6a16ae0904199f7d27243cc5b030408fb82"
     },
     "서신점": {
       "branch": "서신점",
@@ -2843,11 +3197,13 @@
       "sourceTextSha256": "82b2b14700c8f14a9009758e56d8b712b33c0950fd67162a241e608a61b34f1e",
       "timestamp": "1791972853726",
       "key": "39sq8gn9aea",
-      "frame": "assets/kakao-maps/a3d58e89926180f2e8ca.htm",
+      "frame": "assets/kakao-maps/9425f5f2642ed45e4bb2.htm",
       "placeUrl": "https://place.map.kakao.com/1849837899",
       "userAdjusted": false,
-      "frameSha256": "a3d58e89926180f2e8ca33bb9802907519d635a9b287b54d392a1c4eb1b2c3e8",
-      "initialHeight": 722
+      "frameSha256": "9425f5f2642ed45e4bb20f68cdd5b03f7556aee19019c7b1002a8ecfaa798a2d",
+      "initialHeight": 722,
+      "originalFrame": "assets/kakao-maps/a3d58e89926180f2e8ca.htm",
+      "renderDocumentTextSha256": "a3d58e89926180f2e8ca33bb9802907519d635a9b287b54d392a1c4eb1b2c3e8"
     },
     "송천점": {
       "branch": "송천점",
@@ -2859,11 +3215,13 @@
       "sourceTextSha256": "6f94da47112e5d9252ebe702bda92da18bdda1fcc777b8d3fea2986b82427620",
       "timestamp": "1792024429485",
       "key": "3awe78oekh7",
-      "frame": "assets/kakao-maps/ef0217d0117b24675e1f.htm",
+      "frame": "assets/kakao-maps/e475912a0887f77519f3.htm",
       "placeUrl": "https://map.kakao.com/?urlX=528589&urlY=656733.9999999979&name=%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%84%EC%A3%BC%EC%8B%9C%20%EB%8D%95%EC%A7%84%EA%B5%AC%20%EC%86%94%EB%82%B4%EB%A1%9C%20129&map_type=TYPE_MAP&from=roughmap",
       "userAdjusted": true,
-      "frameSha256": "ef0217d0117b24675e1f2fdca31b679a07c22d3d37b4ff59122cae5e54e38c5c",
-      "initialHeight": 478
+      "frameSha256": "e475912a0887f77519f3f6aed909459636c03c0faaee209adc7816367bcff8d3",
+      "initialHeight": 478,
+      "originalFrame": "assets/kakao-maps/ef0217d0117b24675e1f.htm",
+      "renderDocumentTextSha256": "ef0217d0117b24675e1f2fdca31b679a07c22d3d37b4ff59122cae5e54e38c5c"
     },
     "전주혁신점": {
       "branch": "전주혁신점",
@@ -2875,11 +3233,13 @@
       "sourceTextSha256": "65249e5f975926ede1a0a8226ec716abc61a995404ed511fe1cacc6605f3465e",
       "timestamp": "1791973867374",
       "key": "39tehsz8efd",
-      "frame": "assets/kakao-maps/83672dfed42e79cb65cc.htm",
+      "frame": "assets/kakao-maps/32da750d88bdf2a04abe.htm",
       "placeUrl": "https://place.map.kakao.com/2118164227",
       "userAdjusted": false,
-      "frameSha256": "83672dfed42e79cb65cc7a18c0b656a68a53da6701ec6dd7c3c7db8a380a6298",
-      "initialHeight": 731
+      "frameSha256": "32da750d88bdf2a04abeff77b6a067e419765935751563154741fac5138d8500",
+      "initialHeight": 731,
+      "originalFrame": "assets/kakao-maps/83672dfed42e79cb65cc.htm",
+      "renderDocumentTextSha256": "83672dfed42e79cb65cc7a18c0b656a68a53da6701ec6dd7c3c7db8a380a6298"
     },
     "노형점": {
       "branch": "노형점",
@@ -2891,11 +3251,13 @@
       "sourceTextSha256": "5beb50e45e4b7765b308f7c222eebcddb3b0e78af8948d8b96f61b398bd0f6d9",
       "timestamp": "1791972276897",
       "key": "39sa79rz34s",
-      "frame": "assets/kakao-maps/6fb66aab1ff716f6a4f7.htm",
+      "frame": "assets/kakao-maps/c3eb38be87240f69035e.htm",
       "placeUrl": "https://place.map.kakao.com/1715528475",
       "userAdjusted": false,
-      "frameSha256": "6fb66aab1ff716f6a4f77e41112064a5fc4a997714143a14e36027d93fdf2d25",
-      "initialHeight": 857
+      "frameSha256": "c3eb38be87240f69035e4e0e6bb2f8894cfd31781acf1dc4f4ffe15505a0976b",
+      "initialHeight": 857,
+      "originalFrame": "assets/kakao-maps/6fb66aab1ff716f6a4f7.htm",
+      "renderDocumentTextSha256": "6fb66aab1ff716f6a4f77e41112064a5fc4a997714143a14e36027d93fdf2d25"
     },
     "당진중앙점": {
       "branch": "당진중앙점",
@@ -2907,11 +3269,13 @@
       "sourceTextSha256": "accc1295db08f28e758932a26a1f66bbbe12d5b398a6b1a4659b6b18e3a3d3c7",
       "timestamp": "1791972366366",
       "key": "39se7brgowv",
-      "frame": "assets/kakao-maps/8cdb203ec3e66ca115e4.htm",
+      "frame": "assets/kakao-maps/b6ac820c5670ba74ff79.htm",
       "placeUrl": "https://place.map.kakao.com/1789732895",
       "userAdjusted": false,
-      "frameSha256": "8cdb203ec3e66ca115e4eedf3b9258e33eb6a80277770217f1420f75698a10f2",
-      "initialHeight": 1915
+      "frameSha256": "b6ac820c5670ba74ff792c3b9f96bd800aa24d7fd0bbbccbd5e276055fa0aabd",
+      "initialHeight": 1915,
+      "originalFrame": "assets/kakao-maps/8cdb203ec3e66ca115e4.htm",
+      "renderDocumentTextSha256": "8cdb203ec3e66ca115e4eedf3b9258e33eb6a80277770217f1420f75698a10f2"
     },
     "두정점": {
       "branch": "두정점",
@@ -2923,11 +3287,13 @@
       "sourceTextSha256": "90afdaee8c0c33a9fdd284abcb18f3051f987b4df9fbb9a7034e0386d18195a8",
       "timestamp": "1791972475561",
       "key": "39sg5o7hpze",
-      "frame": "assets/kakao-maps/c1c4a0efe7560d5476bc.htm",
+      "frame": "assets/kakao-maps/e202d1c2946f27a82d87.htm",
       "placeUrl": "https://place.map.kakao.com/27443157",
       "userAdjusted": false,
-      "frameSha256": "c1c4a0efe7560d5476bc05afecf4e0ba78e357762f1a5c4907f7db8f1694726d",
-      "initialHeight": 742
+      "frameSha256": "e202d1c2946f27a82d8741a22519fb63ff210355336e1c3bdd2c55a9ff38c650",
+      "initialHeight": 742,
+      "originalFrame": "assets/kakao-maps/c1c4a0efe7560d5476bc.htm",
+      "renderDocumentTextSha256": "c1c4a0efe7560d5476bc05afecf4e0ba78e357762f1a5c4907f7db8f1694726d"
     },
     "불당점": {
       "branch": "불당점",
@@ -2939,11 +3305,13 @@
       "sourceTextSha256": "17650c36cdf2093d4a13942c7298677389c106e48e93349d821c08226a08c56f",
       "timestamp": "1791972726542",
       "key": "39skqf5huz6",
-      "frame": "assets/kakao-maps/e684dbcdccfede967e88.htm",
+      "frame": "assets/kakao-maps/1d167537a44f580c1fa4.htm",
       "placeUrl": "https://place.map.kakao.com/220681058",
       "userAdjusted": false,
-      "frameSha256": "e684dbcdccfede967e88fc176d32980a265bca526bd703e7ea90f2f4910d15f5",
-      "initialHeight": 722
+      "frameSha256": "1d167537a44f580c1fa44aa782aa286407cbb06530769c85ab1485482cd18a4b",
+      "initialHeight": 722,
+      "originalFrame": "assets/kakao-maps/e684dbcdccfede967e88.htm",
+      "renderDocumentTextSha256": "e684dbcdccfede967e88fc176d32980a265bca526bd703e7ea90f2f4910d15f5"
     },
     "신방점": {
       "branch": "신방점",
@@ -2955,11 +3323,13 @@
       "sourceTextSha256": "a831d0f196e9c22115eeadcb796796a10e6d4fbd4b4a6f50dcaeb02e8c2f4db6",
       "timestamp": "1791972978291",
       "key": "39ss3a925c7",
-      "frame": "assets/kakao-maps/967c675aa88669c0f451.htm",
+      "frame": "assets/kakao-maps/d10a8bae2824e586f639.htm",
       "placeUrl": "https://place.map.kakao.com/27443086",
       "userAdjusted": false,
-      "frameSha256": "967c675aa88669c0f45157fbe9e45204157a416e336c6b20cdd0893a6024b581",
-      "initialHeight": 742
+      "frameSha256": "d10a8bae2824e586f6390c5e5c375d74c41f85798b64e407f1f1384228d13b3b",
+      "initialHeight": 742,
+      "originalFrame": "assets/kakao-maps/967c675aa88669c0f451.htm",
+      "renderDocumentTextSha256": "967c675aa88669c0f45157fbe9e45204157a416e336c6b20cdd0893a6024b581"
     },
     "쌍용점": {
       "branch": "쌍용점",
@@ -2971,11 +3341,13 @@
       "sourceTextSha256": "ee817a3f3b0c3629b0510793bae669ae1578a1b003d5af0532fc722f43325703",
       "timestamp": "1791973016816",
       "key": "39ssy4q94ds",
-      "frame": "assets/kakao-maps/f9a86a8b8e1343bce2bf.htm",
+      "frame": "assets/kakao-maps/61d1b4d8ce71a082393d.htm",
       "placeUrl": "https://place.map.kakao.com/1610754226",
       "userAdjusted": false,
-      "frameSha256": "f9a86a8b8e1343bce2bf0f11cf4a361f20578bdc825a4f226e4d535d04f19bd4",
-      "initialHeight": 781
+      "frameSha256": "61d1b4d8ce71a082393d093d1d3052e7b0261dc5eef69f6f8ba11151f015439d",
+      "initialHeight": 781,
+      "originalFrame": "assets/kakao-maps/f9a86a8b8e1343bce2bf.htm",
+      "renderDocumentTextSha256": "f9a86a8b8e1343bce2bf0f11cf4a361f20578bdc825a4f226e4d535d04f19bd4"
     },
     "탕정점": {
       "branch": "탕정점",
@@ -2987,11 +3359,13 @@
       "sourceTextSha256": "c82bb9be15063c34c2f32be507263ceb7d766d314300933c1ad3d66fad42b423",
       "timestamp": "1791973486975",
       "key": "39t5k92dg5q",
-      "frame": "assets/kakao-maps/581979729697f70a6fb4.htm",
+      "frame": "assets/kakao-maps/4f78b2e5d76326cac1ed.htm",
       "placeUrl": "https://place.map.kakao.com/34642332",
       "userAdjusted": false,
-      "frameSha256": "581979729697f70a6fb4ab7ef540a2d8340501ea33c8dc4c43ef81bc1f427672",
-      "initialHeight": 820
+      "frameSha256": "4f78b2e5d76326cac1ed7dc1eb9084dc57678cddf28f1f6fb1856fb2a0ceae96",
+      "initialHeight": 820,
+      "originalFrame": "assets/kakao-maps/581979729697f70a6fb4.htm",
+      "renderDocumentTextSha256": "581979729697f70a6fb4ab7ef540a2d8340501ea33c8dc4c43ef81bc1f427672"
     },
     "가경점": {
       "branch": "가경점",
@@ -3003,11 +3377,13 @@
       "sourceTextSha256": "bd1ad045e951ef6b88661176ea324d20367958725b60d5f123673444b01859b9",
       "timestamp": "1791971992491",
       "key": "39s5zm95tdr",
-      "frame": "assets/kakao-maps/4569ef81b44792501b2e.htm",
+      "frame": "assets/kakao-maps/3c5a18213d8914f44c74.htm",
       "placeUrl": "https://place.map.kakao.com/2146390848",
       "userAdjusted": false,
-      "frameSha256": "4569ef81b44792501b2eb97abf78647da793d166b352828bb8c52e918f7a59d3",
-      "initialHeight": 690
+      "frameSha256": "3c5a18213d8914f44c743b88f5bfb3f06cc532c38efd5061e3233b790a858ac3",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/4569ef81b44792501b2e.htm",
+      "renderDocumentTextSha256": "4569ef81b44792501b2eb97abf78647da793d166b352828bb8c52e918f7a59d3"
     },
     "개신점": {
       "branch": "개신점",
@@ -3019,11 +3395,13 @@
       "sourceTextSha256": "14a61aad84dfe86d70cc096de91c47b3fa6942dd62d3bfd630a131ec7644e64c",
       "timestamp": "1791972172682",
       "key": "39s9nbnnnxn",
-      "frame": "assets/kakao-maps/ccfd0008fc2425747a40.htm",
+      "frame": "assets/kakao-maps/23b27302472bac4cf5d9.htm",
       "placeUrl": "https://place.map.kakao.com/27443070",
       "userAdjusted": false,
-      "frameSha256": "ccfd0008fc2425747a40f8513b82dee2b899150496d2e47f1b138c392d8d2ebf",
-      "initialHeight": 690
+      "frameSha256": "23b27302472bac4cf5d996ae57568f30e4fe8dd72a3ff70749acdadcdd90d858",
+      "initialHeight": 690,
+      "originalFrame": "assets/kakao-maps/ccfd0008fc2425747a40.htm",
+      "renderDocumentTextSha256": "ccfd0008fc2425747a40f8513b82dee2b899150496d2e47f1b138c392d8d2ebf"
     },
     "복대점": {
       "branch": "복대점",
@@ -3035,11 +3413,13 @@
       "sourceTextSha256": "605969343fa823141ca654a3c9e1df9f3aa8eb18d7d35a7eaa1dbf656eecb2ea",
       "timestamp": "1791972649309",
       "key": "39skf7adtv5",
-      "frame": "assets/kakao-maps/b71de29f4f47f445a5fb.htm",
+      "frame": "assets/kakao-maps/002f3c520441bf36f381.htm",
       "placeUrl": "https://place.map.kakao.com/1024118397",
       "userAdjusted": false,
-      "frameSha256": "b71de29f4f47f445a5fb780fd1991bbf2619e5136bfced1ee5c720c8f6d26423",
-      "initialHeight": 667
+      "frameSha256": "002f3c520441bf36f38126a475c404125cdd962ddc6c097e0530ad3adaecc8c0",
+      "initialHeight": 667,
+      "originalFrame": "assets/kakao-maps/b71de29f4f47f445a5fb.htm",
+      "renderDocumentTextSha256": "b71de29f4f47f445a5fb780fd1991bbf2619e5136bfced1ee5c720c8f6d26423"
     },
     "산남점": {
       "branch": "산남점",
@@ -3051,11 +3431,13 @@
       "sourceTextSha256": "86008d9712afaac2e8c03674d078cc5c779b837e898e9f0b37f66b86e5fec5dc",
       "timestamp": "1791972763111",
       "key": "39sohhf2q62",
-      "frame": "assets/kakao-maps/d343aa61393a4426e618.htm",
+      "frame": "assets/kakao-maps/c4cef5e705c03ea84dc6.htm",
       "placeUrl": "https://place.map.kakao.com/702677960",
       "userAdjusted": false,
-      "frameSha256": "d343aa61393a4426e6188229abc19067b0e0e03a2277c96dc8fa3a62f7cffceb",
-      "initialHeight": 667
+      "frameSha256": "c4cef5e705c03ea84dc6fe6a3e7a6056d5dacc04b11435916c8d3e88ef3fc782",
+      "initialHeight": 667,
+      "originalFrame": "assets/kakao-maps/d343aa61393a4426e618.htm",
+      "renderDocumentTextSha256": "d343aa61393a4426e6188229abc19067b0e0e03a2277c96dc8fa3a62f7cffceb"
     },
     "충주용산점": {
       "branch": "충주용산점",
@@ -3067,11 +3449,13 @@
       "sourceTextSha256": "35e26729422418e0d5ea0198a1227b2f7594b76217be3649918152ba0361b2d0",
       "timestamp": "1791979654589",
       "key": "39xk7ncppch",
-      "frame": "assets/kakao-maps/6cf1e867d15b2092a538.htm",
+      "frame": "assets/kakao-maps/6bd51e829a11df320e65.htm",
       "placeUrl": "https://map.kakao.com/?urlX=709567.0000000026&urlY=962123.0000000028&name=%EC%B6%A9%EB%B6%81%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%ED%98%95%EC%84%A4%EB%A1%9C%2054-10&map_type=TYPE_MAP&from=roughmap",
       "userAdjusted": false,
-      "frameSha256": "6cf1e867d15b2092a53821d5b587d62c626ca6d12592989c49cb9ad3ebe38e7b",
-      "initialHeight": 478
+      "frameSha256": "6bd51e829a11df320e65b1bfac41dd359ae05c386bd0c1acd6124546bd013682",
+      "initialHeight": 478,
+      "originalFrame": "assets/kakao-maps/6cf1e867d15b2092a538.htm",
+      "renderDocumentTextSha256": "6cf1e867d15b2092a53821d5b587d62c626ca6d12592989c49cb9ad3ebe38e7b"
     },
     "칠금점": {
       "branch": "칠금점",
@@ -3083,11 +3467,13 @@
       "sourceTextSha256": "f722f62a72f7914e913fdf2ebac1caf44693e41d389b29a9d86211cdf69b21ca",
       "timestamp": "1791973415143",
       "key": "39t5sdqq5ci",
-      "frame": "assets/kakao-maps/d2308e231ec74110ff09.htm",
+      "frame": "assets/kakao-maps/88dad1c162609503341b.htm",
       "placeUrl": "https://place.map.kakao.com/1208944954",
       "userAdjusted": false,
-      "frameSha256": "d2308e231ec74110ff09871b593abcc5714c1b36a2e0b02c05b0d80a7ea883ae",
-      "initialHeight": 1074
+      "frameSha256": "88dad1c162609503341b19c97f6f88ecb8eff02c3ff65f15569a00c4be014bb4",
+      "initialHeight": 1074,
+      "originalFrame": "assets/kakao-maps/d2308e231ec74110ff09.htm",
+      "renderDocumentTextSha256": "d2308e231ec74110ff09871b593abcc5714c1b36a2e0b02c05b0d80a7ea883ae"
     }
   },
   "pageCount": 10210,
@@ -6543,7 +6929,7 @@
     ]
   },
   "css": "assets/kakao-directions.a3483920480d.css",
-  "js": "assets/kakao-directions.2d70af36d540.js",
+  "js": "assets/kakao-directions.9a3ac9dcc3b1.js",
   "files": [
     {
       "file": "과목별학원/중1수학학원/가경동/index.html",
@@ -92507,5 +92893,11 @@
       "originalTextSha256": "71cf840182481ad2474a1e81d0d2ff9e9e826a25f384b1cdafa65625cf49db0b",
       "originalBuildSafeSha256": "fefb736fefcc5fc7be81be65c51791b9bcd6a593fc65773b8716ff4a9220d785"
     }
-  ]
+  ],
+  "executionPolicy": {
+    "mode": "near-viewport-message",
+    "rootMargin": "600px 0px",
+    "automatic": true,
+    "buttonRequired": false
+  }
 }
