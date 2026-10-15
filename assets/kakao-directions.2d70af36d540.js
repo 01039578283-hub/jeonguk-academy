@@ -11,7 +11,7 @@
   });
   frames.forEach(frame=>{frame.addEventListener('load',()=>measure(frame));measure(frame)});
   document.querySelectorAll('[data-kakao-map-picker]').forEach(picker=>{
-    picker.addEventListener('change',()=>{
+    const showSelected=()=>{
       const section=picker.closest('[data-kakao-directions]'),option=picker.selectedOptions[0],frame=section.querySelector('iframe');
       if(!option||!option.value.startsWith('/assets/kakao-maps/'))return;
       frame.dataset.mapTimestamp=option.dataset.timestamp;
@@ -21,6 +21,10 @@
       section.querySelector('[data-map-address]').textContent=option.dataset.address;
       section.querySelector('[data-map-branch-link]').href=option.dataset.branchUrl+'#kakao-directions';
       section.querySelector('[data-map-place-link]').href=option.dataset.placeUrl;
-    });
+    };
+    picker.addEventListener('change',showSelected);
+    // A selection may be restored or changed before this deferred script arrives.
+    const frame=picker.closest('[data-kakao-directions]').querySelector('iframe');
+    if(picker.value!==frame.getAttribute('src'))showSelected();
   });
 })();
