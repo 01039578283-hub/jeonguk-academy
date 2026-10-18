@@ -70,7 +70,7 @@ await Promise.all(Array.from({length:12},async()=>{while(cursor<review.files.len
   }
   const canonical=source.match(/<link\b[^>]*rel="canonical"[^>]*href="([^"]*)"/)?.[1];
   const block=canonical?sitemapEntries.get(new URL(canonical).href):undefined;
-  if(!block?.includes('<lastmod>'+review.date+'</lastmod>'))fail(item.file,'Changed page missing actual sitemap modification date');
+  if(!block?.includes('<lastmod>'+(item.lastModified||review.date)+'</lastmod>'))fail(item.file,'Changed page missing actual sitemap modification date');
 }}));
 if(counts.branchCodes!==193||counts.detailPages!==10210||counts.hubPages!==119||counts.preservedPages!==10329)fail('coverage','Reviewed page coverage differs');
 console.log(JSON.stringify({...counts,errorCount:errors.length,errors:errors.slice(0,20)}));
