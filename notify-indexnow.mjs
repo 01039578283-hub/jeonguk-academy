@@ -5,7 +5,10 @@ import {execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 const root=path.dirname(fileURLToPath(import.meta.url));
 const config=JSON.parse(fs.readFileSync(path.join(root,'indexnow-config.json'),'utf8'));
-const review=JSON.parse(fs.readFileSync(path.join(root,'seo-geo-review.json'),'utf8'));
+const reviewArg=process.argv.find(a=>a.startsWith('--review='));
+const reviewFile=reviewArg?reviewArg.slice('--review='.length):'seo-geo-review.json';
+if(!['seo-geo-review.json','journey-review.json'].includes(reviewFile))throw Error('Unknown reviewed release list');
+const review=JSON.parse(fs.readFileSync(path.join(root,reviewFile),'utf8'));
 const urlList=Object.keys(review.pages).map(file=>'https://'+config.host+'/'+file.replace(/index\.html$/,'')).map(url=>new URL(url).href);
 if(urlList.length>10000||new Set(urlList).size!==urlList.length)throw Error('Invalid changed URL batch');
 const commit=execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim();
@@ -13,7 +16,7 @@ const committed=new Set(execFileSync('git',['diff','--no-renames','--name-only',
 const send=process.argv.includes('--send');const receiptArg=process.argv.find(a=>a.startsWith('--receipt='));
 if(!send){console.log(JSON.stringify({mode:'dry-run',commit,urls:urlList.length,endpoint:config.endpoint,indexingGuaranteed:false}));process.exit(0)}
 if(!receiptArg)throw Error('Use an external receipt path to prevent repeat notification');
-if(!committed.has('seo-geo-review.json')||Object.keys(review.pages).some(file=>!committed.has(file)))throw Error('The notification list is not the changed-page list of this commit');
+if(!committed.has(reviewFile)||Object.keys(review.pages).some(file=>!committed.has(file)))throw Error('The notification list is not the changed-page list of this commit');
 const receipt=path.resolve(receiptArg.slice('--receipt='.length));
 if(receipt.startsWith(root+path.sep))throw Error('Receipt must be outside the checkout');
 if(fs.existsSync(receipt))throw Error('Receipt already exists; inspect the previous outcome rather than submitting again');
